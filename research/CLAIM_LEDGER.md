@@ -16,3 +16,8 @@
 | The reference evaluator agrees with nine hand-calculated cases | Independent expected literals in semantic audit | M1 audit | SUPPORTED | Medium | No second evaluator; shared authorship remains |
 | Six economic property kinds execute over explicit finite domains | Property tests | M1 test suite | SUPPORTED | High | Enumeration only; no proof or general IC |
 | Independent backends reproduce IncentiveSpec semantics | None | M3 target | NOT_YET_TESTED | Very low | Only one implementation exists |
+| Boundary search recovered all exhaustive equivalence classes on the 12-case M2 synthetic suite | Frozen suite and summary table | M2 deterministic run 001 | SUPPORTED | High | Self-authored, threshold-heavy finite suite |
+| Boundary search used fewer evaluations than exhaustive enumeration on the M2 suite | 4,812 versus 45,144 evaluations | M2 deterministic run 001 | SUPPORTED | High | No general scaling claim |
+| All reported M2 experiment findings replay deterministically through M1 | Replay column for all raw findings | M2 deterministic run 001 | SUPPORTED | High | Same implementation is evaluator and replay oracle |
+| Domain-aware reduction produced smaller replay-valid canonical counterexamples | Three before/after reductions | M2 deterministic run 001 | SUPPORTED | Medium | Exhaustive reducer and supplied finite domains |
+| Incentive Fuzzer predicts real strategic behavior | None | Outside M2 | UNSUPPORTED | High | No empirical behavioral model or validation |

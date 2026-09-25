@@ -1,0 +1,19 @@
+{
+  "run_id": "m2-deterministic-001",
+  "git_commit": "b8ddb93f70be5970cb8b3e7a896d2fc92a040f70",
+  "seed": 17,
+  "budget": {
+    "max_evaluations": 50000,
+    "max_candidates": 50000,
+    "max_seconds": 30
+  },
+  "methods": [
+    "exhaustive",
+    "boundary",
+    "property",
+    "grid",
+    "combined"
+  ],
+  "canonical_rows": 25,
+  "synthetic_rows": 60
+}

@@ -20,3 +20,13 @@
 - Property bug found during audit: participation read `maximum` rather than `minimum`. Fixed with a regression test.
 - Limitation: internal fixtures and evaluator share authorship; independent semantic reproduction remains untested.
 
+## 2026-09-26 — M2
+
+- Froze 12 synthetic mechanisms before implementing/tuning search heuristics at commit `76a1744`.
+- Exhaustive evaluation falsified two planted safe labels at state-domain bounds; labels were corrected separately at `1e04c30` rather than suppressing findings.
+- A Cartesian scholarship domain allowed inconsistent true/reported baselines and produced a misleading reducer result. Added explicit correlated state records.
+- Initial boundary attribution labeled a profitable candidate against a condition whose truth did not change. Required replayed truth change before retaining boundary origin.
+- Role `reported` proved insufficient to classify manipulation: real scope/work changes can also update reported values. Added explicit action interpretation metadata and neutral fallback.
+- Boundary search achieved full equivalence recall on the frozen suite with 4,812 evaluations; seeded property and grid baselines missed classes.
+- The linear phase-out exposes a limitation: current boundary extraction does not identify min/max kinks.
+- The minimum scholarship reproducer in the supplied domain is 500,000 -> 499,999 with amount 1, not the illustrative amount 2.

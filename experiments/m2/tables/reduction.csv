@@ -1,0 +1,4 @@
+fixture,before_amount,after_amount,before_gain,after_gain,status
+scholarship_cliff,3,1,99997,99999,REDUCED
+stacked_programs,5,2,8,11,REDUCED
+procurement_threshold,6,1,8,18,REDUCED

@@ -1,0 +1,342 @@
+{
+  "procurement_threshold": {
+    "action": {
+      "controls": {
+        "amount": "1"
+      },
+      "name": "reduce_scope"
+    },
+    "action_cost": "1",
+    "assumptions": [
+      "deterministic one-period utility"
+    ],
+    "baseline_designer_outcomes": {
+      "process_burden": "20"
+    },
+    "baseline_state": {
+      "transaction_value": "100"
+    },
+    "baseline_utility": "80",
+    "boundary_origin": {
+      "attribute": "transaction_value",
+      "operator": "ge",
+      "rule": "administrative_cost",
+      "value": "100"
+    },
+    "candidate_source": "exhaustive",
+    "finding_id": "512758784c676a5063ce",
+    "if_cwe_id": "IF-001",
+    "policy_hash": "bbbef83043a44988a95430b401d35bb0dfd2c37e7d6522d2afa723220d46bd88",
+    "property_id": "no_profitable_deviation",
+    "property_violation": "profitable deviation violates declared no-profitable-deviation property",
+    "reduction_status": "REDUCED",
+    "replay_status": "REPLAYED",
+    "result_designer_outcomes": {
+      "process_burden": "0"
+    },
+    "result_state": {
+      "transaction_value": "99"
+    },
+    "result_utility": "98",
+    "search_method": "exhaustive",
+    "severity_components": {
+      "action_cost": "1",
+      "designer_loss": "-20",
+      "distance_to_boundary": "0",
+      "private_gain": "18",
+      "violation_magnitude": "18"
+    },
+    "trace": [
+      {
+        "detail": "initial",
+        "name": "transaction_value",
+        "phase": "state",
+        "value": "100"
+      },
+      {
+        "detail": "feasible",
+        "name": "reduce_scope",
+        "phase": "action",
+        "value": {
+          "amount": "1"
+        }
+      },
+      {
+        "detail": "post-action",
+        "name": "transaction_value",
+        "phase": "transition",
+        "value": "99"
+      },
+      {
+        "detail": "direct cost",
+        "name": "action_cost",
+        "phase": "cost",
+        "value": "1"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "administrative_cost",
+        "phase": "rule",
+        "value": "0"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "retained_value",
+        "phase": "rule",
+        "value": "99"
+      },
+      {
+        "detail": "post-rule less declared costs",
+        "name": "utility",
+        "phase": "utility",
+        "value": "98"
+      },
+      {
+        "detail": "designer outcome",
+        "name": "process_burden",
+        "phase": "designer",
+        "value": "0"
+      }
+    ],
+    "utility_delta": "18",
+    "violation_magnitude": "18"
+  },
+  "scholarship_cliff": {
+    "action": {
+      "controls": {
+        "amount": "1"
+      },
+      "name": "reduce_work"
+    },
+    "action_cost": "0",
+    "assumptions": [
+      "deterministic one-period utility"
+    ],
+    "baseline_designer_outcomes": {
+      "fiscal_cost": "0",
+      "true_output": "500000"
+    },
+    "baseline_state": {
+      "reported_income": "500000",
+      "true_income": "500000"
+    },
+    "baseline_utility": "500000",
+    "boundary_origin": {
+      "attribute": "reported_income",
+      "operator": "lt",
+      "rule": "benefit",
+      "value": "500000"
+    },
+    "candidate_source": "exhaustive",
+    "finding_id": "fd92718cff80e2194764",
+    "if_cwe_id": "IF-001",
+    "policy_hash": "1937c8cf47ddd621b89be30f778e8001eff3ba1a9e2b32696567ad03dec923e5",
+    "property_id": "no_profitable_deviation",
+    "property_violation": "profitable deviation violates declared no-profitable-deviation property",
+    "reduction_status": "REDUCED",
+    "replay_status": "REPLAYED",
+    "result_designer_outcomes": {
+      "fiscal_cost": "100000",
+      "true_output": "499999"
+    },
+    "result_state": {
+      "reported_income": "499999",
+      "true_income": "499999"
+    },
+    "result_utility": "599999",
+    "search_method": "exhaustive",
+    "severity_components": {
+      "action_cost": "0",
+      "designer_loss": "100000",
+      "distance_to_boundary": "0",
+      "private_gain": "99999",
+      "violation_magnitude": "99999"
+    },
+    "trace": [
+      {
+        "detail": "initial",
+        "name": "true_income",
+        "phase": "state",
+        "value": "500000"
+      },
+      {
+        "detail": "initial",
+        "name": "reported_income",
+        "phase": "state",
+        "value": "500000"
+      },
+      {
+        "detail": "feasible",
+        "name": "reduce_work",
+        "phase": "action",
+        "value": {
+          "amount": "1"
+        }
+      },
+      {
+        "detail": "post-action",
+        "name": "true_income",
+        "phase": "transition",
+        "value": "499999"
+      },
+      {
+        "detail": "post-action",
+        "name": "reported_income",
+        "phase": "transition",
+        "value": "499999"
+      },
+      {
+        "detail": "direct cost",
+        "name": "action_cost",
+        "phase": "cost",
+        "value": "0"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "benefit",
+        "phase": "rule",
+        "value": "100000"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "resources",
+        "phase": "rule",
+        "value": "599999"
+      },
+      {
+        "detail": "post-rule less declared costs",
+        "name": "utility",
+        "phase": "utility",
+        "value": "599999"
+      },
+      {
+        "detail": "designer outcome",
+        "name": "fiscal_cost",
+        "phase": "designer",
+        "value": "100000"
+      },
+      {
+        "detail": "designer outcome",
+        "name": "true_output",
+        "phase": "designer",
+        "value": "499999"
+      }
+    ],
+    "utility_delta": "99999",
+    "violation_magnitude": "99999"
+  },
+  "stacked_programs": {
+    "action": {
+      "controls": {
+        "amount": "2"
+      },
+      "name": "reduce_income"
+    },
+    "action_cost": "0",
+    "assumptions": [
+      "deterministic one-period utility"
+    ],
+    "baseline_designer_outcomes": {
+      "fiscal_cost": "0"
+    },
+    "baseline_state": {
+      "income": "12"
+    },
+    "baseline_utility": "12",
+    "boundary_origin": {
+      "attribute": "income",
+      "operator": "le",
+      "rule": "program_a",
+      "value": "10"
+    },
+    "candidate_source": "exhaustive",
+    "finding_id": "7f3201a3c9b567efc0db",
+    "if_cwe_id": "IF-015",
+    "policy_hash": "7eaba7e659348df1d3aa14e5495a3068cb4ac07dff9e8f266d9b03ecd504ca99",
+    "property_id": "no_profitable_deviation",
+    "property_violation": "profitable deviation violates declared no-profitable-deviation property",
+    "reduction_status": "REDUCED",
+    "replay_status": "REPLAYED",
+    "result_designer_outcomes": {
+      "fiscal_cost": "13"
+    },
+    "result_state": {
+      "income": "10"
+    },
+    "result_utility": "23",
+    "search_method": "exhaustive",
+    "severity_components": {
+      "action_cost": "0",
+      "designer_loss": "13",
+      "distance_to_boundary": "2",
+      "private_gain": "11",
+      "violation_magnitude": "11"
+    },
+    "trace": [
+      {
+        "detail": "initial",
+        "name": "income",
+        "phase": "state",
+        "value": "12"
+      },
+      {
+        "detail": "feasible",
+        "name": "reduce_income",
+        "phase": "action",
+        "value": {
+          "amount": "2"
+        }
+      },
+      {
+        "detail": "post-action",
+        "name": "income",
+        "phase": "transition",
+        "value": "10"
+      },
+      {
+        "detail": "direct cost",
+        "name": "action_cost",
+        "phase": "cost",
+        "value": "0"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "program_a",
+        "phase": "rule",
+        "value": "8"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "program_b",
+        "phase": "rule",
+        "value": "5"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "total_transfer",
+        "phase": "rule",
+        "value": "13"
+      },
+      {
+        "detail": "evaluated in declaration order",
+        "name": "resources",
+        "phase": "rule",
+        "value": "23"
+      },
+      {
+        "detail": "post-rule less declared costs",
+        "name": "utility",
+        "phase": "utility",
+        "value": "23"
+      },
+      {
+        "detail": "designer outcome",
+        "name": "fiscal_cost",
+        "phase": "designer",
+        "value": "13"
+      }
+    ],
+    "utility_delta": "11",
+    "violation_magnitude": "11"
+  }
+}

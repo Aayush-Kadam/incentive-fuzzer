@@ -8,7 +8,7 @@ Incentive Fuzzer is a research program for counterexample-driven testing of econ
 
 ## Current state
 
-M1 semantic core: IncentiveSpec v0.1, exact-decimal reference evaluation, structured traces, five synthetic fixtures, and bounded property assertions. This is not yet an adversarial fuzzer or formal verifier.
+M2 bounded adversarial-search prototype: IncentiveSpec v0.1, exact-decimal reference evaluation, exhaustive/grid/seeded/boundary search, replay-validated findings, structural deduplication, and finite-domain reduction. This is not a formal verifier or predictor of human behavior.
 
 ## Run the core suite
 
@@ -17,6 +17,12 @@ python -m venv .venv
 .venv\Scripts\python -m pip install -e ".[test]"
 $env:PYTHONPATH='src'
 .venv\Scripts\python -m pytest
+```
+
+Minimal search:
+
+```powershell
+.venv\Scripts\incentive-fuzzer search examples\scholarship_cliff.yaml --method boundary --output finding-run.json
 ```
 
 ## Defensible claim under investigation

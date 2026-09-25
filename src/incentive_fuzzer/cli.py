@@ -11,7 +11,7 @@ from .search import SearchBudget, SearchDomain, SearchEngine, SearchProblem, fin
 
 def _values(lower, upper, boundaries):
     lower, upper = int(lower), int(upper)
-    values = {lower, upper, 0}
+    values = {lower, upper, 0, lower + 1, lower + 2, upper - 1, (lower + upper) // 2}
     for boundary in boundaries:
         values.update({int(boundary) - 1, int(boundary), int(boundary) + 1})
     return tuple(Decimal(v) for v in sorted(v for v in values if lower <= v <= upper))

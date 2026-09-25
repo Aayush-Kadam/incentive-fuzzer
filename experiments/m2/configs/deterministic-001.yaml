@@ -1,0 +1,13 @@
+run_id: m2-deterministic-001
+seed: 17
+methods: [exhaustive, boundary, property, grid, combined]
+budget:
+  max_evaluations: 50000
+  max_candidates: 50000
+  max_seconds: 30
+equivalence: property_action_class_boundary
+oracle: incentive_fuzzer.core.evaluate
+suite:
+  canonical: five frozen M1 fixtures
+  synthetic: benchmarks/m2/specs/*.yaml
+
