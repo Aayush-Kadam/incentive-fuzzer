@@ -51,12 +51,12 @@ cases:
   expected_attack_family: IF-015
   derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
 - id: boundary_at_lower
-  known_violation: false
+  known_violation: true
   expected_property: no_profitable_deviation
-  expected_attack_family: null
+  expected_attack_family: IF-001
   derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
 - id: boundary_at_upper
-  known_violation: false
+  known_violation: true
   expected_property: no_profitable_deviation
-  expected_attack_family: null
+  expected_attack_family: IF-001
   derivation: exhaustive enumeration over states 0..30 and action amounts 0..10

@@ -75,8 +75,8 @@ CASES = [
     ("reported_safe_penalty", 10, 5, 6, True, True, None, False, None),
     ("stacked_close", 10, 5, 0, True, False, (12, 4), True, "IF-015"),
     ("stacked_wide", 8, 3, 0, True, False, (18, 4), True, "IF-015"),
-    ("boundary_at_lower", 0, 5, 0, False, False, None, False, None),
-    ("boundary_at_upper", 30, 5, 0, True, False, None, False, None),
+    ("boundary_at_lower", 0, 5, 0, False, False, None, True, "IF-001"),
+    ("boundary_at_upper", 30, 5, 0, True, False, None, True, "IF-001"),
 ]
 
 OUT.mkdir(parents=True, exist_ok=True)
