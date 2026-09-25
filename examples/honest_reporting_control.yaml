@@ -1,0 +1,31 @@
+incentive_spec_version: "0.1"
+institution: {id: honest_reporting, name: Honest Reporting Control, description: Misreporting has an exact expected penalty exceeding gain, version: "1"}
+parameters:
+  threshold: {type: money, value: 10, provenance: S}
+  benefit_amount: {type: money, value: 5, provenance: S}
+  penalty_rate: {type: decimal, unit: rate, value: 6, provenance: A}
+attributes:
+  true_income: {type: money, lower: 0, upper: 20, observable: false, manipulable: false, role: latent}
+  reported_income: {type: money, lower: 0, upper: 20, observable: true, manipulable: true, role: reported}
+actions:
+  misreport:
+    controls: {amount: {type: money, lower: 0, upper: 10}}
+    feasibility: {le: [{var: amount}, {var: reported_income}]}
+    transition: {reported_income: {sub: [{var: reported_income}, {var: amount}]}}
+    cost: {mul: [{var: penalty_rate}, {var: amount}]}
+rules:
+  benefit: {if: {condition: {lt: [{var: reported_income}, {var: threshold}]}, then: {var: benefit_amount}, else: {const: {value: 0, unit: money}}}}
+  resources: {add: [{var: true_income}, {var: benefit}]}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes: {fiscal_cost: {var: benefit}}
+properties:
+  - id: P5
+    kind: no_profitable_misreporting
+    action: misreport
+    control: amount
+    alternatives: [0, 1, 2, 3]
+    domain: {true_income: [10, 11, 12], reported_income: [10, 11, 12]}
+  - id: P6
+    kind: participation
+    minimum: 0
+    domain: {true_income: [0, 10, 20], reported_income: [0, 10, 20]}

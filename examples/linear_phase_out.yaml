@@ -1,0 +1,23 @@
+incentive_spec_version: "0.1"
+institution: {id: linear_phase_out, name: Linear Phase-Out, description: Synthetic exact linear withdrawal, version: "1"}
+parameters:
+  full_until: {type: money, value: 480000, provenance: S}
+  zero_at: {type: money, value: 620000, provenance: S}
+  award: {type: money, value: 100000, provenance: S}
+  withdrawal_rate: {type: decimal, unit: rate, value: 0.7142857142857142857142857143, provenance: S}
+attributes:
+  income: {type: money, lower: 0, upper: 1000000, observable: true, manipulable: true, role: latent}
+actions:
+  reduce_income:
+    controls: {amount: {type: money, lower: 0, upper: 100000}}
+    feasibility: {le: [{var: amount}, {var: income}]}
+    transition: {income: {sub: [{var: income}, {var: amount}]}}
+    cost: {const: {value: 0, unit: money}}
+rules:
+  phase_out: {mul: [{var: withdrawal_rate}, {sub: [{var: zero_at}, {var: income}]}]}
+  benefit: {max: [{const: {value: 0, unit: money}}, {min: [{var: award}, {var: phase_out}]}]}
+  resources: {add: [{var: income}, {var: benefit}]}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes: {fiscal_cost: {var: benefit}}
+properties: []
+

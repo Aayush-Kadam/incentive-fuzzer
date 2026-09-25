@@ -11,4 +11,8 @@
 | A shared economic IR can cover three domains | Architecture only | M1 target | NOT_YET_TESTED | Very low | May require bespoke semantics |
 | Domain-aware shrinking improves interpretability | None | Future benchmark | NOT_YET_TESTED | Very low | Metric and human evaluation required |
 | Repair can reduce vulnerabilities without harmful tradeoffs | None | Future held-out tests | NOT_YET_TESTED | Very low | Multi-objective policy judgment required |
-
+| IncentiveSpec v0.1 represents the five bounded deterministic M1 fixtures with one IR | 65-test suite and fixture files | M1 tests/examples | SUPPORTED | High | Does not imply arbitrary institutions |
+| Exact declared currency boundaries are deterministic | Decimal boundary and comparison tests | M1 test suite | SUPPORTED | High | No currency conversion or statutory rounding |
+| The reference evaluator agrees with nine hand-calculated cases | Independent expected literals in semantic audit | M1 audit | SUPPORTED | Medium | No second evaluator; shared authorship remains |
+| Six economic property kinds execute over explicit finite domains | Property tests | M1 test suite | SUPPORTED | High | Enumeration only; no proof or general IC |
+| Independent backends reproduce IncentiveSpec semantics | None | M3 target | NOT_YET_TESTED | Very low | Only one implementation exists |

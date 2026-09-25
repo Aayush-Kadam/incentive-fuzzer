@@ -1,0 +1,42 @@
+incentive_spec_version: "0.1"
+institution: {id: scholarship_cliff, name: Scholarship Cliff, description: Synthetic hard cutoff, version: "1"}
+parameters:
+  threshold: {type: money, value: 500000, provenance: S}
+  award: {type: money, value: 100000, provenance: S}
+attributes:
+  true_income: {type: money, lower: 0, upper: 2000000, observable: false, manipulable: true, role: latent}
+  reported_income: {type: money, lower: 0, upper: 2000000, observable: true, manipulable: true, role: reported}
+actions:
+  reduce_work:
+    controls: {amount: {type: money, lower: 0, upper: 100000}}
+    feasibility: {le: [{var: amount}, {var: true_income}]}
+    transition:
+      true_income: {sub: [{var: true_income}, {var: amount}]}
+      reported_income: {sub: [{var: reported_income}, {var: amount}]}
+    cost: {const: {value: 0, unit: money}}
+  misreport_income:
+    controls: {amount: {type: money, lower: 0, upper: 100000}}
+    feasibility: {le: [{var: amount}, {var: reported_income}]}
+    transition:
+      reported_income: {sub: [{var: reported_income}, {var: amount}]}
+    cost: {const: {value: 0, unit: money}}
+rules:
+  benefit: {if: {condition: {lt: [{var: reported_income}, {var: threshold}]}, then: {var: award}, else: {const: {value: 0, unit: money}}}}
+  resources: {add: [{var: true_income}, {var: benefit}]}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes:
+  fiscal_cost: {var: benefit}
+  true_output: {var: true_income}
+properties:
+  - id: P1
+    kind: budget_bound
+    field: fiscal_cost
+    maximum: 100000
+    domain: {true_income: [499999, 500000, 500001], reported_income: [499999, 500000, 500001]}
+  - id: P4
+    kind: no_profitable_downward_manipulation
+    action: reduce_work
+    control: amount
+    alternatives: [0, 1, 2]
+    domain: {true_income: [500001], reported_income: [500001]}
+

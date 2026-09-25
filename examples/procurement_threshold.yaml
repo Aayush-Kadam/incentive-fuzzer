@@ -1,0 +1,20 @@
+incentive_spec_version: "0.1"
+institution: {id: procurement_threshold, name: Procurement Threshold, description: Synthetic process-cost threshold, version: "1"}
+parameters:
+  threshold: {type: money, value: 100, provenance: S}
+  process_cost: {type: money, value: 20, provenance: S}
+attributes:
+  transaction_value: {type: money, lower: 0, upper: 1000, observable: true, manipulable: true, role: reported}
+actions:
+  reduce_scope:
+    controls: {amount: {type: money, lower: 0, upper: 100}}
+    feasibility: {le: [{var: amount}, {var: transaction_value}]}
+    transition: {transaction_value: {sub: [{var: transaction_value}, {var: amount}]}}
+    cost: {var: amount}
+rules:
+  administrative_cost: {if: {condition: {ge: [{var: transaction_value}, {var: threshold}]}, then: {var: process_cost}, else: {const: {value: 0, unit: money}}}}
+  retained_value: {sub: [{var: transaction_value}, {var: administrative_cost}]}
+utility: {sub: [{var: retained_value}, {var: action_cost}]}
+designer_outcomes: {process_burden: {var: administrative_cost}}
+properties: []
+

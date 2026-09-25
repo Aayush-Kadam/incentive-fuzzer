@@ -8,7 +8,16 @@ Incentive Fuzzer is a research program for counterexample-driven testing of econ
 
 ## Current state
 
-M0 research specification only. No functioning fuzzer or verified mechanism is claimed. The M0 verdict is **PASS WITH LIMITATIONS**: proceed to a tightly scoped M1 around declarative, deterministic, single-agent, piecewise-linear rules.
+M1 semantic core: IncentiveSpec v0.1, exact-decimal reference evaluation, structured traces, five synthetic fixtures, and bounded property assertions. This is not yet an adversarial fuzzer or formal verifier.
+
+## Run the core suite
+
+```powershell
+python -m venv .venv
+.venv\Scripts\python -m pip install -e ".[test]"
+$env:PYTHONPATH='src'
+.venv\Scripts\python -m pytest
+```
 
 ## Defensible claim under investigation
 
@@ -29,4 +38,3 @@ The candidate contribution is an open, benchmarked workflow that combines explic
 ## What is not claimed
 
 This repository does not yet establish novelty, completeness, empirical realism, equilibrium coverage, or successful repair. “No violation found” will always be scoped to a stated domain and assumptions.
-

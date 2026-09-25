@@ -1,0 +1,30 @@
+incentive_spec_version: "0.1"
+institution: {id: stacked_programs, name: Stacked Programs, description: Two additive synthetic transfers, version: "1"}
+parameters:
+  threshold_a: {type: money, value: 10, provenance: S}
+  threshold_b: {type: money, value: 12, provenance: S}
+  award_a: {type: money, value: 8, provenance: S}
+  award_b: {type: money, value: 5, provenance: S}
+attributes:
+  income: {type: money, lower: 0, upper: 20, observable: true, manipulable: true, role: latent}
+actions:
+  reduce_income:
+    controls: {amount: {type: money, lower: 0, upper: 5}}
+    feasibility: {le: [{var: amount}, {var: income}]}
+    transition: {income: {sub: [{var: income}, {var: amount}]}}
+    cost: {const: {value: 0, unit: money}}
+rules:
+  program_a: {if: {condition: {le: [{var: income}, {var: threshold_a}]}, then: {var: award_a}, else: {const: {value: 0, unit: money}}}}
+  program_b: {if: {condition: {lt: [{var: income}, {var: threshold_b}]}, then: {var: award_b}, else: {const: {value: 0, unit: money}}}}
+  total_transfer: {add: [{var: program_a}, {var: program_b}]}
+  resources: {add: [{var: income}, {var: total_transfer}]}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes: {fiscal_cost: {var: total_transfer}}
+properties:
+  - id: P3
+    kind: maximum_local_resource_drop
+    attribute: income
+    resource: resources
+    maximum_drop: 3
+    domain: {income: [9, 10, 11, 12, 13]}
+
