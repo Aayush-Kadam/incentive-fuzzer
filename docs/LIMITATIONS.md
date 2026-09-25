@@ -1,6 +1,6 @@
 # Current Limitations
 
-- Search is one-agent, one-period, deterministic, and finite-domain.
+- Each evaluation remains one-agent, one-period, deterministic, and finite-domain; M4 populations aggregate independent types rather than model interaction.
 - Boundary extraction handles simple one-dimensional attribute-versus-constant/parameter comparisons only.
 - Action-boundary algebra recognizes `x' = x - control`; other transitions fall back to generic candidates.
 - Property generation is a small seeded strategy, not a mature coverage-guided engine.
@@ -14,4 +14,6 @@
 - M3 formally encodes profitable-deviation existence only. Four other M1 property families remain enumeration-only.
 - Formal domains need explicit finite values or steps to ensure solver witnesses are valid finite-decimal M1 inputs.
 - UNSAT says nothing about omitted actions, misspecified utility, or real-world behavior.
-
+- Population weights and behavioral scenarios are synthetic assumptions, not estimates. Monte Carlo uncertainty excludes model and parameter uncertainty.
+- Population summaries are not SMT-verified; M3 spot checks apply only to selected individual domains before M4 cost overlays.
+- Fixed-friction grids can only identify tested-grid disappearance; exact thresholds follow the modeled finite candidate set.
