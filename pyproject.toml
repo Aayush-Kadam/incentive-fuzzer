@@ -9,6 +9,9 @@ description = "Deterministic semantic core for adversarial testing of economic r
 requires-python = ">=3.12"
 dependencies = ["PyYAML==6.0.3"]
 
+[project.scripts]
+incentive-fuzzer = "incentive_fuzzer.cli:main"
+
 [project.optional-dependencies]
 test = ["pytest==8.4.2", "pytest-cov==7.0.0"]
 
@@ -18,4 +21,3 @@ addopts = "-q"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
