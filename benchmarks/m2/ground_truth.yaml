@@ -1,0 +1,62 @@
+frozen_suite_version: '1'
+cases:
+- id: cliff_low_cost
+  known_violation: true
+  expected_property: no_profitable_deviation
+  expected_attack_family: IF-001
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: cliff_small_award
+  known_violation: true
+  expected_property: no_profitable_deviation
+  expected_attack_family: IF-001
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: inclusive_cliff
+  known_violation: true
+  expected_property: no_profitable_deviation
+  expected_attack_family: IF-001
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: cliff_cost_one
+  known_violation: true
+  expected_property: no_profitable_deviation
+  expected_attack_family: IF-003
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: safe_high_cost
+  known_violation: false
+  expected_property: no_profitable_deviation
+  expected_attack_family: null
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: safe_zero_award
+  known_violation: false
+  expected_property: no_profitable_deviation
+  expected_attack_family: null
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: reported_cliff
+  known_violation: true
+  expected_property: no_profitable_deviation
+  expected_attack_family: IF-005
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: reported_safe_penalty
+  known_violation: false
+  expected_property: no_profitable_deviation
+  expected_attack_family: null
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: stacked_close
+  known_violation: true
+  expected_property: no_profitable_deviation
+  expected_attack_family: IF-015
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: stacked_wide
+  known_violation: true
+  expected_property: no_profitable_deviation
+  expected_attack_family: IF-015
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: boundary_at_lower
+  known_violation: false
+  expected_property: no_profitable_deviation
+  expected_attack_family: null
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10
+- id: boundary_at_upper
+  known_violation: false
+  expected_property: no_profitable_deviation
+  expected_attack_family: null
+  derivation: exhaustive enumeration over states 0..30 and action amounts 0..10

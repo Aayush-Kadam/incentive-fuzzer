@@ -1,0 +1,73 @@
+incentive_spec_version: '0.1'
+institution:
+  id: cliff_cost_one
+  name: Cliff Cost One
+  description: Frozen synthetic M2 mechanism
+  version: '1'
+parameters:
+  threshold:
+    type: money
+    value: 15
+    provenance: S
+  award:
+    type: money
+    value: 8
+    provenance: S
+  cost_rate:
+    type: decimal
+    unit: rate
+    value: 1
+    provenance: A
+attributes:
+  income:
+    type: money
+    lower: 0
+    upper: 30
+    observable: true
+    manipulable: true
+    role: latent
+actions:
+  deviation:
+    controls:
+      amount:
+        type: money
+        lower: 0
+        upper: 10
+    feasibility:
+      le:
+      - var: amount
+      - var: income
+    transition:
+      income:
+        sub:
+        - var: income
+        - var: amount
+    cost:
+      mul:
+      - var: cost_rate
+      - var: amount
+rules:
+  benefit_a:
+    if:
+      condition:
+        lt:
+        - var: income
+        - var: threshold
+      then:
+        var: award
+      else:
+        const:
+          value: 0
+          unit: money
+  resources:
+    add:
+    - var: income
+    - &id001
+      var: benefit_a
+utility:
+  sub:
+  - var: resources
+  - var: action_cost
+designer_outcomes:
+  fiscal_cost: *id001
+properties: []
