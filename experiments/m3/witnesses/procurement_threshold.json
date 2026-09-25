@@ -1,0 +1,43 @@
+{
+  "build_seconds": 0.02427020005416125,
+  "decode_seconds": 0.0006639000494033098,
+  "domain_hash": "67a3343f2687190ed6ae9d7f81aeacdc624a9186b49ad8f2a7946022d8e4e37e",
+  "message": "Profitable deviation exists; witness replayed exactly.",
+  "property_id": "no_profitable_deviation",
+  "replay_seconds": 0.00018530001398175955,
+  "solve_seconds": 0.0037556999595835805,
+  "solver": "Z3",
+  "solver_reason": null,
+  "solver_version": "4.15.3",
+  "spec_hash": "bbbef83043a44988a95430b401d35bb0dfd2c37e7d6522d2afa723220d46bd88",
+  "status": "FORMALLY_VIOLATED",
+  "timeout_ms": 5000,
+  "witness": {
+    "agreement": true,
+    "decoded_action": {
+      "controls": {
+        "amount": "1"
+      },
+      "name": "reduce_scope"
+    },
+    "decoded_baseline_state": {
+      "transaction_value": "100"
+    },
+    "formal_status": "FORMALLY_VIOLATED",
+    "predicted_outputs": {
+      "administrative_cost": "0",
+      "retained_value": "99"
+    },
+    "predicted_utility": "98",
+    "property_id": "no_profitable_deviation",
+    "runtime_replay": "PASS",
+    "solver": "Z3",
+    "solver_version": "4.15.3",
+    "spec_hash": "bbbef83043a44988a95430b401d35bb0dfd2c37e7d6522d2afa723220d46bd88",
+    "symbolic_assignment": {
+      "amount_action": "1",
+      "transaction_value_0": "100",
+      "transaction_value_1": "99"
+    }
+  }
+}

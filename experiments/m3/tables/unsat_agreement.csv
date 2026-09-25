@@ -1,0 +1,3 @@
+fixture,smt_unsat,exhaustive_none,agreement
+linear_phase_out,True,True,True
+honest_reporting_control,True,True,True

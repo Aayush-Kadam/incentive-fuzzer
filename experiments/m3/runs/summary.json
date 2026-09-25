@@ -1,0 +1,163 @@
+{
+  "run_id": "m3-exact-smt-001",
+  "git_commit": "dc18ee3e791aa2380108def7bec2ae12167d90e2",
+  "solver": "Z3",
+  "solver_version": "4.15.3",
+  "timeout_ms": 5000,
+  "canonical": [
+    {
+      "fixture": "scholarship_cliff",
+      "property": "no_profitable_deviation",
+      "m2_exhaustive": "violation",
+      "smt": "SAT",
+      "formal_status": "FORMALLY_VIOLATED",
+      "m1_replay": "pass",
+      "agreement": true
+    },
+    {
+      "fixture": "linear_phase_out",
+      "property": "no_profitable_deviation",
+      "m2_exhaustive": "none",
+      "smt": "UNSAT",
+      "formal_status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "m1_replay": "n/a",
+      "agreement": true
+    },
+    {
+      "fixture": "stacked_programs",
+      "property": "no_profitable_deviation",
+      "m2_exhaustive": "violation",
+      "smt": "SAT",
+      "formal_status": "FORMALLY_VIOLATED",
+      "m1_replay": "pass",
+      "agreement": true
+    },
+    {
+      "fixture": "procurement_threshold",
+      "property": "no_profitable_deviation",
+      "m2_exhaustive": "violation",
+      "smt": "SAT",
+      "formal_status": "FORMALLY_VIOLATED",
+      "m1_replay": "pass",
+      "agreement": true
+    },
+    {
+      "fixture": "honest_reporting_control",
+      "property": "no_profitable_deviation",
+      "m2_exhaustive": "none",
+      "smt": "UNSAT",
+      "formal_status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "m1_replay": "n/a",
+      "agreement": true
+    }
+  ],
+  "benchmark": [
+    {
+      "fixture": "boundary_at_lower",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "boundary_at_upper",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "cliff_cost_one",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "cliff_low_cost",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "cliff_small_award",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "inclusive_cliff",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "reported_cliff",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "reported_safe_penalty",
+      "expected_violation": false,
+      "formal_status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "status_agreement": true,
+      "witness_replay": "n/a",
+      "supported": true
+    },
+    {
+      "fixture": "safe_high_cost",
+      "expected_violation": false,
+      "formal_status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "status_agreement": true,
+      "witness_replay": "n/a",
+      "supported": true
+    },
+    {
+      "fixture": "safe_zero_award",
+      "expected_violation": false,
+      "formal_status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "status_agreement": true,
+      "witness_replay": "n/a",
+      "supported": true
+    },
+    {
+      "fixture": "stacked_close",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    },
+    {
+      "fixture": "stacked_wide",
+      "expected_violation": true,
+      "formal_status": "FORMALLY_VIOLATED",
+      "status_agreement": true,
+      "witness_replay": "pass",
+      "supported": true
+    }
+  ],
+  "generated_differential": {
+    "cases": 500,
+    "mismatches": 0,
+    "seed": 20260926
+  },
+  "sat_witnesses": 3,
+  "sat_replay_passes": 3,
+  "supported_benchmark_cases": 12,
+  "benchmark_status_agreements": 12,
+  "unsat_cases": 2,
+  "unsat_agreements": 2
+}

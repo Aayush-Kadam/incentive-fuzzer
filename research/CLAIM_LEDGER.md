@@ -21,3 +21,8 @@
 | All reported M2 experiment findings replay deterministically through M1 | Replay column for all raw findings | M2 deterministic run 001 | SUPPORTED | High | Same implementation is evaluator and replay oracle |
 | Domain-aware reduction produced smaller replay-valid canonical counterexamples | Three before/after reductions | M2 deterministic run 001 | SUPPORTED | Medium | Exhaustive reducer and supplied finite domains |
 | Incentive Fuzzer predicts real strategic behavior | None | Outside M2 | UNSUPPORTED | High | No empirical behavioral model or validation |
+| The exact-rational SMT backend reproduced fixed-input M1 semantics on 500 generated cases | 500/500 exact comparisons | M3 run exact-smt-001 | SUPPORTED | High | Cases drawn from self-authored frozen suite |
+| SMT and M2 exhaustive statuses agree on the frozen suite | 12/12 supported cases | M3 benchmark table | SUPPORTED | High | One property and finite domains |
+| Every canonical SMT SAT witness replayed through M1 | 3/3 witnesses | M3 witness table | SUPPORTED | High | Parser/schema remain shared |
+| SMT established bounded absence for phase-out and honest-reporting controls | UNSAT plus 2/2 exhaustive agreement | M3 canonical table | SUPPORTED | High | Only declared property, action, and domain |
+| Incentive Fuzzer formally verifies arbitrary economic mechanisms | None | Outside formal fragment | UNSUPPORTED | High | Narrow QF_LIRA subset and one formal property |

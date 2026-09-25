@@ -10,4 +10,8 @@
 - Designer-loss direction is based on outcome naming conventions and may be absent; it is not a welfare model.
 - No empirical behavior, probability of exploitation, real-world legality, equilibrium, formal verification, or repair claim is supported.
 - The synthetic suite was authored by the same project and is not an external benchmark.
+- M3 shares M1 parsing and schema validation; it independently validates semantic interpretation after parsing, not the parser.
+- M3 formally encodes profitable-deviation existence only. Four other M1 property families remain enumeration-only.
+- Formal domains need explicit finite values or steps to ensure solver witnesses are valid finite-decimal M1 inputs.
+- UNSAT says nothing about omitted actions, misspecified utility, or real-world behavior.
 

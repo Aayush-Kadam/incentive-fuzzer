@@ -30,3 +30,15 @@
 - Boundary search achieved full equivalence recall on the frozen suite with 4,812 evaluations; seeded property and grid baselines missed classes.
 - The linear phase-out exposes a limitation: current boundary extraction does not identify min/max kinks.
 - The minimum scholarship reproducer in the supplied domain is 500,000 -> 499,999 with amount 1, not the illustrative amount 2.
+
+## 2026-09-26 — M3
+
+- Added pinned Z3 4.15.3 after confirming no solver was installed.
+- Independently implemented Decimal-to-fraction conversion, AST translation, simultaneous transitions, ordered rules, costs, utility, model decoding, and profitable-deviation negation.
+- Rejected symbolic-by-symbolic multiplication explicitly.
+- Restricted formal domains to explicit finite values or steps; unrestricted rationals can yield values M1 Decimal cannot represent finitely.
+- Fixed-input differential testing produced 500/500 exact agreements with no rejected cases.
+- Canonical status agreement was 5/5; frozen benchmark status agreement was 12/12.
+- Canonical SAT replay was 3/3; canonical UNSAT/exhaustive agreement was 2/2.
+- Z3 independently handled the phase-out min/max structure that M2 boundary extraction does not recognize.
+- No M1/M2 semantic defect was discovered. Formal coverage remains limited to profitable-deviation existence.

@@ -1,0 +1,9 @@
+run_id: m3-exact-smt-001
+solver: Z3
+solver_version: 4.15.3
+solver_options: {timeout_ms: 5000, random_seed: 0}
+theory: QF_LIRA with ite
+property: no_profitable_deviation
+differential_seed: 20260926
+differential_cases: 500
+

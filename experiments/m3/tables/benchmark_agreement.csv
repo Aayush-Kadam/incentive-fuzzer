@@ -1,0 +1,13 @@
+fixture,expected_violation,formal_status,status_agreement,witness_replay,supported
+boundary_at_lower,True,FORMALLY_VIOLATED,True,pass,True
+boundary_at_upper,True,FORMALLY_VIOLATED,True,pass,True
+cliff_cost_one,True,FORMALLY_VIOLATED,True,pass,True
+cliff_low_cost,True,FORMALLY_VIOLATED,True,pass,True
+cliff_small_award,True,FORMALLY_VIOLATED,True,pass,True
+inclusive_cliff,True,FORMALLY_VIOLATED,True,pass,True
+reported_cliff,True,FORMALLY_VIOLATED,True,pass,True
+reported_safe_penalty,False,FORMALLY_SATISFIED_WITHIN_DOMAIN,True,n/a,True
+safe_high_cost,False,FORMALLY_SATISFIED_WITHIN_DOMAIN,True,n/a,True
+safe_zero_award,False,FORMALLY_SATISFIED_WITHIN_DOMAIN,True,n/a,True
+stacked_close,True,FORMALLY_VIOLATED,True,pass,True
+stacked_wide,True,FORMALLY_VIOLATED,True,pass,True

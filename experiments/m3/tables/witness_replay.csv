@@ -1,0 +1,4 @@
+fixture,status,replay,agreement
+scholarship_cliff,FORMALLY_VIOLATED,PASS,True
+stacked_programs,FORMALLY_VIOLATED,PASS,True
+procurement_threshold,FORMALLY_VIOLATED,PASS,True

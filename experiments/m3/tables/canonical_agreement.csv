@@ -1,0 +1,6 @@
+fixture,property,m2_exhaustive,smt,formal_status,m1_replay,agreement
+scholarship_cliff,no_profitable_deviation,violation,SAT,FORMALLY_VIOLATED,pass,True
+linear_phase_out,no_profitable_deviation,none,UNSAT,FORMALLY_SATISFIED_WITHIN_DOMAIN,n/a,True
+stacked_programs,no_profitable_deviation,violation,SAT,FORMALLY_VIOLATED,pass,True
+procurement_threshold,no_profitable_deviation,violation,SAT,FORMALLY_VIOLATED,pass,True
+honest_reporting_control,no_profitable_deviation,none,UNSAT,FORMALLY_SATISFIED_WITHIN_DOMAIN,n/a,True

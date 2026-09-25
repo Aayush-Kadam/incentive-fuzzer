@@ -1,0 +1,46 @@
+{
+  "build_seconds": 0.031183599960058928,
+  "decode_seconds": 0.00095699995290488,
+  "domain_hash": "7d67a25f1653f725d783d09515e352d718319a557366e62b11ff8afffd2ea3d4",
+  "message": "Profitable deviation exists; witness replayed exactly.",
+  "property_id": "no_profitable_deviation",
+  "replay_seconds": 0.00020960008259862661,
+  "solve_seconds": 0.005386200034990907,
+  "solver": "Z3",
+  "solver_reason": null,
+  "solver_version": "4.15.3",
+  "spec_hash": "1937c8cf47ddd621b89be30f778e8001eff3ba1a9e2b32696567ad03dec923e5",
+  "status": "FORMALLY_VIOLATED",
+  "timeout_ms": 5000,
+  "witness": {
+    "agreement": true,
+    "decoded_action": {
+      "controls": {
+        "amount": "2"
+      },
+      "name": "reduce_work"
+    },
+    "decoded_baseline_state": {
+      "reported_income": "500000",
+      "true_income": "500000"
+    },
+    "formal_status": "FORMALLY_VIOLATED",
+    "predicted_outputs": {
+      "benefit": "100000",
+      "resources": "599998"
+    },
+    "predicted_utility": "599998",
+    "property_id": "no_profitable_deviation",
+    "runtime_replay": "PASS",
+    "solver": "Z3",
+    "solver_version": "4.15.3",
+    "spec_hash": "1937c8cf47ddd621b89be30f778e8001eff3ba1a9e2b32696567ad03dec923e5",
+    "symbolic_assignment": {
+      "amount_action": "2",
+      "reported_income_0": "500000",
+      "reported_income_1": "499998",
+      "true_income_0": "500000",
+      "true_income_1": "499998"
+    }
+  }
+}

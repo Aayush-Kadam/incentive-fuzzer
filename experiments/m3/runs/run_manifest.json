@@ -1,0 +1,8 @@
+{
+  "run_id": "m3-exact-smt-001",
+  "git_commit": "dc18ee3e791aa2380108def7bec2ae12167d90e2",
+  "solver": "Z3",
+  "solver_version": "4.15.3",
+  "timeout_ms": 5000,
+  "seed": 20260926
+}
