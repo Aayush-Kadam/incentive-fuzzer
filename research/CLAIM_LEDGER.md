@@ -26,3 +26,7 @@
 | Every canonical SMT SAT witness replayed through M1 | 3/3 witnesses | M3 witness table | SUPPORTED | High | Parser/schema remain shared |
 | SMT established bounded absence for phase-out and honest-reporting controls | UNSAT plus 2/2 exhaustive agreement | M3 canonical table | SUPPORTED | High | Only declared property, action, and domain |
 | Incentive Fuzzer formally verifies arbitrary economic mechanisms | None | Outside formal fragment | UNSUPPORTED | High | Narrow QF_LIRA subset and one formal property |
+| Scholarship deviation persists across a defined synthetic state/friction region | M4 cell table | M4 deterministic grids | SUPPORTED | High | No claim about actual recipients |
+| Registered phase-out has a smaller profitable region than the hard cutoff | 0 versus 0.515625 | M4 B0 tables | SUPPORTED WITH LIMITATION | Medium | Common friction assumptions, mechanism-specific state grids |
+| Weighted and sampled estimates agree within sampling error | Exact 0.9; N=5000 gives 0.9044 | M4 weighted/MC tables | SUPPORTED | High | Synthetic distribution; sampling uncertainty only |
+| M4 predicts real manipulation prevalence or welfare | None | Outside M4 | UNSUPPORTED | High | No empirical calibration or welfare definition |

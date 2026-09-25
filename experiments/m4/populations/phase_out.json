@@ -1,0 +1,1477 @@
+{
+  "id": "phase_out",
+  "members": [
+    {
+      "id": "phase_out-0",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-1",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-2",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-3",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-4",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-5",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-6",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-7",
+      "weight": "0.015625",
+      "state": {
+        "income": "479999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-8",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-9",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-10",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-11",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-12",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-13",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-14",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-15",
+      "weight": "0.015625",
+      "state": {
+        "income": "480000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-16",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-17",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-18",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-19",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-20",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-21",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-22",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-23",
+      "weight": "0.015625",
+      "state": {
+        "income": "480001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-24",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-25",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-26",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-27",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-28",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-29",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-30",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-31",
+      "weight": "0.015625",
+      "state": {
+        "income": "500000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-32",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-33",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-34",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-35",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-36",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-37",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-38",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-39",
+      "weight": "0.015625",
+      "state": {
+        "income": "550000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-40",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-41",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-42",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-43",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-44",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-45",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-46",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-47",
+      "weight": "0.015625",
+      "state": {
+        "income": "619999"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-48",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-49",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-50",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-51",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-52",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-53",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-54",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-55",
+      "weight": "0.015625",
+      "state": {
+        "income": "620000"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-56",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-57",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-58",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-59",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-60",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-61",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "50000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-62",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "99999",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "phase_out-63",
+      "weight": "0.015625",
+      "state": {
+        "income": "620001"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "100000",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    }
+  ]
+}

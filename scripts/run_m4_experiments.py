@@ -4,6 +4,7 @@ import csv, json, subprocess
 from dataclasses import asdict
 from decimal import Decimal as D
 from pathlib import Path
+from time import perf_counter
 
 from incentive_fuzzer import (AgentType, BehavioralKind, BehavioralScenario,
     PopulationSpecification, deterministic_grid, evaluate_population, load_spec,
@@ -45,15 +46,18 @@ def main():
         (OUT/"populations"/f"{label}.json").write_text(json.dumps(norm(asdict(pop)),indent=2),encoding="utf-8")
         actions={action:{"amount":tuple(range(max_amount+1))}}
         for scenario in SCENARIOS:
-            result=evaluate_population(spec,pop,scenario,actions,f"M4-{label}-{scenario.id}")
+            start=perf_counter(); result=evaluate_population(spec,pop,scenario,actions,f"M4-{label}-{scenario.id}"); seconds=perf_counter()-start
             s=result.summary
-            rows.append({"case":label,"scenario":scenario.id,"members":len(pop.members),"profitable_share":s.profitable_share,"response_share":s.response_share,"mean_positive_gain":s.mean_positive_gain,"max_gain":s.max_gain,"evaluations":result.evaluations,"population_hash":result.population_hash})
+            rows.append({"case":label,"scenario":scenario.id,"members":len(pop.members),"profitable_share":s.profitable_share,"response_share":s.response_share,"mean_positive_gain":s.mean_positive_gain,"max_gain":s.max_gain,"designer_impact":json.dumps(norm(s.designer_change),sort_keys=True),"evaluations":result.evaluations,"seconds":f"{seconds:.6f}","agents_per_second":f"{len(pop.members)/seconds:.2f}","population_hash":result.population_hash})
             for x in result.individuals:
                 state=";".join(f"{k}={v}" for k,v in x.resulting_state.items())
                 individual.append({"case":label,"scenario":scenario.id,"member":x.member_id,"weight":x.weight,"state":state,"fixed_cost":next(m.fixed_cost for m in pop.members if m.id==x.member_id),"multiplier":next(m.cost_multiplier for m in pop.members if m.id==x.member_id),"profitable":x.profitable,"adopted":x.adopted,"gain":x.adjusted_gain,"action":x.best_action.name if x.best_action else ""})
             if scenario.id=="B0":
                 for x,m in zip(result.individuals,pop.members): cells.append({"case":label,"member":x.member_id,"state":json.dumps(norm(m.state),sort_keys=True),"fixed_cost":m.fixed_cost,"multiplier":m.cost_multiplier,"profitable":x.profitable,"gain":x.adjusted_gain})
     write_csv(OUT/"tables"/"population_summary.csv",rows); write_csv(OUT/"tables"/"robustness_cells.csv",cells); write_csv(OUT/"tables"/"individual_results.csv",individual)
+    write_csv(OUT/"tables"/"table1_robustness_by_fixture.csv",rows)
+    write_csv(OUT/"tables"/"table2_manipulation_cost_sensitivity.csv",[x for x in cells if x["case"] in ("scholarship","procurement")])
+    write_csv(OUT/"tables"/"table3_hard_cutoff_vs_phase_out.csv",[x for x in rows if x["case"] in ("scholarship","phase_out")])
 
     # Frozen weighted scholarship population.
     incomes=(499999,500000,500001,500005,500010); weights=(.1,.2,.3,.2,.2); costs=(0,1,10,100,1000)
@@ -62,12 +66,15 @@ def main():
     exact=evaluate_population(ss,wp,SCENARIOS[0],acts,"M4-weighted-exact")
     weighted=[{"member":x.member_id,"weight":x.weight,"income":m.state["true_income"],"fixed_cost":m.fixed_cost,"profitable":x.profitable,"adopted":x.adopted,"gain":x.adjusted_gain} for x,m in zip(exact.individuals,members)]
     write_csv(OUT/"tables"/"weighted_population.csv",weighted)
+    write_csv(OUT/"tables"/"table4_weighted_population.csv",weighted)
     mc=[]
     for n in (100,1000,5000):
         sample=sample_weighted(wp,n,20260926); r=evaluate_population(ss,sample,SCENARIOS[0],acts,f"M4-MC-{n}")
         successes=sum(x.profitable for x in r.individuals); lo,hi=wilson_interval(successes,n)
         mc.append({"n":n,"seed":20260926,"profitable_share":r.summary.profitable_share,"exact_share":exact.summary.profitable_share,"error":r.summary.profitable_share-exact.summary.profitable_share,"wilson_low":lo,"wilson_high":hi,"sample_hash":population_hash(sample)})
     write_csv(OUT/"tables"/"monte_carlo.csv",mc)
+    write_csv(OUT/"tables"/"table5_monte_carlo_convergence.csv",mc)
+    write_csv(OUT/"tables"/"table6_negative_controls.csv",[x for x in rows if x["case"] in ("phase_out","honest")])
 
     # Per-state break-even is one unit above the maximum raw gain; tested-grid disappearance is separately recorded.
     breaks=[]

@@ -1,0 +1,292 @@
+{
+  "population_rows": [
+    {
+      "case": "scholarship",
+      "scenario": "B0",
+      "members": 512,
+      "profitable_share": "0.515625",
+      "response_share": "0.515625",
+      "mean_positive_gain": "91475.5",
+      "max_gain": "99999",
+      "designer_impact": "{\"fiscal_cost\": \"51562.5000\", \"true_output\": \"-3.093750000\"}",
+      "evaluations": 11264,
+      "seconds": "0.758090",
+      "agents_per_second": "675.38",
+      "population_hash": "a8ee67be3225c1d329236a619fea975b5bf674307562761b4e54912ca77b7e9f"
+    },
+    {
+      "case": "scholarship",
+      "scenario": "B1",
+      "members": 512,
+      "profitable_share": "0.09375",
+      "response_share": "0.09375",
+      "mean_positive_gain": "91480.0",
+      "max_gain": "99999",
+      "designer_impact": "{\"fiscal_cost\": \"9375.0000\", \"true_output\": \"-0.140625000\"}",
+      "evaluations": 2048,
+      "seconds": "0.206275",
+      "agents_per_second": "2482.13",
+      "population_hash": "a8ee67be3225c1d329236a619fea975b5bf674307562761b4e54912ca77b7e9f"
+    },
+    {
+      "case": "scholarship",
+      "scenario": "B2",
+      "members": 512,
+      "profitable_share": "0.515625",
+      "response_share": "0.515625",
+      "mean_positive_gain": "91475.5",
+      "max_gain": "99999",
+      "designer_impact": "{\"fiscal_cost\": \"51562.5000\", \"true_output\": \"-3.093750000\"}",
+      "evaluations": 11264,
+      "seconds": "0.690104",
+      "agents_per_second": "741.92",
+      "population_hash": "a8ee67be3225c1d329236a619fea975b5bf674307562761b4e54912ca77b7e9f"
+    },
+    {
+      "case": "phase_out",
+      "scenario": "B0",
+      "members": 64,
+      "profitable_share": "0",
+      "response_share": "0",
+      "mean_positive_gain": "0",
+      "max_gain": "0",
+      "designer_impact": "{\"fiscal_cost\": \"0.0000000000000000\"}",
+      "evaluations": 1408,
+      "seconds": "0.090357",
+      "agents_per_second": "708.30",
+      "population_hash": "cc34852bf76fa11e09fb0a00e4674931b6aa23de281c06444f8ce32e459188e3"
+    },
+    {
+      "case": "phase_out",
+      "scenario": "B1",
+      "members": 64,
+      "profitable_share": "0",
+      "response_share": "0",
+      "mean_positive_gain": "0",
+      "max_gain": "0",
+      "designer_impact": "{\"fiscal_cost\": \"0.0000000000000000\"}",
+      "evaluations": 256,
+      "seconds": "0.015732",
+      "agents_per_second": "4068.22",
+      "population_hash": "cc34852bf76fa11e09fb0a00e4674931b6aa23de281c06444f8ce32e459188e3"
+    },
+    {
+      "case": "phase_out",
+      "scenario": "B2",
+      "members": 64,
+      "profitable_share": "0",
+      "response_share": "0",
+      "mean_positive_gain": "0",
+      "max_gain": "0",
+      "designer_impact": "{\"fiscal_cost\": \"0.0000000000000000\"}",
+      "evaluations": 1408,
+      "seconds": "0.085199",
+      "agents_per_second": "751.18",
+      "population_hash": "cc34852bf76fa11e09fb0a00e4674931b6aa23de281c06444f8ce32e459188e3"
+    },
+    {
+      "case": "stacked",
+      "scenario": "B0",
+      "members": 84,
+      "profitable_share": "0.1904761904761904761904761905",
+      "response_share": "0.1904761904761904761904761905",
+      "mean_positive_gain": "6.624999999999999999999999998",
+      "max_gain": "11",
+      "designer_impact": "{\"fiscal_cost\": \"2.297619047619047619047619050\"}",
+      "evaluations": 528,
+      "seconds": "0.028310",
+      "agents_per_second": "2967.17",
+      "population_hash": "cfe0ecab164ce12f5ff11f7fa400bba3991c25e2624778bb307df1433c8de665"
+    },
+    {
+      "case": "stacked",
+      "scenario": "B1",
+      "members": 84,
+      "profitable_share": "0.1071428571428571428571428571",
+      "response_share": "0.1071428571428571428571428571",
+      "mean_positive_gain": "5.333333333333333333333333333",
+      "max_gain": "11",
+      "designer_impact": "{\"fiscal_cost\": \"1.023809523809523809523809524\"}",
+      "evaluations": 324,
+      "seconds": "0.018317",
+      "agents_per_second": "4585.98",
+      "population_hash": "cfe0ecab164ce12f5ff11f7fa400bba3991c25e2624778bb307df1433c8de665"
+    },
+    {
+      "case": "stacked",
+      "scenario": "B2",
+      "members": 84,
+      "profitable_share": "0.1904761904761904761904761905",
+      "response_share": "0",
+      "mean_positive_gain": "6.624999999999999999999999998",
+      "max_gain": "11",
+      "designer_impact": "{\"fiscal_cost\": \"0.0\"}",
+      "evaluations": 528,
+      "seconds": "0.028255",
+      "agents_per_second": "2972.98",
+      "population_hash": "cfe0ecab164ce12f5ff11f7fa400bba3991c25e2624778bb307df1433c8de665"
+    },
+    {
+      "case": "procurement",
+      "scenario": "B0",
+      "members": 55,
+      "profitable_share": "0.3999999999999999999999999999",
+      "response_share": "0.3999999999999999999999999999",
+      "mean_positive_gain": "9.909090909090909090909090903",
+      "max_gain": "18",
+      "designer_impact": "{\"process_burden\": \"-7.999999999999999999999999987\"}",
+      "evaluations": 660,
+      "seconds": "0.031478",
+      "agents_per_second": "1747.23",
+      "population_hash": "84f8367f15f0c31919b5ce4e192b83ad177254dc1428d82c0a05584677db85c4"
+    },
+    {
+      "case": "procurement",
+      "scenario": "B1",
+      "members": 55,
+      "profitable_share": "0.1454545454545454545454545454",
+      "response_share": "0.1454545454545454545454545454",
+      "mean_positive_gain": "13.00000000000000000000000000",
+      "max_gain": "18",
+      "designer_impact": "{\"process_burden\": \"-2.909090909090909090909090905\"}",
+      "evaluations": 220,
+      "seconds": "0.011224",
+      "agents_per_second": "4900.17",
+      "population_hash": "84f8367f15f0c31919b5ce4e192b83ad177254dc1428d82c0a05584677db85c4"
+    },
+    {
+      "case": "procurement",
+      "scenario": "B2",
+      "members": 55,
+      "profitable_share": "0.3999999999999999999999999999",
+      "response_share": "0",
+      "mean_positive_gain": "9.909090909090909090909090903",
+      "max_gain": "18",
+      "designer_impact": "{\"process_burden\": \"0.00\"}",
+      "evaluations": 660,
+      "seconds": "0.026330",
+      "agents_per_second": "2088.85",
+      "population_hash": "84f8367f15f0c31919b5ce4e192b83ad177254dc1428d82c0a05584677db85c4"
+    },
+    {
+      "case": "honest",
+      "scenario": "B0",
+      "members": 84,
+      "profitable_share": "0",
+      "response_share": "0",
+      "mean_positive_gain": "0",
+      "max_gain": "0",
+      "designer_impact": "{\"fiscal_cost\": \"0.0\"}",
+      "evaluations": 788,
+      "seconds": "0.041762",
+      "agents_per_second": "2011.39",
+      "population_hash": "e8413a9d66925a60d091e7b2d181c624c04ef3e8c5bb32aba8f7308e479ac4b4"
+    },
+    {
+      "case": "honest",
+      "scenario": "B1",
+      "members": 84,
+      "profitable_share": "0",
+      "response_share": "0",
+      "mean_positive_gain": "0",
+      "max_gain": "0",
+      "designer_impact": "{\"fiscal_cost\": \"0.0\"}",
+      "evaluations": 324,
+      "seconds": "0.017106",
+      "agents_per_second": "4910.53",
+      "population_hash": "e8413a9d66925a60d091e7b2d181c624c04ef3e8c5bb32aba8f7308e479ac4b4"
+    },
+    {
+      "case": "honest",
+      "scenario": "B2",
+      "members": 84,
+      "profitable_share": "0",
+      "response_share": "0",
+      "mean_positive_gain": "0",
+      "max_gain": "0",
+      "designer_impact": "{\"fiscal_cost\": \"0.0\"}",
+      "evaluations": 788,
+      "seconds": "0.045970",
+      "agents_per_second": "1827.29",
+      "population_hash": "e8413a9d66925a60d091e7b2d181c624c04ef3e8c5bb32aba8f7308e479ac4b4"
+    }
+  ],
+  "weighted_exact": {
+    "profitable_share": "0.9",
+    "response_share": "0.9",
+    "mean_positive_gain": "99747.33333333333333333333333",
+    "max_gain": "99998",
+    "designer_change": {
+      "fiscal_cost": "90000",
+      "true_output": "-4.2"
+    },
+    "action_shares": {
+      "no_deviation": "0.1",
+      "reduce_work": "0.9"
+    }
+  },
+  "monte_carlo": [
+    {
+      "n": 100,
+      "seed": 20260926,
+      "profitable_share": "0.92",
+      "exact_share": "0.9",
+      "error": "0.02",
+      "wilson_low": 0.8500173312059693,
+      "wilson_high": 0.9589070305141891,
+      "sample_hash": "76de952c5331eb9a0d79140c32566b1e89159fa5c1f130be8130068648ffee1a"
+    },
+    {
+      "n": 1000,
+      "seed": 20260926,
+      "profitable_share": "0.908",
+      "exact_share": "0.9",
+      "error": "0.008",
+      "wilson_low": 0.8884908764642334,
+      "wilson_high": 0.9243863742892722,
+      "sample_hash": "29fff6eedc17bdc1dcca606b0f91ddd7b880d86db557c696b496a69c9d448eaf"
+    },
+    {
+      "n": 5000,
+      "seed": 20260926,
+      "profitable_share": "0.9044",
+      "exact_share": "0.9",
+      "error": "0.0044",
+      "wilson_low": 0.8959363200917282,
+      "wilson_high": 0.9122427397729965,
+      "sample_hash": "1a87e4ab999e06f4267b40ab95552c5a62576d88832b4b0e5ebbf61f7ee08fc6"
+    }
+  ],
+  "holdout": [
+    {
+      "income": 500006,
+      "best_amount": 7,
+      "gain": "99993",
+      "profitable": true
+    },
+    {
+      "income": 500007,
+      "best_amount": 8,
+      "gain": "99992",
+      "profitable": true
+    },
+    {
+      "income": 500008,
+      "best_amount": 9,
+      "gain": "99991",
+      "profitable": true
+    },
+    {
+      "income": 500009,
+      "best_amount": 10,
+      "gain": "99990",
+      "profitable": true
+    },
+    {
+      "income": 500010,
+      "best_amount": 11,
+      "gain": "99989",
+      "profitable": true
+    }
+  ]
+}

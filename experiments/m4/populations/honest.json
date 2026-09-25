@@ -1,0 +1,2021 @@
+{
+  "id": "honest",
+  "members": [
+    {
+      "id": "honest-0",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "0",
+        "reported_income": "0"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-1",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "0",
+        "reported_income": "0"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-2",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "0",
+        "reported_income": "0"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-3",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "0",
+        "reported_income": "0"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-4",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "1",
+        "reported_income": "1"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-5",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "1",
+        "reported_income": "1"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-6",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "1",
+        "reported_income": "1"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-7",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "1",
+        "reported_income": "1"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-8",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "2",
+        "reported_income": "2"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-9",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "2",
+        "reported_income": "2"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-10",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "2",
+        "reported_income": "2"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-11",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "2",
+        "reported_income": "2"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-12",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "3",
+        "reported_income": "3"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-13",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "3",
+        "reported_income": "3"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-14",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "3",
+        "reported_income": "3"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-15",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "3",
+        "reported_income": "3"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-16",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "4",
+        "reported_income": "4"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-17",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "4",
+        "reported_income": "4"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-18",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "4",
+        "reported_income": "4"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-19",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "4",
+        "reported_income": "4"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-20",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "5",
+        "reported_income": "5"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-21",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "5",
+        "reported_income": "5"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-22",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "5",
+        "reported_income": "5"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-23",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "5",
+        "reported_income": "5"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-24",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "6",
+        "reported_income": "6"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-25",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "6",
+        "reported_income": "6"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-26",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "6",
+        "reported_income": "6"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-27",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "6",
+        "reported_income": "6"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-28",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "7",
+        "reported_income": "7"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-29",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "7",
+        "reported_income": "7"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-30",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "7",
+        "reported_income": "7"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-31",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "7",
+        "reported_income": "7"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-32",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "8",
+        "reported_income": "8"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-33",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "8",
+        "reported_income": "8"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-34",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "8",
+        "reported_income": "8"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-35",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "8",
+        "reported_income": "8"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-36",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "9",
+        "reported_income": "9"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-37",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "9",
+        "reported_income": "9"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-38",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "9",
+        "reported_income": "9"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-39",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "9",
+        "reported_income": "9"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-40",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "10",
+        "reported_income": "10"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-41",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "10",
+        "reported_income": "10"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-42",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "10",
+        "reported_income": "10"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-43",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "10",
+        "reported_income": "10"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-44",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "11",
+        "reported_income": "11"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-45",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "11",
+        "reported_income": "11"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-46",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "11",
+        "reported_income": "11"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-47",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "11",
+        "reported_income": "11"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-48",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "12",
+        "reported_income": "12"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-49",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "12",
+        "reported_income": "12"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-50",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "12",
+        "reported_income": "12"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-51",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "12",
+        "reported_income": "12"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-52",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "13",
+        "reported_income": "13"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-53",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "13",
+        "reported_income": "13"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-54",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "13",
+        "reported_income": "13"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-55",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "13",
+        "reported_income": "13"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-56",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "14",
+        "reported_income": "14"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-57",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "14",
+        "reported_income": "14"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-58",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "14",
+        "reported_income": "14"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-59",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "14",
+        "reported_income": "14"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-60",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "15",
+        "reported_income": "15"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-61",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "15",
+        "reported_income": "15"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-62",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "15",
+        "reported_income": "15"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-63",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "15",
+        "reported_income": "15"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-64",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "16",
+        "reported_income": "16"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-65",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "16",
+        "reported_income": "16"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-66",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "16",
+        "reported_income": "16"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-67",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "16",
+        "reported_income": "16"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-68",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "17",
+        "reported_income": "17"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-69",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "17",
+        "reported_income": "17"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-70",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "17",
+        "reported_income": "17"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-71",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "17",
+        "reported_income": "17"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-72",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "18",
+        "reported_income": "18"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-73",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "18",
+        "reported_income": "18"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-74",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "18",
+        "reported_income": "18"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-75",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "18",
+        "reported_income": "18"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-76",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "19",
+        "reported_income": "19"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-77",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "19",
+        "reported_income": "19"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-78",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "19",
+        "reported_income": "19"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-79",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "19",
+        "reported_income": "19"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-80",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "20",
+        "reported_income": "20"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-81",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "20",
+        "reported_income": "20"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-82",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "20",
+        "reported_income": "20"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "honest-83",
+      "weight": "0.01190476190476190476190476190",
+      "state": {
+        "true_income": "20",
+        "reported_income": "20"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    }
+  ]
+}

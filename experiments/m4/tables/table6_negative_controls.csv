@@ -1,0 +1,7 @@
+case,scenario,members,profitable_share,response_share,mean_positive_gain,max_gain,designer_impact,evaluations,seconds,agents_per_second,population_hash
+phase_out,B0,64,0E+6,0E+6,0,0,"{""fiscal_cost"": ""0.0000000000000000""}",1408,0.090357,708.30,cc34852bf76fa11e09fb0a00e4674931b6aa23de281c06444f8ce32e459188e3
+phase_out,B1,64,0E+6,0E+6,0,0,"{""fiscal_cost"": ""0.0000000000000000""}",256,0.015732,4068.22,cc34852bf76fa11e09fb0a00e4674931b6aa23de281c06444f8ce32e459188e3
+phase_out,B2,64,0E+6,0E+6,0,0,"{""fiscal_cost"": ""0.0000000000000000""}",1408,0.085199,751.18,cc34852bf76fa11e09fb0a00e4674931b6aa23de281c06444f8ce32e459188e3
+honest,B0,84,0E+28,0E+28,0,0,"{""fiscal_cost"": ""0.0""}",788,0.041762,2011.39,e8413a9d66925a60d091e7b2d181c624c04ef3e8c5bb32aba8f7308e479ac4b4
+honest,B1,84,0E+28,0E+28,0,0,"{""fiscal_cost"": ""0.0""}",324,0.017106,4910.53,e8413a9d66925a60d091e7b2d181c624c04ef3e8c5bb32aba8f7308e479ac4b4
+honest,B2,84,0E+28,0E+28,0,0,"{""fiscal_cost"": ""0.0""}",788,0.045970,1827.29,e8413a9d66925a60d091e7b2d181c624c04ef3e8c5bb32aba8f7308e479ac4b4

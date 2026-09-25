@@ -42,3 +42,13 @@
 - Canonical SAT replay was 3/3; canonical UNSAT/exhaustive agreement was 2/2.
 - Z3 independently handled the phase-out min/max structure that M2 boundary extraction does not recognize.
 - No M1/M2 semantic defect was discovered. Formal coverage remains limited to profitable-deviation existence.
+
+## M4 execution — 2026-09-26
+
+- Froze fixtures, ranges, scenarios, metrics, seed, sample sizes, and holdout in commit `385bc33`.
+- Did not enlarge ranges after results. Scholarship multipliers were inert because base action cost is zero; retained this negative sensitivity result.
+- B1 was strongly downward biased by candidate ordering; reported signed error rather than behavioral prevalence.
+- B2 separated opportunity from response: stacked/procurement opportunities remained while response fell to zero at hurdle 100.
+- Phase-out and honest reporting produced no profitable deviations in registered domains.
+- Rejected welfare aggregation because fixtures define no transferable social objective.
+- Monte Carlo converged toward the exact weighted share; intervals remain sampling-only.

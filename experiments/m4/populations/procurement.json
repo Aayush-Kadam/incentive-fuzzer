@@ -1,0 +1,1270 @@
+{
+  "id": "procurement",
+  "members": [
+    {
+      "id": "procurement-0",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "95"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-1",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "95"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-2",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "95"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-3",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "95"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-4",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "95"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-5",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "96"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-6",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "96"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-7",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "96"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-8",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "96"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-9",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "96"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-10",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "97"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-11",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "97"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-12",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "97"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-13",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "97"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-14",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "97"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-15",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "98"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-16",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "98"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-17",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "98"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-18",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "98"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-19",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "98"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-20",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "99"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-21",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "99"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-22",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "99"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-23",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "99"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-24",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "99"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-25",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "100"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-26",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "100"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-27",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "100"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-28",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "100"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-29",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "100"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-30",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "101"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-31",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "101"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-32",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "101"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-33",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "101"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-34",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "101"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-35",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "102"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-36",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "102"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-37",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "102"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-38",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "102"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-39",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "102"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-40",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "103"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-41",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "103"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-42",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "103"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-43",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "103"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-44",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "103"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-45",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "104"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-46",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "104"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-47",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "104"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-48",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "104"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-49",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "104"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-50",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "105"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "0",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-51",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "105"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "1",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-52",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "105"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "5",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-53",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "105"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "10",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    },
+    {
+      "id": "procurement-54",
+      "weight": "0.01818181818181818181818181818",
+      "state": {
+        "transaction_value": "105"
+      },
+      "cost_multiplier": "1",
+      "fixed_cost": "20",
+      "hurdle": "0",
+      "action_availability": [],
+      "provenance": {
+        "state": {
+          "provenance": "S",
+          "source": null,
+          "rationale": "precommitted synthetic grid"
+        },
+        "cost": {
+          "provenance": "A",
+          "source": null,
+          "rationale": "adversarial sensitivity bound"
+        }
+      }
+    }
+  ]
+}

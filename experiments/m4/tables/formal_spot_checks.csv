@@ -1,0 +1,3 @@
+check,status,witness_replay,message
+scholarship-boundary,FORMALLY_VIOLATED,PASS,Profitable deviation exists; witness replayed exactly.
+honest-negative-control,FORMALLY_SATISFIED_WITHIN_DOMAIN,n/a,No profitable deviation exists in the encoded domain and fragment.

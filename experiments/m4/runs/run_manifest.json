@@ -1,0 +1,74 @@
+{
+  "milestone": "M4",
+  "precommit": "research/M4_PRECOMMITMENT.md",
+  "engine_commit": "3373dc5bbcf25afb35ee1e283a25741a13c202e9",
+  "seed": 20260926,
+  "cases": [
+    "scholarship",
+    "phase_out",
+    "stacked",
+    "procurement",
+    "honest"
+  ],
+  "scenarios": [
+    {
+      "id": "B0",
+      "kind": "B0_FULL_OPTIMIZATION",
+      "candidate_limit": null,
+      "hurdle": "0"
+    },
+    {
+      "id": "B1",
+      "kind": "B1_LIMITED_SEARCH",
+      "candidate_limit": 3,
+      "hurdle": "0"
+    },
+    {
+      "id": "B2",
+      "kind": "B2_SATISFICING",
+      "candidate_limit": null,
+      "hurdle": "100"
+    }
+  ],
+  "weighted_exact": {
+    "profitable_share": "0.9",
+    "response_share": "0.9",
+    "mean_positive_gain": "99747.33333333333333333333333",
+    "max_gain": "99998",
+    "designer_change": {
+      "fiscal_cost": "90000",
+      "true_output": "-4.2"
+    },
+    "action_shares": {
+      "no_deviation": "0.1",
+      "reduce_work": "0.9"
+    }
+  },
+  "files": [
+    "experiments\\m4\\configs\\registered_design.json",
+    "experiments\\m4\\figures\\holdout.svg",
+    "experiments\\m4\\figures\\monte_carlo.svg",
+    "experiments\\m4\\figures\\scenario_summary.svg",
+    "experiments\\m4\\populations\\honest.json",
+    "experiments\\m4\\populations\\phase_out.json",
+    "experiments\\m4\\populations\\procurement.json",
+    "experiments\\m4\\populations\\scholarship.json",
+    "experiments\\m4\\populations\\stacked.json",
+    "experiments\\m4\\runs\\run_manifest.json",
+    "experiments\\m4\\runs\\summary.json",
+    "experiments\\m4\\tables\\break_even.csv",
+    "experiments\\m4\\tables\\formal_spot_checks.csv",
+    "experiments\\m4\\tables\\holdout.csv",
+    "experiments\\m4\\tables\\individual_results.csv",
+    "experiments\\m4\\tables\\monte_carlo.csv",
+    "experiments\\m4\\tables\\population_summary.csv",
+    "experiments\\m4\\tables\\robustness_cells.csv",
+    "experiments\\m4\\tables\\table1_robustness_by_fixture.csv",
+    "experiments\\m4\\tables\\table2_manipulation_cost_sensitivity.csv",
+    "experiments\\m4\\tables\\table3_hard_cutoff_vs_phase_out.csv",
+    "experiments\\m4\\tables\\table4_weighted_population.csv",
+    "experiments\\m4\\tables\\table5_monte_carlo_convergence.csv",
+    "experiments\\m4\\tables\\table6_negative_controls.csv",
+    "experiments\\m4\\tables\\weighted_population.csv"
+  ]
+}
