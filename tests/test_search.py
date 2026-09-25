@@ -16,7 +16,7 @@ EXAMPLES = ROOT / "examples"
 BENCH = ROOT / "benchmarks" / "m2" / "specs"
 
 
-def problem(path, states, controls, steps=None, actions=(), records=None):
+def problem(path, states, controls, steps=None, actions=(), records=None, action_kinds=None):
     spec = load_spec(path)
     domain = SearchDomain(
         {k: tuple(Decimal(str(x)) for x in v) for k, v in states.items()},
@@ -24,7 +24,7 @@ def problem(path, states, controls, steps=None, actions=(), records=None):
         {k: Decimal(str(v)) for k, v in (steps or {}).items()},
         None if records is None else tuple({k: Decimal(str(v)) for k, v in row.items()} for row in records),
     )
-    return SearchProblem(spec, domain, allowed_actions=actions)
+    return SearchProblem(spec, domain, allowed_actions=actions, action_kinds=action_kinds or {})
 
 
 @pytest.fixture
@@ -33,7 +33,8 @@ def scholarship_problem():
         {"true_income": [499999, 500000, 500001, 500002], "reported_income": [499999, 500000, 500001, 500002]},
         {"reduce_work": {"amount": [0, 1, 2, 3]}, "misreport_income": {"amount": [0, 1, 2, 3]}},
         {"true_income": 1, "reported_income": 1}, actions=("reduce_work",),
-        records=[{"true_income": x, "reported_income": x} for x in [499999, 500000, 500001, 500002]])
+        records=[{"true_income": x, "reported_income": x} for x in [499999, 500000, 500001, 500002]],
+        action_kinds={"reduce_work": "productive_effort"})
 
 
 def test_boundary_extraction_scholarship(scholarship_problem):
@@ -131,7 +132,7 @@ def test_frozen_benchmark_exhaustive_ground_truth(name, expected):
 
 def test_reported_finding_classification():
     p = problem(BENCH / "reported_cliff.yaml", {"true_income": range(0, 31), "reported_income": range(0, 31)},
-                {"deviation": {"amount": range(0, 11)}}, actions=("deviation",))
+                {"deviation": {"amount": range(0, 11)}}, actions=("deviation",), action_kinds={"deviation": "report_only"})
     findings = SearchEngine(p).run("boundary", SearchBudget(10000, 10000, 10)).findings
     assert findings and all(f.if_cwe_id == "IF-005" for f in findings)
 

@@ -72,6 +72,7 @@ class SearchProblem:
     property_id: str = "no_profitable_deviation"
     allowed_actions: tuple[str, ...] = ()
     assumptions: tuple[str, ...] = ("deterministic one-period utility",)
+    action_kinds: Mapping[str, str] = field(default_factory=dict)
 
     def actions(self) -> tuple[str, ...]:
         return self.allowed_actions or tuple(self.spec.actions)
@@ -313,7 +314,7 @@ def _designer_loss(base: EvaluationResult, result: EvaluationResult) -> Decimal 
 
 def _classify(problem: SearchProblem, candidate: Candidate, base: EvaluationResult, result: EvaluationResult) -> str:
     changed = [name for name in base.baseline_state.values if base.baseline_state.values[name] != result.resulting_state.values[name]]
-    if any(problem.spec.attributes[name].role == "reported" for name in changed): return "IF-005"
+    if problem.action_kinds.get(candidate.action_name) == "report_only": return "IF-005"
     if candidate.boundary_origin:
         boundary_rules = {b.rule for b in extract_boundaries(problem.spec) if b.attribute == candidate.boundary_origin.attribute}
         changed_rules = {name for name in base.outcome.rule_outputs if base.outcome.rule_outputs[name] != result.outcome.rule_outputs[name]}
@@ -321,7 +322,7 @@ def _classify(problem: SearchProblem, candidate: Candidate, base: EvaluationResu
         if result.resulting_state.values[candidate.boundary_origin.attribute] == candidate.boundary_origin.value:
             return "IF-002"
         return "IF-001"
-    if changed: return "IF-003"
+    if changed and problem.action_kinds.get(candidate.action_name) == "productive_effort": return "IF-003"
     return "UNCLASSIFIED_PROPERTY_VIOLATION"
 
 

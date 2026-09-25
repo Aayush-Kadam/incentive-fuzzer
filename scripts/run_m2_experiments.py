@@ -22,25 +22,25 @@ METHODS = list(SearchMethod)
 def dec(values): return tuple(Decimal(str(v)) for v in values)
 
 
-def make_problem(path, states, action, controls, records=None):
+def make_problem(path, states, action, controls, records=None, action_kind=None):
     spec = load_spec(path)
     domain = SearchDomain({k: dec(v) for k,v in states.items()},
                           {action: {k: dec(v) for k,v in controls.items()}},
                           {k: Decimal(1) for k in states},
                           None if records is None else tuple({k: Decimal(str(v)) for k,v in r.items()} for r in records))
-    return SearchProblem(spec, domain, allowed_actions=(action,))
+    return SearchProblem(spec, domain, allowed_actions=(action,), action_kinds={action: action_kind} if action_kind else {})
 
 
 canonical = {
     "scholarship_cliff": make_problem(ROOT/"examples/scholarship_cliff.yaml",
         {"true_income":[499998,499999,500000,500001,500002],"reported_income":[499998,499999,500000,500001,500002]},
-        "reduce_work", {"amount":range(0,6)}, [{"true_income":x,"reported_income":x} for x in range(499998,500003)]),
+        "reduce_work", {"amount":range(0,6)}, [{"true_income":x,"reported_income":x} for x in range(499998,500003)], "productive_effort"),
     "linear_phase_out": make_problem(ROOT/"examples/linear_phase_out.yaml",
         {"income":[479999,480000,480001,549999,550000,550001,619999,620000,620001]}, "reduce_income", {"amount":range(0,6)}),
     "stacked_programs": make_problem(ROOT/"examples/stacked_programs.yaml", {"income":range(0,21)}, "reduce_income", {"amount":range(0,6)}),
     "procurement_threshold": make_problem(ROOT/"examples/procurement_threshold.yaml", {"transaction_value":range(95,106)}, "reduce_scope", {"amount":range(0,11)}),
     "honest_reporting_control": make_problem(ROOT/"examples/honest_reporting_control.yaml",
-        {"true_income":range(0,21),"reported_income":range(0,21)}, "misreport", {"amount":range(0,11)}),
+        {"true_income":range(0,21),"reported_income":range(0,21)}, "misreport", {"amount":range(0,11)}, action_kind="report_only"),
 }
 
 
@@ -81,7 +81,7 @@ for name,problem in canonical.items():
 synthetic=[]
 for path in sorted((ROOT/"benchmarks/m2/specs").glob("*.yaml")):
     spec=load_spec(path); states={k:range(0,31) for k in spec.attributes}
-    p=make_problem(path,states,"deviation",{"amount":range(0,11)})
+    p=make_problem(path,states,"deviation",{"amount":range(0,11)}, action_kind="report_only" if "reported" in path.stem else None)
     case_rows,_=metrics(path.stem,p); synthetic.extend(case_rows)
 
 fields=list(rows[0]);
