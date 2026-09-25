@@ -7,7 +7,7 @@ name = "incentive-fuzzer"
 version = "0.1.0"
 description = "Deterministic semantic core for adversarial testing of economic rules"
 requires-python = ">=3.12"
-dependencies = ["PyYAML==6.0.3"]
+dependencies = ["PyYAML==6.0.3", "z3-solver==4.15.3.0"]
 
 [project.scripts]
 incentive-fuzzer = "incentive_fuzzer.cli:main"

@@ -14,10 +14,12 @@ from .core import (
     spec_hash,
 )
 from .search import SearchBudget, SearchDomain, SearchEngine, SearchMethod, SearchProblem
+from .verify import FormalDomain, FormalStatus, FormalVerifier
 
 __all__ = [
     "ActionInstance", "EvaluationResult", "IncentiveSpecError",
     "PropertyResult", "PropertyStatus", "canonical_yaml", "evaluate",
     "evaluate_properties", "load_spec", "parse_spec", "spec_hash",
     "SearchBudget", "SearchDomain", "SearchEngine", "SearchMethod", "SearchProblem",
+    "FormalDomain", "FormalStatus", "FormalVerifier",
 ]
