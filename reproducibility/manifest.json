@@ -1,0 +1,43 @@
+{
+  "artifact_hashes": {
+    "benchmarks/if_bench/v0.1/manifests/IF_BENCH_MANIFEST.json": "4696b10170aabec2dae8741501658a9a131ab70655bd14d99d25a8237b0245ef",
+    "benchmarks/m75_stress/v0.1/MANIFEST.json": "dc01ed39440842f9a99bfadb37c670d8cc9bfe7636e633b79a3929a734295dbb",
+    "experiments/m7/runs/summary.json": "a5f381383dfc2aba1109873ef8ff7381d938aeb12781e7b1c49cf16d8684be08",
+    "experiments/m75/runs/summary.json": "49b7cfe43b1939f443098c946b403276c9eb5dae8141f5eb3e3f0625e35bf5f5",
+    "research/m8_entry/HEADLINE_TABLES.md": "63405bb161c4646f7bd504a09739b7aa5031f39a1cace7374a5e2ff90c61cb22",
+    "research/m8_entry/if_bench_method_comparison.svg": "8ab16ebb960cbd9d6fb622aed7c6148062de3af1c9cff4e5d214c5b3406568ca"
+  },
+  "benchmark_version": "IF-Bench v0.1",
+  "checks": {
+    "b5_satisfied": 11,
+    "b5_supported": 26,
+    "b5_unsupported": 4,
+    "b5_violated": 15,
+    "m7_cases": 30,
+    "m7_detected": 19,
+    "m7_false_positives": 0,
+    "stress_agreements": 3
+  },
+  "dependencies": {
+    "PyYAML": "6.0.3",
+    "pytest": "8.4.2",
+    "pytest-cov": "7.0.0",
+    "z3": "4.15.3",
+    "z3-solver": "4.15.3.0"
+  },
+  "git_commit": "fcaca60e8444fdea866504ff8388892be3cc5923",
+  "m75_stress_version": "v0.1",
+  "mode": "full",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "runtime_seconds": 41.53038650000235,
+  "seeds": {
+    "m2": 17,
+    "m4": 20260926,
+    "m7": 20260926
+  },
+  "status": "PASS",
+  "test_count": 235,
+  "test_summary": "235 passed in 34.17s",
+  "timestamp_utc": "2026-09-26T18:40:20.097660+00:00"
+}
