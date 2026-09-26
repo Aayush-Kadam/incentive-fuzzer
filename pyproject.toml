@@ -5,8 +5,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "incentive-fuzzer"
 version = "0.1.0"
-description = "Deterministic semantic core for adversarial testing of economic rules"
+description = "Research preview for counterexample-driven adversarial testing of bounded economic rules"
+readme = "README.md"
 requires-python = ">=3.12"
+authors = [{name = "Aayush Kadam"}]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
 dependencies = ["PyYAML==6.0.3", "z3-solver==4.15.3.0"]
 
 [project.scripts]

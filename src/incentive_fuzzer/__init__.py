@@ -30,6 +30,7 @@ from .repair import (GateStatus, MutationResult, RegressionCheck, RepairBudget, 
 from .benchmark import (BaselineMethod, BenchmarkCase, BenchmarkError, BenchmarkFinding,
     CaseRun, HiddenLabel, Score, case_hash, formal_confirm, load_labels_for_scoring,
     load_runtime_case, load_runtime_suite, replay, run_case, score_frozen_runs)
+from .api import run_benchmark, search_spec, validate_spec, verify_spec
 
 __all__ = [
     "ActionInstance", "EvaluationResult", "IncentiveSpecError",
@@ -55,4 +56,5 @@ __all__ = [
     "CaseRun", "HiddenLabel", "Score", "case_hash", "formal_confirm",
     "load_labels_for_scoring", "load_runtime_case", "load_runtime_suite",
     "replay", "run_case", "score_frozen_runs",
+    "validate_spec", "search_spec", "verify_spec", "run_benchmark",
 ]
