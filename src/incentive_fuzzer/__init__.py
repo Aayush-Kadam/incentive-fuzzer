@@ -22,6 +22,11 @@ from .game import (BasinResult, BestResponse, DynamicsResult, DynamicsStatus, Eq
     EquilibriumSet, EquilibriumStatus, Game, InteractionFinding, JointAction, PayoffProfile,
     Player, PlayerType, UpdateMode, best_response, enumerate_basins, enumerate_pure_nash,
     evaluate_game, game_hash, replay_equilibrium, run_best_response_dynamics, verify_pure_nash)
+from .repair import (GateStatus, MutationResult, RegressionCheck, RepairBudget, RepairCandidate,
+    RepairConstraint, RepairEngine, RepairEvaluation, RepairFrontier, RepairObjective,
+    RepairParameter, RepairProblem, RepairSearchResult, RepairSearchStatus, RepairStatus,
+    classify_evaluation, edit_parameters, hard_cutoff_to_phase_out, mutation_fragility,
+    mutation_values, pareto_frontier, regression_gate, run_repair_loop)
 
 __all__ = [
     "ActionInstance", "EvaluationResult", "IncentiveSpecError",
@@ -37,4 +42,10 @@ __all__ = [
     "DynamicsResult", "DynamicsStatus", "BasinResult", "UpdateMode", "evaluate_game",
     "best_response", "verify_pure_nash", "enumerate_pure_nash", "replay_equilibrium",
     "run_best_response_dynamics", "enumerate_basins", "game_hash",
+    "RepairStatus", "GateStatus", "RepairSearchStatus", "RepairBudget", "RepairParameter",
+    "RepairConstraint", "RepairObjective", "RepairProblem", "RepairCandidate",
+    "RepairEvaluation", "RepairFrontier", "RepairSearchResult", "RepairEngine",
+    "RegressionCheck", "MutationResult", "edit_parameters", "hard_cutoff_to_phase_out",
+    "classify_evaluation", "regression_gate", "pareto_frontier", "mutation_values",
+    "mutation_fragility", "run_repair_loop",
 ]
