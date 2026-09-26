@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this research preview, cite the software and consult its limitations register."
+title: "Incentive Fuzzer: Adversarial Testing for Economic Rules"
+type: software
+authors:
+  - family-names: Kadam
+    given-names: Aayush
+version: 0.1.0-research-preview
+date-released: 2026-09-26
+license: "NOASSERTION"
+abstract: "A research prototype for counterexample-driven adversarial testing of bounded economic rules."
+repository-code: "REPOSITORY_URL_TO_BE_ASSIGNED_BEFORE_PUBLICATION"
+
