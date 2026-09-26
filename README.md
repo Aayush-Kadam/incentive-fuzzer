@@ -49,6 +49,8 @@ Deterministic reference evaluator
 
 The evaluator is the replay oracle. Candidate generators and solver witnesses do not become evidence until replayed where applicable. See `docs/ARCHITECTURE.md` and `research/m8_entry/architecture.svg`.
 
+![Incentive Fuzzer evidence architecture](research/m8_entry/architecture.svg)
+
 ## What it can currently do
 
 - Parse and validate the restricted IncentiveSpec v0.1 language.
@@ -70,7 +72,7 @@ It does not provide complete program audits, representative real-world accuracy,
 Python 3.12 is required.
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/Aayush-Kadam/incentive-fuzzer.git
 cd incentive-fuzzer
 python -m venv .venv
 .venv\Scripts\python -m pip install --upgrade pip
