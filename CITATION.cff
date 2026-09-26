@@ -5,8 +5,10 @@ type: software
 authors:
   - family-names: Kadam
     given-names: Aayush
-version: 0.1.0-research-preview
+version: v0.1.0-research-preview
 date-released: 2026-09-26
+doi: "10.5281/zenodo.22982554"
 license: "NOASSERTION"
 abstract: "A research prototype for counterexample-driven adversarial testing of bounded economic rules."
 repository-code: "https://github.com/Aayush-Kadam/incentive-fuzzer"
+repository-artifact: "https://zenodo.org/records/22982554"

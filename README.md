@@ -2,6 +2,8 @@
 
 **Adversarial Testing for Economic Rules**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22982554.svg)](https://doi.org/10.5281/zenodo.22982554)
+
 Economic rules create incentives. Sometimes an actor can profit by changing behavior in a way the rule designer did not intend. Incentive Fuzzer treats bounded economic rules like software under adversarial testing: specify the rule and feasible actions, search for counterexamples, replay them exactly, formally cross-check supported cases, and regression-test proposed repairs.
 
 This repository is a **research preview**, not a production policy-auditing system. It was created by Aayush Kadam.
@@ -178,4 +180,4 @@ The benchmark is small, US-heavy, scalar, and threshold-heavy. Boundary-only is 
 
 ## Citation / author
 
-Author and project lead: **Aayush Kadam**. Citation metadata is provided in `CITATION.cff`. No institutional affiliation is asserted. External benchmark sources retain their own attribution and rights; see `bibliography/SOURCES.md` and the benchmark source registers.
+Author and project lead: **Aayush Kadam**. Cite software version **v0.1.0-research-preview** using the version-specific DOI [10.5281/zenodo.22982554](https://doi.org/10.5281/zenodo.22982554). The [Zenodo record](https://zenodo.org/records/22982554), [GitHub release](https://github.com/Aayush-Kadam/incentive-fuzzer/releases/tag/v0.1.0-research-preview), and [research-preview PDF](paper/output/pdf/incentive-fuzzer-research-preview.pdf) identify the archived artifact. Citation metadata is provided in `CITATION.cff`. No institutional affiliation is asserted. External benchmark sources retain their own attribution and rights; see `bibliography/SOURCES.md` and the benchmark source registers.
