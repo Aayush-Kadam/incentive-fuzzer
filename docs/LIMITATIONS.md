@@ -29,3 +29,11 @@
 - Layer regressions remain bounded by M2 domains, M3's single formal property, M4's synthetic populations, and M5's pure finite games.
 - Mutation fragility covers only exact registered neighbors and does not establish global stability.
 - A passing repair is safe only relative to the declared regression suite; omitted actions, states, objectives, or equilibrium concepts remain risks.
+- IF-Bench external rules are only partially encoded; the benchmark does not provide complete program-level audits.
+- External action spaces, normalized benefit/coverage valuations, threat models, and pathology mappings remain project-authored.
+- IF-Bench v0.1 is small, US-heavy, scalar, and threshold-heavy; boundary-only matched combined recall with fewer evaluations.
+- No independent economist or domain expert has yet validated the external encodings, actions, valuations, or classifications.
+- The M7.5 three-case non-threshold supplement is separate exploratory stress evidence, not IF-Bench v0.2 or a representative benchmark.
+- B5 SMT-only supports 26 of 30 IF-Bench cases; transaction splitting and composition adapters remain unsupported.
+- Formal status agreement does not convert intended responses into vulnerabilities; interpretation remains a separate economic judgment.
+- No empirical prevalence, legality, causal, welfare, or representative real-world auditing-accuracy claim is supported.
