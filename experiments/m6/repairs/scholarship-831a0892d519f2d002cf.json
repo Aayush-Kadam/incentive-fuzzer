@@ -1,0 +1,105 @@
+{
+  "candidate": {
+    "repair_id": "831a0892d519f2d002cf",
+    "parent_spec_hash": "1937c8cf47ddd621b89be30f778e8001eff3ba1a9e2b32696567ad03dec923e5",
+    "candidate_spec_hash": "30318f42744cea514709ac3e3040cf0a9b985f2aacdb2932dde936ed25e00503",
+    "parameter_changes": {
+      "phase_out_start": "480000",
+      "phase_out_end": "580000"
+    },
+    "distance_from_original": "1.0",
+    "repair_family": "STRUCTURAL_PHASE_OUT",
+    "provenance": "STRUCTURAL_TRANSFORM",
+    "repair_iteration": 0,
+    "parent_repair_id": null,
+    "counterexample_id": null
+  },
+  "metrics": {
+    "max_residual_gain": "0",
+    "original_max_gain": "99999",
+    "population_profitable_share": "0",
+    "population_max_gain": "0",
+    "fiscal_deviation": "48747.5",
+    "positive_fiscal_deviation": "48747.5",
+    "schedule_distance": "979930",
+    "recipient_impact": "1",
+    "coverage": "100000",
+    "max_benefit": "80005",
+    "segments": "3",
+    "distance": "1.0",
+    "complexity": "3",
+    "harmful_equilibria": "0",
+    "mutation_fragility": "0.4"
+  },
+  "constraints": [
+    {
+      "constraint_id": "coverage",
+      "passed": true,
+      "actual": "100000",
+      "operator": ">=",
+      "bound": "50000"
+    },
+    {
+      "constraint_id": "benefit_cap",
+      "passed": true,
+      "actual": "80005",
+      "operator": "<=",
+      "bound": "100000"
+    },
+    {
+      "constraint_id": "segments",
+      "passed": true,
+      "actual": "3",
+      "operator": "<=",
+      "bound": "3"
+    }
+  ],
+  "regressions": [
+    {
+      "layer": "M2",
+      "check": "original witness replay",
+      "status": "FIXED",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M2",
+      "check": "fresh exhaustive search",
+      "status": "EXHAUSTIVE_NO_VIOLATION",
+      "passed": true,
+      "details": {
+        "findings": 0
+      }
+    },
+    {
+      "layer": "M2",
+      "check": "combined search",
+      "status": "NO_VIOLATION_FOUND_WITHIN_BUDGET",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M3",
+      "check": "formal profitable deviation",
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M4",
+      "check": "frozen population exposure",
+      "status": "PASS",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M5",
+      "check": "equilibrium regression",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    }
+  ],
+  "repair_status": "TARGET_FIXED",
+  "gate_status": "REPAIR_PASS"
+}

@@ -34,3 +34,16 @@ player-local types and finite actions
 ```
 
 Best-response dynamics consume the same exact evaluator but remain separate from equilibrium discovery. M1–M4 modules do not depend on the game layer.
+
+## M6 repair layer
+
+```text
+target counterexample + finite repair space
+                  -> deterministic candidate generation
+                  -> transformed spec or game
+                  -> M2/M3/M4/M5 regression adapters
+                  -> constraint gate + mutation stress
+                  -> explicit repair status + Pareto frontier
+```
+
+The repair module owns mechanism-independent identities, constraints, dominance, mutation neighborhoods, and bounded iteration. Registered experiment adapters construct layer-specific domains. This keeps fixture names out of structural transformation logic while making economic evaluation assumptions explicit.

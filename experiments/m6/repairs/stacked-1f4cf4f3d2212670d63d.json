@@ -1,0 +1,88 @@
+{
+  "candidate": {
+    "repair_id": "1f4cf4f3d2212670d63d",
+    "parent_spec_hash": "7eaba7e659348df1d3aa14e5495a3068cb4ac07dff9e8f266d9b03ecd504ca99",
+    "candidate_spec_hash": "b78bbf73271127a369845044c99cf2c791a4e15ab8d5db8ab172deaa0e75fc7b",
+    "parameter_changes": {
+      "award_a": "0",
+      "award_b": "1"
+    },
+    "distance_from_original": "1.8",
+    "repair_family": "PARAMETER_EDIT",
+    "provenance": "PARAMETER_GRID",
+    "repair_iteration": 0,
+    "parent_repair_id": null,
+    "counterexample_id": null
+  },
+  "metrics": {
+    "max_residual_gain": "0",
+    "original_max_gain": "11",
+    "population_profitable_share": "0",
+    "population_max_gain": "0",
+    "fiscal_deviation": "0",
+    "positive_fiscal_deviation": "0",
+    "schedule_distance": "0",
+    "recipient_impact": "0",
+    "distance": "1.8",
+    "complexity": "1",
+    "harmful_equilibria": "0",
+    "mutation_fragility": "0",
+    "award_a": "0",
+    "award_b": "1"
+  },
+  "constraints": [
+    {
+      "constraint_id": "program_a_min",
+      "passed": false,
+      "actual": "0",
+      "operator": ">=",
+      "bound": "4"
+    },
+    {
+      "constraint_id": "program_b_min",
+      "passed": false,
+      "actual": "1",
+      "operator": ">=",
+      "bound": "3"
+    }
+  ],
+  "regressions": [
+    {
+      "layer": "M2",
+      "check": "fresh exhaustive search",
+      "status": "EXHAUSTIVE_NO_VIOLATION",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M2",
+      "check": "combined search",
+      "status": "NO_VIOLATION_FOUND_WITHIN_BUDGET",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M3",
+      "check": "formal profitable deviation",
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M4",
+      "check": "frozen population exposure",
+      "status": "PASS",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "layer": "M5",
+      "check": "equilibrium regression",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    }
+  ],
+  "repair_status": "CONSTRAINT_VIOLATION",
+  "gate_status": "REPAIR_FAIL"
+}

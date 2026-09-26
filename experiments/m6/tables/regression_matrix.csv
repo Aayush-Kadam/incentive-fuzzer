@@ -1,0 +1,352 @@
+problem,repair_id,layer,check,status,passed
+scholarship,b1919b0ba83349d09f00,M2,original witness replay,SURVIVES,False
+scholarship,b1919b0ba83349d09f00,M2,fresh exhaustive search,VIOLATION_FOUND,False
+scholarship,b1919b0ba83349d09f00,M2,combined search,VIOLATION_FOUND,False
+scholarship,b1919b0ba83349d09f00,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+scholarship,b1919b0ba83349d09f00,M4,frozen population exposure,PASS,True
+scholarship,b1919b0ba83349d09f00,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,c4a4eebfd6095415f728,M2,original witness replay,SURVIVES,False
+scholarship,c4a4eebfd6095415f728,M2,fresh exhaustive search,VIOLATION_FOUND,False
+scholarship,c4a4eebfd6095415f728,M2,combined search,VIOLATION_FOUND,False
+scholarship,c4a4eebfd6095415f728,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+scholarship,c4a4eebfd6095415f728,M4,frozen population exposure,PASS,True
+scholarship,c4a4eebfd6095415f728,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,d505721b7b400de0f561,M2,original witness replay,SURVIVES,False
+scholarship,d505721b7b400de0f561,M2,fresh exhaustive search,VIOLATION_FOUND,False
+scholarship,d505721b7b400de0f561,M2,combined search,VIOLATION_FOUND,False
+scholarship,d505721b7b400de0f561,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+scholarship,d505721b7b400de0f561,M4,frozen population exposure,FAIL,False
+scholarship,d505721b7b400de0f561,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,4ada292fbcf4dcd5eb85,M2,original witness replay,SURVIVES,False
+scholarship,4ada292fbcf4dcd5eb85,M2,fresh exhaustive search,VIOLATION_FOUND,False
+scholarship,4ada292fbcf4dcd5eb85,M2,combined search,VIOLATION_FOUND,False
+scholarship,4ada292fbcf4dcd5eb85,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+scholarship,4ada292fbcf4dcd5eb85,M4,frozen population exposure,FAIL,False
+scholarship,4ada292fbcf4dcd5eb85,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,0626fafb451bccd703a7,M2,original witness replay,FIXED,True
+scholarship,0626fafb451bccd703a7,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+scholarship,0626fafb451bccd703a7,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+scholarship,0626fafb451bccd703a7,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+scholarship,0626fafb451bccd703a7,M4,frozen population exposure,PASS,True
+scholarship,0626fafb451bccd703a7,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,0ebbea0f86170931d318,M2,original witness replay,SURVIVES,False
+scholarship,0ebbea0f86170931d318,M2,fresh exhaustive search,VIOLATION_FOUND,False
+scholarship,0ebbea0f86170931d318,M2,combined search,VIOLATION_FOUND,False
+scholarship,0ebbea0f86170931d318,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+scholarship,0ebbea0f86170931d318,M4,frozen population exposure,FAIL,False
+scholarship,0ebbea0f86170931d318,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,d09e37eafc0fd46b2caf,M2,original witness replay,SURVIVES,False
+scholarship,d09e37eafc0fd46b2caf,M2,fresh exhaustive search,VIOLATION_FOUND,False
+scholarship,d09e37eafc0fd46b2caf,M2,combined search,VIOLATION_FOUND,False
+scholarship,d09e37eafc0fd46b2caf,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+scholarship,d09e37eafc0fd46b2caf,M4,frozen population exposure,FAIL,False
+scholarship,d09e37eafc0fd46b2caf,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,8b746b645d58b6cef693,M2,original witness replay,SURVIVES,False
+scholarship,8b746b645d58b6cef693,M2,fresh exhaustive search,VIOLATION_FOUND,False
+scholarship,8b746b645d58b6cef693,M2,combined search,VIOLATION_FOUND,False
+scholarship,8b746b645d58b6cef693,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+scholarship,8b746b645d58b6cef693,M4,frozen population exposure,FAIL,False
+scholarship,8b746b645d58b6cef693,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,831a0892d519f2d002cf,M2,original witness replay,FIXED,True
+scholarship,831a0892d519f2d002cf,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+scholarship,831a0892d519f2d002cf,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+scholarship,831a0892d519f2d002cf,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+scholarship,831a0892d519f2d002cf,M4,frozen population exposure,PASS,True
+scholarship,831a0892d519f2d002cf,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,219127fedc77e0be17fd,M2,original witness replay,FIXED,True
+scholarship,219127fedc77e0be17fd,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+scholarship,219127fedc77e0be17fd,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+scholarship,219127fedc77e0be17fd,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+scholarship,219127fedc77e0be17fd,M4,frozen population exposure,PASS,True
+scholarship,219127fedc77e0be17fd,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,5cdc95d09bdf5cc68824,M2,original witness replay,FIXED,True
+scholarship,5cdc95d09bdf5cc68824,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+scholarship,5cdc95d09bdf5cc68824,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+scholarship,5cdc95d09bdf5cc68824,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+scholarship,5cdc95d09bdf5cc68824,M4,frozen population exposure,PASS,True
+scholarship,5cdc95d09bdf5cc68824,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+scholarship,7f348d43069714689b31,M2,original witness replay,FIXED,True
+scholarship,7f348d43069714689b31,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+scholarship,7f348d43069714689b31,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+scholarship,7f348d43069714689b31,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+scholarship,7f348d43069714689b31,M4,frozen population exposure,PASS,True
+scholarship,7f348d43069714689b31,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,3f46601afc16fe865411,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+stacked,3f46601afc16fe865411,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+stacked,3f46601afc16fe865411,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+stacked,3f46601afc16fe865411,M4,frozen population exposure,PASS,True
+stacked,3f46601afc16fe865411,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,1f4cf4f3d2212670d63d,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+stacked,1f4cf4f3d2212670d63d,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+stacked,1f4cf4f3d2212670d63d,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+stacked,1f4cf4f3d2212670d63d,M4,frozen population exposure,PASS,True
+stacked,1f4cf4f3d2212670d63d,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,0e17827b3a20d62e8e35,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,0e17827b3a20d62e8e35,M2,combined search,VIOLATION_FOUND,False
+stacked,0e17827b3a20d62e8e35,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,0e17827b3a20d62e8e35,M4,frozen population exposure,FAIL,False
+stacked,0e17827b3a20d62e8e35,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,27afba5a1064817f3e82,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,27afba5a1064817f3e82,M2,combined search,VIOLATION_FOUND,False
+stacked,27afba5a1064817f3e82,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,27afba5a1064817f3e82,M4,frozen population exposure,FAIL,False
+stacked,27afba5a1064817f3e82,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,e90b560842d9377a8045,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,e90b560842d9377a8045,M2,combined search,VIOLATION_FOUND,False
+stacked,e90b560842d9377a8045,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,e90b560842d9377a8045,M4,frozen population exposure,FAIL,False
+stacked,e90b560842d9377a8045,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,226ca5d2ac025d3f0db5,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,226ca5d2ac025d3f0db5,M2,combined search,VIOLATION_FOUND,False
+stacked,226ca5d2ac025d3f0db5,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,226ca5d2ac025d3f0db5,M4,frozen population exposure,FAIL,False
+stacked,226ca5d2ac025d3f0db5,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,f049b41fb2127ebee85f,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,f049b41fb2127ebee85f,M2,combined search,VIOLATION_FOUND,False
+stacked,f049b41fb2127ebee85f,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,f049b41fb2127ebee85f,M4,frozen population exposure,FAIL,False
+stacked,f049b41fb2127ebee85f,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,8c7869b2ee072d462f54,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,8c7869b2ee072d462f54,M2,combined search,VIOLATION_FOUND,False
+stacked,8c7869b2ee072d462f54,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,8c7869b2ee072d462f54,M4,frozen population exposure,FAIL,False
+stacked,8c7869b2ee072d462f54,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,67f7d59ef950e2758113,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,67f7d59ef950e2758113,M2,combined search,VIOLATION_FOUND,False
+stacked,67f7d59ef950e2758113,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,67f7d59ef950e2758113,M4,frozen population exposure,FAIL,False
+stacked,67f7d59ef950e2758113,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,e0d85c12f200614a6197,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,e0d85c12f200614a6197,M2,combined search,VIOLATION_FOUND,False
+stacked,e0d85c12f200614a6197,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,e0d85c12f200614a6197,M4,frozen population exposure,FAIL,False
+stacked,e0d85c12f200614a6197,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,8748097fa704bfb241e6,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,8748097fa704bfb241e6,M2,combined search,VIOLATION_FOUND,False
+stacked,8748097fa704bfb241e6,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,8748097fa704bfb241e6,M4,frozen population exposure,FAIL,False
+stacked,8748097fa704bfb241e6,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,c1f02fb323bb5611e1c2,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,c1f02fb323bb5611e1c2,M2,combined search,VIOLATION_FOUND,False
+stacked,c1f02fb323bb5611e1c2,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,c1f02fb323bb5611e1c2,M4,frozen population exposure,FAIL,False
+stacked,c1f02fb323bb5611e1c2,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,8a339d64107eb1325bd4,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,8a339d64107eb1325bd4,M2,combined search,VIOLATION_FOUND,False
+stacked,8a339d64107eb1325bd4,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,8a339d64107eb1325bd4,M4,frozen population exposure,FAIL,False
+stacked,8a339d64107eb1325bd4,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,670e553ddd8e4d408e6b,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,670e553ddd8e4d408e6b,M2,combined search,VIOLATION_FOUND,False
+stacked,670e553ddd8e4d408e6b,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,670e553ddd8e4d408e6b,M4,frozen population exposure,FAIL,False
+stacked,670e553ddd8e4d408e6b,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,d1aa8daedfec8dc3d847,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,d1aa8daedfec8dc3d847,M2,combined search,VIOLATION_FOUND,False
+stacked,d1aa8daedfec8dc3d847,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,d1aa8daedfec8dc3d847,M4,frozen population exposure,FAIL,False
+stacked,d1aa8daedfec8dc3d847,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,1d9c0bf498ef548c37f9,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,1d9c0bf498ef548c37f9,M2,combined search,VIOLATION_FOUND,False
+stacked,1d9c0bf498ef548c37f9,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,1d9c0bf498ef548c37f9,M4,frozen population exposure,FAIL,False
+stacked,1d9c0bf498ef548c37f9,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,819c6858fb2eacf0a4a0,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,819c6858fb2eacf0a4a0,M2,combined search,VIOLATION_FOUND,False
+stacked,819c6858fb2eacf0a4a0,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,819c6858fb2eacf0a4a0,M4,frozen population exposure,FAIL,False
+stacked,819c6858fb2eacf0a4a0,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,a6afeb8c07e16c4de725,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,a6afeb8c07e16c4de725,M2,combined search,VIOLATION_FOUND,False
+stacked,a6afeb8c07e16c4de725,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,a6afeb8c07e16c4de725,M4,frozen population exposure,FAIL,False
+stacked,a6afeb8c07e16c4de725,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+stacked,8027bf5fef48bd88947d,M2,fresh exhaustive search,VIOLATION_FOUND,False
+stacked,8027bf5fef48bd88947d,M2,combined search,VIOLATION_FOUND,False
+stacked,8027bf5fef48bd88947d,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+stacked,8027bf5fef48bd88947d,M4,frozen population exposure,FAIL,False
+stacked,8027bf5fef48bd88947d,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,bfce042c6cdd6ab21b10,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,bfce042c6cdd6ab21b10,M2,combined search,VIOLATION_FOUND,False
+procurement,bfce042c6cdd6ab21b10,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,bfce042c6cdd6ab21b10,M4,frozen population exposure,FAIL,False
+procurement,bfce042c6cdd6ab21b10,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,ba9575d157146140b566,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,ba9575d157146140b566,M2,combined search,VIOLATION_FOUND,False
+procurement,ba9575d157146140b566,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,ba9575d157146140b566,M4,frozen population exposure,FAIL,False
+procurement,ba9575d157146140b566,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,33f3c547dc5371c7c364,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,33f3c547dc5371c7c364,M2,combined search,VIOLATION_FOUND,False
+procurement,33f3c547dc5371c7c364,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,33f3c547dc5371c7c364,M4,frozen population exposure,FAIL,False
+procurement,33f3c547dc5371c7c364,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,6ae9d627d2e142e5ab6f,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,6ae9d627d2e142e5ab6f,M2,combined search,VIOLATION_FOUND,False
+procurement,6ae9d627d2e142e5ab6f,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,6ae9d627d2e142e5ab6f,M4,frozen population exposure,FAIL,False
+procurement,6ae9d627d2e142e5ab6f,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,022551698298d5480568,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+procurement,022551698298d5480568,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+procurement,022551698298d5480568,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+procurement,022551698298d5480568,M4,frozen population exposure,PASS,True
+procurement,022551698298d5480568,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,f18b6958859943beb98c,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,f18b6958859943beb98c,M2,combined search,VIOLATION_FOUND,False
+procurement,f18b6958859943beb98c,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,f18b6958859943beb98c,M4,frozen population exposure,FAIL,False
+procurement,f18b6958859943beb98c,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,13a42a90b5f321a85541,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,13a42a90b5f321a85541,M2,combined search,VIOLATION_FOUND,False
+procurement,13a42a90b5f321a85541,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,13a42a90b5f321a85541,M4,frozen population exposure,FAIL,False
+procurement,13a42a90b5f321a85541,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,b52b1341c048494b39f3,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,b52b1341c048494b39f3,M2,combined search,VIOLATION_FOUND,False
+procurement,b52b1341c048494b39f3,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,b52b1341c048494b39f3,M4,frozen population exposure,FAIL,False
+procurement,b52b1341c048494b39f3,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,2ac30cc28e8933ed174a,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,2ac30cc28e8933ed174a,M2,combined search,VIOLATION_FOUND,False
+procurement,2ac30cc28e8933ed174a,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,2ac30cc28e8933ed174a,M4,frozen population exposure,FAIL,False
+procurement,2ac30cc28e8933ed174a,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,a601fdc43cd1a98e6c6e,M2,fresh exhaustive search,VIOLATION_FOUND,False
+procurement,a601fdc43cd1a98e6c6e,M2,combined search,VIOLATION_FOUND,False
+procurement,a601fdc43cd1a98e6c6e,M3,formal profitable deviation,FORMALLY_VIOLATED,False
+procurement,a601fdc43cd1a98e6c6e,M4,frozen population exposure,FAIL,False
+procurement,a601fdc43cd1a98e6c6e,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,64836388dd87ba6bec4c,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+procurement,64836388dd87ba6bec4c,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+procurement,64836388dd87ba6bec4c,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+procurement,64836388dd87ba6bec4c,M4,frozen population exposure,PASS,True
+procurement,64836388dd87ba6bec4c,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+procurement,5975ed545cfb74a58aa2,M2,fresh exhaustive search,EXHAUSTIVE_NO_VIOLATION,True
+procurement,5975ed545cfb74a58aa2,M2,combined search,NO_VIOLATION_FOUND_WITHIN_BUDGET,True
+procurement,5975ed545cfb74a58aa2,M3,formal profitable deviation,FORMALLY_SATISFIED_WITHIN_DOMAIN,True
+procurement,5975ed545cfb74a58aa2,M4,frozen population exposure,PASS,True
+procurement,5975ed545cfb74a58aa2,M5,equilibrium regression,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f6e1f6f8450707e28454,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f6e1f6f8450707e28454,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f6e1f6f8450707e28454,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f6e1f6f8450707e28454,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,2e1f5ad9c97837464105,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2e1f5ad9c97837464105,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2e1f5ad9c97837464105,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2e1f5ad9c97837464105,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,3628f45a0a5fbc9cf38b,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,3628f45a0a5fbc9cf38b,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,3628f45a0a5fbc9cf38b,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,3628f45a0a5fbc9cf38b,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,4549e85183a34031ea2b,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4549e85183a34031ea2b,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4549e85183a34031ea2b,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4549e85183a34031ea2b,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,3541a351acd70aa1aa65,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,3541a351acd70aa1aa65,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,3541a351acd70aa1aa65,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,3541a351acd70aa1aa65,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,4694d0543657f06b1fe0,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4694d0543657f06b1fe0,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4694d0543657f06b1fe0,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4694d0543657f06b1fe0,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,e0ab6a88ffed282958e6,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,e0ab6a88ffed282958e6,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,e0ab6a88ffed282958e6,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,e0ab6a88ffed282958e6,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,57b3daa17879247e039b,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,57b3daa17879247e039b,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,57b3daa17879247e039b,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,57b3daa17879247e039b,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,b6ac4d0473d286d98183,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b6ac4d0473d286d98183,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b6ac4d0473d286d98183,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b6ac4d0473d286d98183,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,1001db612369c39306ac,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,1001db612369c39306ac,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,1001db612369c39306ac,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,1001db612369c39306ac,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,2279c523180e3ff30d10,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2279c523180e3ff30d10,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2279c523180e3ff30d10,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2279c523180e3ff30d10,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,30b4f34cca5a742c5d58,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,30b4f34cca5a742c5d58,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,30b4f34cca5a742c5d58,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,30b4f34cca5a742c5d58,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,4ca1a66394ac6d7cd09f,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4ca1a66394ac6d7cd09f,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4ca1a66394ac6d7cd09f,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,4ca1a66394ac6d7cd09f,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,0bfc52567aca416be3e7,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,0bfc52567aca416be3e7,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,0bfc52567aca416be3e7,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,0bfc52567aca416be3e7,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,01121e774c4f955968db,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,01121e774c4f955968db,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,01121e774c4f955968db,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,01121e774c4f955968db,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,b3d9bcbaadfa28462695,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b3d9bcbaadfa28462695,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b3d9bcbaadfa28462695,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b3d9bcbaadfa28462695,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,2b89623928c352f8294d,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2b89623928c352f8294d,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2b89623928c352f8294d,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,2b89623928c352f8294d,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,edc178348057057464e5,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,edc178348057057464e5,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,edc178348057057464e5,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,edc178348057057464e5,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,dccfb52fadd7cdd38a07,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,dccfb52fadd7cdd38a07,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,dccfb52fadd7cdd38a07,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,dccfb52fadd7cdd38a07,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,ec2a06ef0e40157379d3,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,ec2a06ef0e40157379d3,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,ec2a06ef0e40157379d3,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,ec2a06ef0e40157379d3,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,e1e37e34d879935b4b5e,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,e1e37e34d879935b4b5e,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,e1e37e34d879935b4b5e,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,e1e37e34d879935b4b5e,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,f4375b857b341b735793,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f4375b857b341b735793,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f4375b857b341b735793,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f4375b857b341b735793,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,f8408aeb7a7fa5e11ce5,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f8408aeb7a7fa5e11ce5,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f8408aeb7a7fa5e11ce5,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,f8408aeb7a7fa5e11ce5,M5,target manipulation equilibrium,PRESENT,False
+strategic_game,a394a9895c4dc9d04132,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,a394a9895c4dc9d04132,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,a394a9895c4dc9d04132,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,a394a9895c4dc9d04132,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,b862e05af22e66b7156e,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b862e05af22e66b7156e,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b862e05af22e66b7156e,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b862e05af22e66b7156e,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,34f8fa09951901bc3bd3,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,34f8fa09951901bc3bd3,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,34f8fa09951901bc3bd3,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,34f8fa09951901bc3bd3,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,d5b76f59072c207519e2,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,d5b76f59072c207519e2,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,d5b76f59072c207519e2,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,d5b76f59072c207519e2,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,b1a6f6b1f8e903cd3bb3,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b1a6f6b1f8e903cd3bb3,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b1a6f6b1f8e903cd3bb3,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,b1a6f6b1f8e903cd3bb3,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,8fe2309bce89fd9e81d5,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,8fe2309bce89fd9e81d5,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,8fe2309bce89fd9e81d5,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,8fe2309bce89fd9e81d5,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,abb5ecee631bc19f8914,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,abb5ecee631bc19f8914,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,abb5ecee631bc19f8914,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,abb5ecee631bc19f8914,M5,target manipulation equilibrium,REMOVED,True
+strategic_game,9c0924d61bfa9120a4d7,M2,single-agent attack,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,9c0924d61bfa9120a4d7,M3,formal check,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,9c0924d61bfa9120a4d7,M4,population,NOT_APPLICABLE,NOT_APPLICABLE
+strategic_game,9c0924d61bfa9120a4d7,M5,target manipulation equilibrium,REMOVED,True

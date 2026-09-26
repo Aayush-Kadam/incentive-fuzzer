@@ -8,7 +8,7 @@ Incentive Fuzzer is a research program for counterexample-driven testing of econ
 
 ## Current state
 
-M4 research prototype: IncentiveSpec v0.1, exact-decimal evaluation, bounded search, exact-rational individual verification, and deterministic robustness analysis across heterogeneous independent agent types. Population and behavioral results are sensitivity analyses, not predictions.
+M6 research prototype: IncentiveSpec v0.1, exact-decimal evaluation, bounded search, exact-rational individual verification, heterogeneous robustness analysis, exact finite pure-game analysis, and bounded counterexample-driven repair with multi-layer regression. Population, equilibrium, and repair results are synthetic sensitivity analyses, not predictions or policy recommendations.
 
 ## Run the core suite
 

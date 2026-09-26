@@ -1,0 +1,246 @@
+problem,repair_id,parameter,baseline,mutated,failed,reason
+scholarship,b1919b0ba83349d09f00,threshold,480000,480001,True,target returned
+scholarship,b1919b0ba83349d09f00,threshold,480000,480005,True,target returned
+scholarship,b1919b0ba83349d09f00,threshold,480000,480010,True,target returned
+scholarship,c4a4eebfd6095415f728,threshold,490000,489990,True,target returned
+scholarship,c4a4eebfd6095415f728,threshold,490000,489995,True,target returned
+scholarship,c4a4eebfd6095415f728,threshold,490000,489999,True,target returned
+scholarship,c4a4eebfd6095415f728,threshold,490000,490001,True,target returned
+scholarship,c4a4eebfd6095415f728,threshold,490000,490005,True,target returned
+scholarship,c4a4eebfd6095415f728,threshold,490000,490010,True,target returned
+scholarship,d505721b7b400de0f561,threshold,499999,499989,True,target returned
+scholarship,d505721b7b400de0f561,threshold,499999,499994,True,target returned
+scholarship,d505721b7b400de0f561,threshold,499999,499998,True,target returned
+scholarship,d505721b7b400de0f561,threshold,499999,500000,True,target returned
+scholarship,4ada292fbcf4dcd5eb85,threshold,500001,499991,True,target returned
+scholarship,4ada292fbcf4dcd5eb85,threshold,500001,499996,True,target returned
+scholarship,4ada292fbcf4dcd5eb85,threshold,500001,500000,True,target returned
+scholarship,0626fafb451bccd703a7,award,0,1,False,clean
+scholarship,0626fafb451bccd703a7,award,0,5,True,target returned
+scholarship,0626fafb451bccd703a7,award,0,10,True,target returned
+scholarship,0ebbea0f86170931d318,award,50000,49990,True,target returned
+scholarship,0ebbea0f86170931d318,award,50000,49995,True,target returned
+scholarship,0ebbea0f86170931d318,award,50000,49999,True,target returned
+scholarship,0ebbea0f86170931d318,award,50000,50001,True,target returned
+scholarship,0ebbea0f86170931d318,award,50000,50005,True,target returned
+scholarship,0ebbea0f86170931d318,award,50000,50010,True,target returned
+scholarship,d09e37eafc0fd46b2caf,award,75000,74990,True,target returned
+scholarship,d09e37eafc0fd46b2caf,award,75000,74995,True,target returned
+scholarship,d09e37eafc0fd46b2caf,award,75000,74999,True,target returned
+scholarship,d09e37eafc0fd46b2caf,award,75000,75001,True,target returned
+scholarship,d09e37eafc0fd46b2caf,award,75000,75005,True,target returned
+scholarship,d09e37eafc0fd46b2caf,award,75000,75010,True,target returned
+scholarship,8b746b645d58b6cef693,award,99999,99989,True,target returned
+scholarship,8b746b645d58b6cef693,award,99999,99994,True,target returned
+scholarship,8b746b645d58b6cef693,award,99999,99998,True,target returned
+scholarship,8b746b645d58b6cef693,award,99999,100000,True,target returned
+scholarship,831a0892d519f2d002cf,phase_out_end,580000,579995,True,target returned
+scholarship,831a0892d519f2d002cf,phase_out_end,580000,579999,True,target returned
+scholarship,831a0892d519f2d002cf,phase_out_end,580000,580001,False,clean
+scholarship,831a0892d519f2d002cf,phase_out_end,580000,580005,False,clean
+scholarship,831a0892d519f2d002cf,phase_out_end,580000,580010,False,clean
+scholarship,219127fedc77e0be17fd,phase_out_end,680000,679990,False,clean
+scholarship,219127fedc77e0be17fd,phase_out_end,680000,679999,False,clean
+scholarship,219127fedc77e0be17fd,phase_out_end,680000,680005,False,clean
+scholarship,219127fedc77e0be17fd,phase_out_end,680000,680010,False,clean
+scholarship,5cdc95d09bdf5cc68824,phase_out_end,600000,599995,True,target returned
+scholarship,5cdc95d09bdf5cc68824,phase_out_end,600000,599999,True,target returned
+scholarship,5cdc95d09bdf5cc68824,phase_out_end,600000,600001,False,clean
+scholarship,5cdc95d09bdf5cc68824,phase_out_end,600000,600005,False,clean
+scholarship,5cdc95d09bdf5cc68824,phase_out_end,600000,600010,False,clean
+scholarship,7f348d43069714689b31,phase_out_end,700000,699990,False,clean
+scholarship,7f348d43069714689b31,phase_out_end,700000,699999,False,clean
+strategic_game,f6e1f6f8450707e28454,cost,2,1,True,harmful equilibrium returned
+strategic_game,f6e1f6f8450707e28454,cost,2,3,False,clean
+strategic_game,f6e1f6f8450707e28454,cost,2,7,False,clean
+strategic_game,f6e1f6f8450707e28454,bonus,1,0,False,clean
+strategic_game,f6e1f6f8450707e28454,bonus,1,2,True,harmful equilibrium returned
+strategic_game,f6e1f6f8450707e28454,bonus,1,6,True,harmful equilibrium returned
+strategic_game,2e1f5ad9c97837464105,cost,2,1,True,harmful equilibrium returned
+strategic_game,2e1f5ad9c97837464105,cost,2,3,False,clean
+strategic_game,2e1f5ad9c97837464105,cost,2,7,False,clean
+strategic_game,2e1f5ad9c97837464105,bonus,1,0,False,clean
+strategic_game,2e1f5ad9c97837464105,bonus,1,2,True,harmful equilibrium returned
+strategic_game,2e1f5ad9c97837464105,bonus,1,6,True,harmful equilibrium returned
+strategic_game,3628f45a0a5fbc9cf38b,cost,2,1,True,harmful equilibrium returned
+strategic_game,3628f45a0a5fbc9cf38b,cost,2,3,False,clean
+strategic_game,3628f45a0a5fbc9cf38b,cost,2,7,False,clean
+strategic_game,3628f45a0a5fbc9cf38b,bonus,2,1,False,clean
+strategic_game,3628f45a0a5fbc9cf38b,bonus,2,3,True,harmful equilibrium returned
+strategic_game,3628f45a0a5fbc9cf38b,bonus,2,7,True,harmful equilibrium returned
+strategic_game,4549e85183a34031ea2b,cost,2,1,True,harmful equilibrium returned
+strategic_game,4549e85183a34031ea2b,cost,2,3,False,clean
+strategic_game,4549e85183a34031ea2b,cost,2,7,False,clean
+strategic_game,4549e85183a34031ea2b,bonus,2,1,False,clean
+strategic_game,4549e85183a34031ea2b,bonus,2,3,True,harmful equilibrium returned
+strategic_game,4549e85183a34031ea2b,bonus,2,7,True,harmful equilibrium returned
+strategic_game,3541a351acd70aa1aa65,cost,2,1,True,harmful equilibrium returned
+strategic_game,3541a351acd70aa1aa65,cost,2,3,True,harmful equilibrium returned
+strategic_game,3541a351acd70aa1aa65,cost,2,7,False,clean
+strategic_game,3541a351acd70aa1aa65,bonus,3,2,True,harmful equilibrium returned
+strategic_game,3541a351acd70aa1aa65,bonus,3,4,True,harmful equilibrium returned
+strategic_game,3541a351acd70aa1aa65,bonus,3,8,True,harmful equilibrium returned
+strategic_game,4694d0543657f06b1fe0,cost,2,1,True,harmful equilibrium returned
+strategic_game,4694d0543657f06b1fe0,cost,2,3,True,harmful equilibrium returned
+strategic_game,4694d0543657f06b1fe0,cost,2,7,False,clean
+strategic_game,4694d0543657f06b1fe0,bonus,3,2,True,harmful equilibrium returned
+strategic_game,4694d0543657f06b1fe0,bonus,3,4,True,harmful equilibrium returned
+strategic_game,4694d0543657f06b1fe0,bonus,3,8,True,harmful equilibrium returned
+strategic_game,e0ab6a88ffed282958e6,cost,2,1,True,harmful equilibrium returned
+strategic_game,e0ab6a88ffed282958e6,cost,2,3,True,harmful equilibrium returned
+strategic_game,e0ab6a88ffed282958e6,cost,2,7,False,clean
+strategic_game,e0ab6a88ffed282958e6,bonus,4,3,True,harmful equilibrium returned
+strategic_game,e0ab6a88ffed282958e6,bonus,4,5,True,harmful equilibrium returned
+strategic_game,e0ab6a88ffed282958e6,bonus,4,9,True,harmful equilibrium returned
+strategic_game,57b3daa17879247e039b,cost,3,2,False,clean
+strategic_game,57b3daa17879247e039b,cost,3,4,False,clean
+strategic_game,57b3daa17879247e039b,cost,3,8,False,clean
+strategic_game,57b3daa17879247e039b,bonus,1,0,False,clean
+strategic_game,57b3daa17879247e039b,bonus,1,2,False,clean
+strategic_game,57b3daa17879247e039b,bonus,1,6,True,harmful equilibrium returned
+strategic_game,b6ac4d0473d286d98183,cost,3,2,False,clean
+strategic_game,b6ac4d0473d286d98183,cost,3,4,False,clean
+strategic_game,b6ac4d0473d286d98183,cost,3,8,False,clean
+strategic_game,b6ac4d0473d286d98183,bonus,1,0,False,clean
+strategic_game,b6ac4d0473d286d98183,bonus,1,2,False,clean
+strategic_game,b6ac4d0473d286d98183,bonus,1,6,True,harmful equilibrium returned
+strategic_game,1001db612369c39306ac,cost,3,2,True,harmful equilibrium returned
+strategic_game,1001db612369c39306ac,cost,3,4,False,clean
+strategic_game,1001db612369c39306ac,cost,3,8,False,clean
+strategic_game,1001db612369c39306ac,bonus,2,1,False,clean
+strategic_game,1001db612369c39306ac,bonus,2,3,True,harmful equilibrium returned
+strategic_game,1001db612369c39306ac,bonus,2,7,True,harmful equilibrium returned
+strategic_game,2279c523180e3ff30d10,cost,3,2,True,harmful equilibrium returned
+strategic_game,2279c523180e3ff30d10,cost,3,4,False,clean
+strategic_game,2279c523180e3ff30d10,cost,3,8,False,clean
+strategic_game,2279c523180e3ff30d10,bonus,2,1,False,clean
+strategic_game,2279c523180e3ff30d10,bonus,2,3,True,harmful equilibrium returned
+strategic_game,2279c523180e3ff30d10,bonus,2,7,True,harmful equilibrium returned
+strategic_game,30b4f34cca5a742c5d58,cost,3,2,True,harmful equilibrium returned
+strategic_game,30b4f34cca5a742c5d58,cost,3,4,False,clean
+strategic_game,30b4f34cca5a742c5d58,cost,3,8,False,clean
+strategic_game,30b4f34cca5a742c5d58,bonus,3,2,False,clean
+strategic_game,30b4f34cca5a742c5d58,bonus,3,4,True,harmful equilibrium returned
+strategic_game,30b4f34cca5a742c5d58,bonus,3,8,True,harmful equilibrium returned
+strategic_game,4ca1a66394ac6d7cd09f,cost,3,2,True,harmful equilibrium returned
+strategic_game,4ca1a66394ac6d7cd09f,cost,3,4,False,clean
+strategic_game,4ca1a66394ac6d7cd09f,cost,3,8,False,clean
+strategic_game,4ca1a66394ac6d7cd09f,bonus,3,2,False,clean
+strategic_game,4ca1a66394ac6d7cd09f,bonus,3,4,True,harmful equilibrium returned
+strategic_game,4ca1a66394ac6d7cd09f,bonus,3,8,True,harmful equilibrium returned
+strategic_game,0bfc52567aca416be3e7,cost,3,2,True,harmful equilibrium returned
+strategic_game,0bfc52567aca416be3e7,cost,3,4,True,harmful equilibrium returned
+strategic_game,0bfc52567aca416be3e7,cost,3,8,False,clean
+strategic_game,0bfc52567aca416be3e7,bonus,4,3,True,harmful equilibrium returned
+strategic_game,0bfc52567aca416be3e7,bonus,4,5,True,harmful equilibrium returned
+strategic_game,0bfc52567aca416be3e7,bonus,4,9,True,harmful equilibrium returned
+strategic_game,01121e774c4f955968db,cost,3,2,True,harmful equilibrium returned
+strategic_game,01121e774c4f955968db,cost,3,4,True,harmful equilibrium returned
+strategic_game,01121e774c4f955968db,cost,3,8,False,clean
+strategic_game,01121e774c4f955968db,bonus,4,3,True,harmful equilibrium returned
+strategic_game,01121e774c4f955968db,bonus,4,5,True,harmful equilibrium returned
+strategic_game,01121e774c4f955968db,bonus,4,9,True,harmful equilibrium returned
+strategic_game,b3d9bcbaadfa28462695,cost,4,3,False,clean
+strategic_game,b3d9bcbaadfa28462695,cost,4,5,False,clean
+strategic_game,b3d9bcbaadfa28462695,cost,4,9,False,clean
+strategic_game,b3d9bcbaadfa28462695,bonus,1,0,False,clean
+strategic_game,b3d9bcbaadfa28462695,bonus,1,2,False,clean
+strategic_game,b3d9bcbaadfa28462695,bonus,1,6,True,harmful equilibrium returned
+strategic_game,2b89623928c352f8294d,cost,4,3,False,clean
+strategic_game,2b89623928c352f8294d,cost,4,5,False,clean
+strategic_game,2b89623928c352f8294d,cost,4,9,False,clean
+strategic_game,2b89623928c352f8294d,bonus,1,0,False,clean
+strategic_game,2b89623928c352f8294d,bonus,1,2,False,clean
+strategic_game,2b89623928c352f8294d,bonus,1,6,True,harmful equilibrium returned
+strategic_game,edc178348057057464e5,cost,4,3,False,clean
+strategic_game,edc178348057057464e5,cost,4,5,False,clean
+strategic_game,edc178348057057464e5,cost,4,9,False,clean
+strategic_game,edc178348057057464e5,bonus,2,1,False,clean
+strategic_game,edc178348057057464e5,bonus,2,3,False,clean
+strategic_game,edc178348057057464e5,bonus,2,7,True,harmful equilibrium returned
+strategic_game,dccfb52fadd7cdd38a07,cost,4,3,False,clean
+strategic_game,dccfb52fadd7cdd38a07,cost,4,5,False,clean
+strategic_game,dccfb52fadd7cdd38a07,cost,4,9,False,clean
+strategic_game,dccfb52fadd7cdd38a07,bonus,2,1,False,clean
+strategic_game,dccfb52fadd7cdd38a07,bonus,2,3,False,clean
+strategic_game,dccfb52fadd7cdd38a07,bonus,2,7,True,harmful equilibrium returned
+strategic_game,ec2a06ef0e40157379d3,cost,4,3,True,harmful equilibrium returned
+strategic_game,ec2a06ef0e40157379d3,cost,4,5,False,clean
+strategic_game,ec2a06ef0e40157379d3,cost,4,9,False,clean
+strategic_game,ec2a06ef0e40157379d3,bonus,3,2,False,clean
+strategic_game,ec2a06ef0e40157379d3,bonus,3,4,True,harmful equilibrium returned
+strategic_game,ec2a06ef0e40157379d3,bonus,3,8,True,harmful equilibrium returned
+strategic_game,e1e37e34d879935b4b5e,cost,4,3,True,harmful equilibrium returned
+strategic_game,e1e37e34d879935b4b5e,cost,4,5,False,clean
+strategic_game,e1e37e34d879935b4b5e,cost,4,9,False,clean
+strategic_game,e1e37e34d879935b4b5e,bonus,3,2,False,clean
+strategic_game,e1e37e34d879935b4b5e,bonus,3,4,True,harmful equilibrium returned
+strategic_game,e1e37e34d879935b4b5e,bonus,3,8,True,harmful equilibrium returned
+strategic_game,f4375b857b341b735793,cost,4,3,True,harmful equilibrium returned
+strategic_game,f4375b857b341b735793,cost,4,5,False,clean
+strategic_game,f4375b857b341b735793,cost,4,9,False,clean
+strategic_game,f4375b857b341b735793,bonus,4,3,False,clean
+strategic_game,f4375b857b341b735793,bonus,4,5,True,harmful equilibrium returned
+strategic_game,f4375b857b341b735793,bonus,4,9,True,harmful equilibrium returned
+strategic_game,f8408aeb7a7fa5e11ce5,cost,4,3,True,harmful equilibrium returned
+strategic_game,f8408aeb7a7fa5e11ce5,cost,4,5,False,clean
+strategic_game,f8408aeb7a7fa5e11ce5,cost,4,9,False,clean
+strategic_game,f8408aeb7a7fa5e11ce5,bonus,4,3,False,clean
+strategic_game,f8408aeb7a7fa5e11ce5,bonus,4,5,True,harmful equilibrium returned
+strategic_game,f8408aeb7a7fa5e11ce5,bonus,4,9,True,harmful equilibrium returned
+strategic_game,a394a9895c4dc9d04132,cost,5,0,True,harmful equilibrium returned
+strategic_game,a394a9895c4dc9d04132,cost,5,4,False,clean
+strategic_game,a394a9895c4dc9d04132,cost,5,6,False,clean
+strategic_game,a394a9895c4dc9d04132,cost,5,10,False,clean
+strategic_game,a394a9895c4dc9d04132,bonus,1,0,False,clean
+strategic_game,a394a9895c4dc9d04132,bonus,1,2,False,clean
+strategic_game,a394a9895c4dc9d04132,bonus,1,6,True,harmful equilibrium returned
+strategic_game,b862e05af22e66b7156e,cost,5,0,True,harmful equilibrium returned
+strategic_game,b862e05af22e66b7156e,cost,5,4,False,clean
+strategic_game,b862e05af22e66b7156e,cost,5,6,False,clean
+strategic_game,b862e05af22e66b7156e,cost,5,10,False,clean
+strategic_game,b862e05af22e66b7156e,bonus,1,0,False,clean
+strategic_game,b862e05af22e66b7156e,bonus,1,2,False,clean
+strategic_game,b862e05af22e66b7156e,bonus,1,6,True,harmful equilibrium returned
+strategic_game,34f8fa09951901bc3bd3,cost,5,0,True,harmful equilibrium returned
+strategic_game,34f8fa09951901bc3bd3,cost,5,4,False,clean
+strategic_game,34f8fa09951901bc3bd3,cost,5,6,False,clean
+strategic_game,34f8fa09951901bc3bd3,cost,5,10,False,clean
+strategic_game,34f8fa09951901bc3bd3,bonus,2,1,False,clean
+strategic_game,34f8fa09951901bc3bd3,bonus,2,3,False,clean
+strategic_game,34f8fa09951901bc3bd3,bonus,2,7,True,harmful equilibrium returned
+strategic_game,d5b76f59072c207519e2,cost,5,0,True,harmful equilibrium returned
+strategic_game,d5b76f59072c207519e2,cost,5,4,False,clean
+strategic_game,d5b76f59072c207519e2,cost,5,6,False,clean
+strategic_game,d5b76f59072c207519e2,cost,5,10,False,clean
+strategic_game,d5b76f59072c207519e2,bonus,2,1,False,clean
+strategic_game,d5b76f59072c207519e2,bonus,2,3,False,clean
+strategic_game,d5b76f59072c207519e2,bonus,2,7,True,harmful equilibrium returned
+strategic_game,b1a6f6b1f8e903cd3bb3,cost,5,0,True,harmful equilibrium returned
+strategic_game,b1a6f6b1f8e903cd3bb3,cost,5,4,False,clean
+strategic_game,b1a6f6b1f8e903cd3bb3,cost,5,6,False,clean
+strategic_game,b1a6f6b1f8e903cd3bb3,cost,5,10,False,clean
+strategic_game,b1a6f6b1f8e903cd3bb3,bonus,3,2,False,clean
+strategic_game,b1a6f6b1f8e903cd3bb3,bonus,3,4,False,clean
+strategic_game,b1a6f6b1f8e903cd3bb3,bonus,3,8,True,harmful equilibrium returned
+strategic_game,8fe2309bce89fd9e81d5,cost,5,0,True,harmful equilibrium returned
+strategic_game,8fe2309bce89fd9e81d5,cost,5,4,False,clean
+strategic_game,8fe2309bce89fd9e81d5,cost,5,6,False,clean
+strategic_game,8fe2309bce89fd9e81d5,cost,5,10,False,clean
+strategic_game,8fe2309bce89fd9e81d5,bonus,3,2,False,clean
+strategic_game,8fe2309bce89fd9e81d5,bonus,3,4,False,clean
+strategic_game,8fe2309bce89fd9e81d5,bonus,3,8,True,harmful equilibrium returned
+strategic_game,abb5ecee631bc19f8914,cost,5,0,True,harmful equilibrium returned
+strategic_game,abb5ecee631bc19f8914,cost,5,4,True,harmful equilibrium returned
+strategic_game,abb5ecee631bc19f8914,cost,5,6,False,clean
+strategic_game,abb5ecee631bc19f8914,cost,5,10,False,clean
+strategic_game,abb5ecee631bc19f8914,bonus,4,3,False,clean
+strategic_game,abb5ecee631bc19f8914,bonus,4,5,True,harmful equilibrium returned
+strategic_game,abb5ecee631bc19f8914,bonus,4,9,True,harmful equilibrium returned
+strategic_game,9c0924d61bfa9120a4d7,cost,5,0,True,harmful equilibrium returned
+strategic_game,9c0924d61bfa9120a4d7,cost,5,4,True,harmful equilibrium returned
+strategic_game,9c0924d61bfa9120a4d7,cost,5,6,False,clean
+strategic_game,9c0924d61bfa9120a4d7,cost,5,10,False,clean
+strategic_game,9c0924d61bfa9120a4d7,bonus,4,3,False,clean
+strategic_game,9c0924d61bfa9120a4d7,bonus,4,5,True,harmful equilibrium returned
+strategic_game,9c0924d61bfa9120a4d7,bonus,4,9,True,harmful equilibrium returned

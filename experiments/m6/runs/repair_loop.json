@@ -1,0 +1,12 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "counterexample_id": "scholarship-ce-0",
+      "chosen_repair_id": "219127fedc77e0be17fd",
+      "status": "REPAIR_PASS"
+    }
+  ],
+  "stop_reason": "REGRESSION_SUITE_PASSED",
+  "final_repair_id": "219127fedc77e0be17fd"
+}

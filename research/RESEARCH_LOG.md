@@ -66,3 +66,18 @@
 - Parameter sweeps included honest-only, manipulation-only, multiple, and tie-dependent regimes. No equilibrium was promoted as the predicted outcome.
 - Exact scaling was measured through 12 binary players (4,096 profiles); no broad scalability claim is supported.
 - Deferred mixed strategies, sequential/Bayesian games, coalitions, closed multi-agent DSL semantics, external calibration, and solver-backed equilibrium verification.
+
+## M6 execution — 2026-09-26
+
+- Froze repair grids, constraints, objectives, budgets, mutation deltas, and induced-vulnerability fixture before implementation in commit `d3b38b0`.
+- Implemented deterministic identities, parameter edits, hard-cutoff phase-out transformation, action-cost transformation, constraints, layer gates, Pareto dominance, mutations, and bounded repair loops.
+- Parameter-only scholarship edits did not pass: award reductions retained cliffs; threshold changes moved the boundary; zero award violated coverage.
+- All four registered phase-outs passed M2 exhaustive/combined, M3 domain-scoped UNSAT, and frozen M4 population regression.
+- The shorter scholarship frontier repair had lower fiscal/distance metrics but 0.4 mutation fragility; the wider repair had zero observed fragility but higher fiscal deviation.
+- No constraint-feasible stacked award pair fully repaired the composition failure. Preserved the exact-grid no-feasible result; the best feasible pair reduced gain 11 to 5 but remained violated.
+- Procurement threshold edits moved the exploit. Cost multipliers 19 and 20 passed; multiplier 19 was closer.
+- Exact M5 regression confirmed `bonus=cost` retains the manipulation equilibrium through ties. Strict `bonus<cost` was required under threshold two.
+- The synthetic penalty repair fixed isolated gain but induced `(MANIPULATE,MANIPULATE)` through its coupled rebate and was rejected.
+- The safe interaction control returned `NO_REPAIR_NEEDED` and was not modified.
+- The frozen run evaluated 74 candidates, 351 regression checks, 43 formal checks, and 245 mutations in about 11 seconds.
+- Algorithmic novelty remained weak: candidate search is grid enumeration plus one obvious structural transform. The main result is repair regression, not policy invention.

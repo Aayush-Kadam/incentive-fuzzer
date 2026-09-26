@@ -36,3 +36,9 @@
 | Best-response outcomes depend on update rule and initial profile | Synchronous cycles; asynchronous 2/2 basin split | M5 basin table | SUPPORTED | High | Deterministic assumed dynamics, not behavioral evidence |
 | Incentive Fuzzer predicts real strategic equilibrium behavior | None | Outside M5 | UNSUPPORTED | High | No calibration, learning model, or empirical validation |
 | Pure finite-game analysis scales to large strategic populations | None | Outside measured range | UNSUPPORTED | High | Exponential enumeration measured only through 12 binary players |
+| Bounded repair candidates can be generated deterministically and regression-tested across applicable M2-M5 layers | 74 candidates and 351 recorded checks | M6 bounded-repair-001 | SUPPORTED | High | Self-authored finite grids and synthetic domains |
+| Structural scholarship phase-outs eliminate the registered cliff exploit and population exposure | Four M2-clean, M3-UNSAT, M4-zero-share candidates | M6 scholarship table | SUPPORTED WITH LIMITATION | High | Finite synthetic states; fiscal cost and complexity increase |
+| A repair can fix an isolated target while creating a strategic equilibrium | Enforcement-rebate induced-vulnerability fixture | M6 induced regression | SUPPORTED WITH LIMITATION | High | Deliberately constructed synthetic fixture |
+| Pareto analysis exposes repair tradeoffs without a single score | Two scholarship and two game frontier members | M6 frontier artifact | SUPPORTED | High | Depends on author-chosen metrics and constraints |
+| Counterexample-driven iteration finds globally optimal mechanism repairs | None | Outside M6 | UNSUPPORTED | High | Exhaustive only within small declared grids and limited families |
+| M6 designs socially optimal policy or improves real welfare | None | Outside M6 | UNSUPPORTED | High | No empirical calibration or welfare objective |

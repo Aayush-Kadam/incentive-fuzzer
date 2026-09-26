@@ -1,0 +1,92 @@
+{
+  "candidate": {
+    "repair_id": "4ca1a66394ac6d7cd09f",
+    "parent_spec_hash": "04249aac0eec09491d75b9d4f8b1c0324f6e59430dc5ce4a290d0dbc244dd5cc",
+    "candidate_spec_hash": "9e8cace73cd813ae28039ae1afad816e407fe2b14d68b4e13d92de55fd4a553f",
+    "parameter_changes": {
+      "cost": "3",
+      "bonus": "3",
+      "threshold": "2"
+    },
+    "distance_from_original": "2",
+    "repair_family": "GAME_PARAMETER_EDIT",
+    "provenance": "PARAMETER_GRID",
+    "repair_iteration": 0,
+    "parent_repair_id": null,
+    "counterexample_id": null
+  },
+  "metrics": {
+    "max_residual_gain": "1",
+    "original_max_gain": "1",
+    "harmful_equilibria": "1",
+    "honest_equilibrium": "1",
+    "bonus": "3",
+    "positive_payout": "1",
+    "distance": "2",
+    "complexity": "1",
+    "fiscal_deviation": "-2",
+    "positive_fiscal_deviation": "0",
+    "mutation_fragility": "0.5",
+    "population_profitable_share": "0"
+  },
+  "constraints": [
+    {
+      "constraint_id": "bonus_min",
+      "passed": true,
+      "actual": "3",
+      "operator": ">=",
+      "bound": "3"
+    },
+    {
+      "constraint_id": "payout",
+      "passed": true,
+      "actual": "1",
+      "operator": ">=",
+      "bound": "1"
+    },
+    {
+      "constraint_id": "honest",
+      "passed": true,
+      "actual": "1",
+      "operator": ">=",
+      "bound": "1"
+    }
+  ],
+  "regressions": [
+    {
+      "layer": "M2",
+      "check": "single-agent attack",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    },
+    {
+      "layer": "M3",
+      "check": "formal check",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    },
+    {
+      "layer": "M4",
+      "check": "population",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    },
+    {
+      "layer": "M5",
+      "check": "target manipulation equilibrium",
+      "status": "PRESENT",
+      "passed": false,
+      "details": {
+        "equilibria": [
+          "HONEST|HONEST",
+          "MANIPULATE|MANIPULATE"
+        ]
+      }
+    }
+  ],
+  "repair_status": "TARGET_NOT_FIXED",
+  "gate_status": "REPAIR_FAIL"
+}

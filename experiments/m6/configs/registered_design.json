@@ -1,0 +1,15 @@
+{
+  "precommitment": "research/M6_PRECOMMITMENT.md",
+  "implementation_commit": "dda4b25",
+  "search": "EXHAUSTIVE_GRID",
+  "budgets": {
+    "max_candidates": 100,
+    "max_iterations": 5,
+    "seconds": 120
+  },
+  "mutation_deltas": [
+    1,
+    5,
+    10
+  ]
+}

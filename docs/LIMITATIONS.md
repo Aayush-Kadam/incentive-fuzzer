@@ -23,3 +23,9 @@
 - Mixed equilibria, sequential and Bayesian games, coalitions, learning, and continuous action spaces are deferred.
 - Best-response basins depend on a declared update schedule and tie policy; they are not outcome probabilities.
 - Game hashes require a Git commit to bind evaluator implementation code.
+- M6 repair search is exhaustive grid enumeration over self-authored finite values, not general program synthesis or optimal mechanism design.
+- Repair constraints and Pareto objectives are normative inputs; changing them can change which candidates pass or remain non-dominated.
+- Structural repair supports one recognized hard-cutoff shape and exact finite-decimal phase-outs, not arbitrary rule rewriting.
+- Layer regressions remain bounded by M2 domains, M3's single formal property, M4's synthetic populations, and M5's pure finite games.
+- Mutation fragility covers only exact registered neighbors and does not establish global stability.
+- A passing repair is safe only relative to the declared regression suite; omitted actions, states, objectives, or equilibrium concepts remain risks.

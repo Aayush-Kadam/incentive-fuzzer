@@ -1,0 +1,61 @@
+{
+  "run_id": "m6-bounded-repair-001",
+  "search_method": "EXHAUSTIVE_GRID",
+  "candidates_evaluated": 74,
+  "regression_checks": 351,
+  "runtime_seconds": "10.977735100000245",
+  "passing_repairs": 12,
+  "scholarship": {
+    "original_max_gain": "99999",
+    "candidates": 12,
+    "passes": 4,
+    "pareto": [
+      "219127fedc77e0be17fd",
+      "831a0892d519f2d002cf"
+    ]
+  },
+  "stacked": {
+    "original_max_gain": "11",
+    "candidates": 19,
+    "passes": 0
+  },
+  "procurement": {
+    "original_max_gain": "18",
+    "candidates": 12,
+    "passes": 2
+  },
+  "strategic_game": {
+    "original_equilibria": [
+      "HONEST|HONEST",
+      "MANIPULATE|MANIPULATE"
+    ],
+    "candidates": 31,
+    "passes": 6,
+    "pareto": [
+      "8fe2309bce89fd9e81d5",
+      "e1e37e34d879935b4b5e"
+    ]
+  },
+  "safe_control": {
+    "status": "NO_REPAIR_NEEDED",
+    "equilibria": [
+      "HONEST|HONEST"
+    ],
+    "game_hash": "63af324093ae1eafff9c6c6f3e5171cd0c85a060363884cd0a997eccd6c1c7e5"
+  },
+  "repair_induced": {
+    "penalty": "2",
+    "isolated_gain": "0",
+    "isolated_fixed": true,
+    "interaction_bonus": "6",
+    "equilibria": [
+      "HONEST|HONEST",
+      "MANIPULATE|MANIPULATE"
+    ],
+    "harmful_equilibrium": true,
+    "status": "REPAIR_INDUCED_VULNERABILITY"
+  },
+  "loop_stop": "REGRESSION_SUITE_PASSED",
+  "mutation_tests": 245,
+  "formal_checks": 43
+}

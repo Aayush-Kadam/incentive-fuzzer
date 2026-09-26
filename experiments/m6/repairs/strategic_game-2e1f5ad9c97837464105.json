@@ -1,0 +1,91 @@
+{
+  "candidate": {
+    "repair_id": "2e1f5ad9c97837464105",
+    "parent_spec_hash": "04249aac0eec09491d75b9d4f8b1c0324f6e59430dc5ce4a290d0dbc244dd5cc",
+    "candidate_spec_hash": "44bfeaefcd56bcfecd33cda537549c5404ff70e6371cd5b8c14205b58d0ff1a7",
+    "parameter_changes": {
+      "cost": "2",
+      "bonus": "1",
+      "threshold": "2"
+    },
+    "distance_from_original": "3",
+    "repair_family": "GAME_PARAMETER_EDIT",
+    "provenance": "PARAMETER_GRID",
+    "repair_iteration": 0,
+    "parent_repair_id": null,
+    "counterexample_id": null
+  },
+  "metrics": {
+    "max_residual_gain": "0",
+    "original_max_gain": "1",
+    "harmful_equilibria": "0",
+    "honest_equilibrium": "1",
+    "bonus": "1",
+    "positive_payout": "1",
+    "distance": "3",
+    "complexity": "1",
+    "fiscal_deviation": "-8",
+    "positive_fiscal_deviation": "0",
+    "mutation_fragility": "0.5",
+    "population_profitable_share": "0"
+  },
+  "constraints": [
+    {
+      "constraint_id": "bonus_min",
+      "passed": false,
+      "actual": "1",
+      "operator": ">=",
+      "bound": "3"
+    },
+    {
+      "constraint_id": "payout",
+      "passed": true,
+      "actual": "1",
+      "operator": ">=",
+      "bound": "1"
+    },
+    {
+      "constraint_id": "honest",
+      "passed": true,
+      "actual": "1",
+      "operator": ">=",
+      "bound": "1"
+    }
+  ],
+  "regressions": [
+    {
+      "layer": "M2",
+      "check": "single-agent attack",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    },
+    {
+      "layer": "M3",
+      "check": "formal check",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    },
+    {
+      "layer": "M4",
+      "check": "population",
+      "status": "NOT_APPLICABLE",
+      "passed": null,
+      "details": {}
+    },
+    {
+      "layer": "M5",
+      "check": "target manipulation equilibrium",
+      "status": "REMOVED",
+      "passed": true,
+      "details": {
+        "equilibria": [
+          "HONEST|HONEST"
+        ]
+      }
+    }
+  ],
+  "repair_status": "CONSTRAINT_VIOLATION",
+  "gate_status": "REPAIR_FAIL"
+}
