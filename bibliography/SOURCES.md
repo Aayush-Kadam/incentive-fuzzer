@@ -39,4 +39,16 @@ Accessed 2026-09-25 unless noted. This is a scoped M0 search, not a systematic r
 ## Search limitations
 
 The search sampled named fields, citation trails, and current software documentation. It did not query subscription-only bibliographic databases, perform duplicate-screened systematic-review procedures, or exhaust non-English literature. M1 should add structured queries in EconLit, Scopus/Web of Science, ACM DL, IEEE Xplore, SSRN, RePEc, and Google Scholar with inclusion/exclusion records. Absence of a found end-to-end system is not proof of novelty.
+# M7 authoritative web sources (accessed 2026-09-26)
+
+- IRS, *Eligibility for the Premium Tax Credit*: https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit
+- Acquisition.gov, *FAR 13.003 Policy*: https://www.acquisition.gov/far/13.003
+- CIGIE/Oversight.gov, *Government Purchase Card Initiative* (2018): https://www.oversight.gov/sites/default/files/documents/reports/2018-07/CIGIE_Purchase_Card_Initiative_Report_July_2018.pdf
+- Medicaid.gov, *Georgia CHIP SPA GA-22-0032* (contains SNAP cross-program screen): https://www.medicaid.gov/CHIP/Downloads/GA-22-0032.pdf
+- Medicaid.gov, *Medicaid, CHIP, and BHP Eligibility Levels* (2023-12-01): https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-childrens-health-insurance-program-basic-health-program-eligibility-levels
+- Medicaid.gov, *Pennsylvania CHIP SPA PA-22-0002*: https://www.medicaid.gov/CHIP/Downloads/PA-22-0002-CHIP.pdf
+- Medicaid.gov, *New York CHIP SPA NY-23-0034*: https://www.medicaid.gov/chip-spa/2024-01-15/158071
+- SSA, *2024 COLA Fact Sheet*: https://www.ssa.gov/news/en/cola/factsheets/2024.html
+- IRS, *Internal Revenue Bulletin 2023-48* (2024 EITC parameters): https://www.irs.gov/irb/2023-48_IRB
+- Federal Reserve Bank of Atlanta, *Benefits Cliff Coaching...* (2024): https://www.atlantafed.org/research-and-data/publications/discussion-papers/2024/05/28/01-benefits-cliff-coaching-with-the-atlanta-feds-cliff-tools-implementation-evaluation-of-the-national-pilot
 

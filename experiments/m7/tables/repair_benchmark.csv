@@ -1,0 +1,4 @@
+benchmark_id,target,repair_generated,regression_pass,historical_reform_similarity
+ext-aca-ptc-2020,replace cutoff with bounded phase-out,True,True,structural direction resembles 2021-2025 cutoff removal; not optimality
+ext-snap-gross-2024,bounded phase-out,True,True,not evaluated
+ext-far-mpt-2017,make splitting nonprofitable,True,True,enforcement-cost proxy only

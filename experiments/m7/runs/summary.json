@@ -1,0 +1,350 @@
+{
+  "action_ablations": [
+    {
+      "benchmark_id": "ext-aca-ptc-2020",
+      "full": true,
+      "model_dependent": true,
+      "without_downward_or_split_action": false
+    },
+    {
+      "benchmark_id": "ext-al-medicaid-parent-2023",
+      "full": true,
+      "model_dependent": true,
+      "without_downward_or_split_action": false
+    },
+    {
+      "benchmark_id": "ext-az-child-interaction-2023",
+      "full": false,
+      "model_dependent": false,
+      "without_downward_or_split_action": false
+    },
+    {
+      "benchmark_id": "ext-co-medicaid-adult-2023",
+      "full": true,
+      "model_dependent": true,
+      "without_downward_or_split_action": false
+    },
+    {
+      "benchmark_id": "ext-far-mpt-2017",
+      "full": true,
+      "model_dependent": true,
+      "without_downward_or_split_action": false
+    },
+    {
+      "benchmark_id": "ext-ny-fcep-2024",
+      "full": true,
+      "model_dependent": true,
+      "without_downward_or_split_action": false
+    },
+    {
+      "benchmark_id": "ext-pa-chip-2022",
+      "full": true,
+      "model_dependent": true,
+      "without_downward_or_split_action": false
+    },
+    {
+      "benchmark_id": "ext-snap-gross-2024",
+      "full": true,
+      "model_dependent": true,
+      "without_downward_or_split_action": false
+    }
+  ],
+  "benchmark_version": "0.1",
+  "budget": 100,
+  "case_count": 30,
+  "combined_findings": 19,
+  "composition": {
+    "external": 10,
+    "historical": 6,
+    "holdout": 6,
+    "internal": 12,
+    "negative_controls": 10
+  },
+  "external_negative_false_positives": 0,
+  "formal": [
+    {
+      "benchmark_id": "ext-aca-ptc-2020",
+      "replay": true,
+      "seconds": 0.017274100000577164,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-al-medicaid-parent-2023",
+      "replay": true,
+      "seconds": 0.00833390000025247,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-az-child-interaction-2023",
+      "replay": false,
+      "seconds": 0.01903760000004695,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "ext-co-medicaid-adult-2023",
+      "replay": true,
+      "seconds": 0.009900299999571871,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-eitc-one-child-2024",
+      "replay": false,
+      "seconds": 0.011625999999523629,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "ext-ny-fcep-2024",
+      "replay": true,
+      "seconds": 0.008385799998904986,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-pa-chip-2022",
+      "replay": true,
+      "seconds": 0.007650599999578844,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-snap-gross-2024",
+      "replay": true,
+      "seconds": 0.008385499998439627,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-ssa-ret-2024",
+      "replay": false,
+      "seconds": 0.009569400000145833,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-boundary-high",
+      "replay": true,
+      "seconds": 0.009173299999019946,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-boundary-low",
+      "replay": true,
+      "seconds": 0.009321699998508848,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-cliff-inclusive",
+      "replay": true,
+      "seconds": 0.013074199999209668,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-cliff-low",
+      "replay": true,
+      "seconds": 0.011861000000862987,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-cliff-medium",
+      "replay": true,
+      "seconds": 0.01151320000008127,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-high-cost",
+      "replay": false,
+      "seconds": 0.010650299998815171,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-honest-reporting",
+      "replay": false,
+      "seconds": 0.010196199999882083,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-inclusive-validation",
+      "replay": true,
+      "seconds": 0.01067719999991823,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-linear-phaseout",
+      "replay": false,
+      "seconds": 0.011203999999452208,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-process-small",
+      "replay": true,
+      "seconds": 0.014749799999663082,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-procurement",
+      "replay": true,
+      "seconds": 0.01097139999819774,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-reporting",
+      "replay": true,
+      "seconds": 0.011489000000437954,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-zero-award",
+      "replay": false,
+      "seconds": 0.010057499999675201,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-cost-dominates",
+      "replay": false,
+      "seconds": 0.010582699999758916,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-linear-half",
+      "replay": false,
+      "seconds": 0.01075950000085868,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-linear-third",
+      "replay": false,
+      "seconds": 0.011184599999978673,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-no-award",
+      "replay": false,
+      "seconds": 0.010113199999977951,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    }
+  ],
+  "git_commit": "03d22608fcc864ede1422971145abac159529298",
+  "historical_score": {
+    "class_matches": 5,
+    "detected": 5,
+    "false_positives": 0,
+    "negatives": 0,
+    "positives": 6,
+    "total": 6
+  },
+  "holdout_score": {
+    "class_matches": 4,
+    "detected": 4,
+    "false_positives": 0,
+    "negatives": 2,
+    "positives": 4,
+    "total": 6
+  },
+  "repairs": [
+    {
+      "benchmark_id": "ext-aca-ptc-2020",
+      "historical_reform_similarity": "structural direction resembles 2021-2025 cutoff removal; not optimality",
+      "regression_pass": true,
+      "repair_generated": true,
+      "target": "replace cutoff with bounded phase-out"
+    },
+    {
+      "benchmark_id": "ext-snap-gross-2024",
+      "historical_reform_similarity": "not evaluated",
+      "regression_pass": true,
+      "repair_generated": true,
+      "target": "bounded phase-out"
+    },
+    {
+      "benchmark_id": "ext-far-mpt-2017",
+      "historical_reform_similarity": "enforcement-cost proxy only",
+      "regression_pass": true,
+      "repair_generated": true,
+      "target": "make splitting nonprofitable"
+    }
+  ],
+  "replay_passes": 19,
+  "run_note": "commit identifies frozen engine state before generated result artifacts",
+  "runtime_seconds": 0.7303850000007515,
+  "scores": {
+    "boundary": {
+      "class_matches": 19,
+      "detected": 19,
+      "false_positives": 0,
+      "negatives": 10,
+      "positives": 20,
+      "total": 30
+    },
+    "combined": {
+      "class_matches": 19,
+      "detected": 19,
+      "false_positives": 0,
+      "negatives": 10,
+      "positives": 20,
+      "total": 30
+    },
+    "exhaustive": {
+      "class_matches": 18,
+      "detected": 18,
+      "false_positives": 0,
+      "negatives": 10,
+      "positives": 20,
+      "total": 30
+    },
+    "grid": {
+      "class_matches": 19,
+      "detected": 19,
+      "false_positives": 0,
+      "negatives": 10,
+      "positives": 20,
+      "total": 30
+    },
+    "random": {
+      "class_matches": 19,
+      "detected": 19,
+      "false_positives": 0,
+      "negatives": 10,
+      "positives": 20,
+      "total": 30
+    }
+  },
+  "seed": 20260926,
+  "threat_sensitivity": [
+    {
+      "benchmark_id": "ext-aca-ptc-2020",
+      "broader": true,
+      "narrow": true
+    },
+    {
+      "benchmark_id": "ext-al-medicaid-parent-2023",
+      "broader": true,
+      "narrow": true
+    },
+    {
+      "benchmark_id": "ext-az-child-interaction-2023",
+      "broader": false,
+      "narrow": false
+    },
+    {
+      "benchmark_id": "ext-co-medicaid-adult-2023",
+      "broader": true,
+      "narrow": true
+    },
+    {
+      "benchmark_id": "ext-far-mpt-2017",
+      "broader": true,
+      "narrow": true
+    },
+    {
+      "benchmark_id": "ext-ny-fcep-2024",
+      "broader": true,
+      "narrow": true
+    },
+    {
+      "benchmark_id": "ext-pa-chip-2022",
+      "broader": true,
+      "narrow": true
+    },
+    {
+      "benchmark_id": "ext-snap-gross-2024",
+      "broader": true,
+      "narrow": true
+    }
+  ]
+}

@@ -81,3 +81,15 @@
 - The safe interaction control returned `NO_REPAIR_NEEDED` and was not modified.
 - The frozen run evaluated 74 candidates, 351 regression checks, 43 formal checks, and 245 mutations in about 11 seconds.
 - Algorithmic novelty remained weak: candidate search is grid enumeration plus one obvious structural transform. The main result is repair regression, not policy invention.
+# M7 log (2026-09-26)
+
+- Froze 30 IDs, labels, six holdouts, budgets, matching rules, and exclusions before implementation (`6f5aa0e`).
+- Sourced external components from official IRS, FAR/Acquisition.gov, Oversight/OIG, CMS/Medicaid, SSA, and Federal Reserve material.
+- Excluded 18 candidates before evaluation for unrepresentability or insufficient source/payoff detail.
+- Fixed two generic formal-adapter defects before the freeze commit: value type `decimal` versus unit `scalar`, and IncentiveSpec operator `mul`.
+- Froze engine, catalog, package, and search configuration at `03d2260` before holdout execution.
+- Preserved the Arizona composition miss; no heuristic was changed after holdout execution.
+- Boundary-only matched combined recall and used fewer evaluations. This defeats any M7 claim that combined candidate generation improves recall on v0.1.
+- No surprise finding occurred. External smooth controls remained clean and formally scoped-safe.
+- Repair outputs are bounded structural candidates only; none is a recommendation.
+- Post-run artifact audit found a self-referential manifest hash. The generic builder was corrected to exclude the manifest itself, then all benchmark evaluations and tests were rerun; detection results were unchanged.

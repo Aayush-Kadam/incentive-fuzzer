@@ -1,5 +1,9 @@
 # Incentive Fuzzer
 
+M7 adds **IF-Bench v0.1**, a blind, versioned suite of 30 bounded mechanisms with 10 externally sourced rule components, six holdouts, equal-budget baselines, exact replay, reduction, and M3 confirmation. The frozen result is **PASS WITH LIMITATIONS**: 5/6 historical components and all four positive holdouts were rediscovered, but boundary-only matched the combined search and all external cases remain partial project-authored models.
+
+Run M7 with `python scripts/run_m7.py`; see `research/M7_REPORT.md` for claims and limitations.
+
 **Adversarial Testing and Verification of Economic Institutions**
 
 Author / Project Lead: Aayush Kadam

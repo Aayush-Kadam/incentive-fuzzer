@@ -1,0 +1,9 @@
+benchmark_id,full,without_downward_or_split_action,model_dependent
+ext-aca-ptc-2020,True,False,True
+ext-al-medicaid-parent-2023,True,False,True
+ext-az-child-interaction-2023,False,False,False
+ext-co-medicaid-adult-2023,True,False,True
+ext-far-mpt-2017,True,False,True
+ext-ny-fcep-2024,True,False,True
+ext-pa-chip-2022,True,False,True
+ext-snap-gross-2024,True,False,True

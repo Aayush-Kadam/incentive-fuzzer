@@ -42,3 +42,10 @@
 | Pareto analysis exposes repair tradeoffs without a single score | Two scholarship and two game frontier members | M6 frontier artifact | SUPPORTED | High | Depends on author-chosen metrics and constraints |
 | Counterexample-driven iteration finds globally optimal mechanism repairs | None | Outside M6 | UNSUPPORTED | High | Exhaustive only within small declared grids and limited families |
 | M6 designs socially optimal policy or improves real welfare | None | Outside M6 | UNSUPPORTED | High | No empirical calibration or welfare objective |
+# M7 claims (2026-09-26)
+
+- Supported: IF-Bench v0.1 separates runtime cases from hidden labels and reproduces 30 bounded cases with a frozen holdout protocol.
+- Supported: combined search rediscovered the encoded structural pathology in 5/6 historical components and 4/4 positive holdouts, with 0/10 negative-control findings.
+- Supported: M3 independently confirmed six external violations and three external scoped non-violations.
+- Not supported: the integrated candidate search outperformed boundary-only; boundary-only matched recall with fewer evaluations.
+- Not supported: real manipulation rates, whole-program auditing, representative accuracy, novel real-world loopholes, or policy-optimal repairs.

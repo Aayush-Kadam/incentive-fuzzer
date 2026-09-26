@@ -82,7 +82,8 @@ def build_package():
  dump_json(BENCH/"sources"/"SOURCE_REGISTER.json",SOURCES)
  files=[]
  for p in sorted(BENCH.rglob("*")):
-  if p.is_file(): files.append({"path":p.relative_to(BENCH).as_posix(),"sha256":sha256(p.read_bytes()).hexdigest()})
+  # A manifest cannot reproducibly bind its own serialized hash.
+  if p.is_file() and p.name!="IF_BENCH_MANIFEST.json": files.append({"path":p.relative_to(BENCH).as_posix(),"sha256":sha256(p.read_bytes()).hexdigest()})
  manifest={"version":VERSION,"schema_version":"0.1","case_count":len(CASES),"benchmark_ids":[c["benchmark_id"] for c in CASES],"cases":[{"benchmark_id":c["benchmark_id"],"category":c["origin"],"rule_date":c["rule_version"],"representability":c["representability"],"source_id":c["source_id"],"label_available":True,"split":c["split"]} for c in CASES],"files":files}
  dump_json(BENCH/"manifests"/"IF_BENCH_MANIFEST.json",manifest)
 
