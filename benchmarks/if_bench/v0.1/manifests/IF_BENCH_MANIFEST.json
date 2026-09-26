@@ -1,0 +1,675 @@
+{
+  "benchmark_ids": [
+    "int-cliff-low",
+    "int-cliff-inclusive",
+    "int-stacked-close",
+    "int-procurement",
+    "int-reporting",
+    "int-boundary-low",
+    "int-boundary-high",
+    "int-zero-award",
+    "int-high-cost",
+    "int-linear-phaseout",
+    "int-stacked-wide",
+    "int-honest-reporting",
+    "ext-aca-ptc-2020",
+    "ext-far-mpt-2017",
+    "ext-snap-gross-2024",
+    "ext-al-medicaid-parent-2023",
+    "ext-az-child-interaction-2023",
+    "ext-pa-chip-2022",
+    "ext-co-medicaid-adult-2023",
+    "ext-ny-fcep-2024",
+    "ext-ssa-ret-2024",
+    "ext-eitc-one-child-2024",
+    "neg-linear-half",
+    "neg-linear-third",
+    "neg-no-award",
+    "neg-cost-dominates",
+    "int-cliff-medium",
+    "int-process-small",
+    "int-composition-three",
+    "int-inclusive-validation"
+  ],
+  "case_count": 30,
+  "cases": [
+    {
+      "benchmark_id": "int-cliff-low",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "development"
+    },
+    {
+      "benchmark_id": "int-cliff-inclusive",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "development"
+    },
+    {
+      "benchmark_id": "int-stacked-close",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "development"
+    },
+    {
+      "benchmark_id": "int-procurement",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "development"
+    },
+    {
+      "benchmark_id": "int-reporting",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "development"
+    },
+    {
+      "benchmark_id": "int-boundary-low",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "development"
+    },
+    {
+      "benchmark_id": "int-boundary-high",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "holdout"
+    },
+    {
+      "benchmark_id": "int-zero-award",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "int-high-cost",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "int-linear-phaseout",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "int-stacked-wide",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "holdout"
+    },
+    {
+      "benchmark_id": "int-honest-reporting",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m2",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "ext-aca-ptc-2020",
+      "category": "HISTORICAL_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2020",
+      "source_id": "irs-ptc",
+      "split": "historical"
+    },
+    {
+      "benchmark_id": "ext-far-mpt-2017",
+      "category": "HISTORICAL_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2017",
+      "source_id": "far-13",
+      "split": "historical"
+    },
+    {
+      "benchmark_id": "ext-snap-gross-2024",
+      "category": "HISTORICAL_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2024",
+      "source_id": "usda-snap",
+      "split": "historical"
+    },
+    {
+      "benchmark_id": "ext-al-medicaid-parent-2023",
+      "category": "HISTORICAL_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2023-12-01",
+      "source_id": "cms-levels",
+      "split": "historical"
+    },
+    {
+      "benchmark_id": "ext-az-child-interaction-2023",
+      "category": "HISTORICAL_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2023-12-01",
+      "source_id": "cms-levels",
+      "split": "historical"
+    },
+    {
+      "benchmark_id": "ext-pa-chip-2022",
+      "category": "HISTORICAL_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2022",
+      "source_id": "pa-chip",
+      "split": "historical"
+    },
+    {
+      "benchmark_id": "ext-co-medicaid-adult-2023",
+      "category": "CURRENT_PUBLIC_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2023-12-01",
+      "source_id": "cms-levels",
+      "split": "holdout"
+    },
+    {
+      "benchmark_id": "ext-ny-fcep-2024",
+      "category": "CURRENT_PUBLIC_RULE",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2024-01-11",
+      "source_id": "ny-fcep",
+      "split": "holdout"
+    },
+    {
+      "benchmark_id": "ext-ssa-ret-2024",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2024",
+      "source_id": "ssa-ret",
+      "split": "holdout"
+    },
+    {
+      "benchmark_id": "ext-eitc-one-child-2024",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "PARTIALLY_REPRESENTABLE",
+      "rule_date": "2024",
+      "source_id": "irs-eitc",
+      "split": "holdout"
+    },
+    {
+      "benchmark_id": "neg-linear-half",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "neg-linear-third",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "neg-no-award",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "neg-cost-dominates",
+      "category": "NEGATIVE_CONTROL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "negative_control"
+    },
+    {
+      "benchmark_id": "int-cliff-medium",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "validation"
+    },
+    {
+      "benchmark_id": "int-process-small",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "validation"
+    },
+    {
+      "benchmark_id": "int-composition-three",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "validation"
+    },
+    {
+      "benchmark_id": "int-inclusive-validation",
+      "category": "SYNTHETIC_INTERNAL",
+      "label_available": true,
+      "representability": "FULLY_REPRESENTABLE",
+      "rule_date": "1",
+      "source_id": "internal-m7",
+      "split": "validation"
+    }
+  ],
+  "files": [
+    {
+      "path": "cases/ext-aca-ptc-2020/case.yaml",
+      "sha256": "3049388fc15a78eafdd43ae30136a12bca15c80d8b957694583d8582c4003fa0"
+    },
+    {
+      "path": "cases/ext-aca-ptc-2020/ENCODING_NOTES.md",
+      "sha256": "6c300278e6db4ae4adaf86c42e3739793f5291d85baf16be8c3cde6ed3fc19d1"
+    },
+    {
+      "path": "cases/ext-al-medicaid-parent-2023/case.yaml",
+      "sha256": "2ec701c88e8dba115203b917a486a5f6a93739a2cc0aa8ba5f2948bd08b8f295"
+    },
+    {
+      "path": "cases/ext-al-medicaid-parent-2023/ENCODING_NOTES.md",
+      "sha256": "b5ade8c86a6eeb6d8248bac929099a103ff768b6c11a701f9c99c968ff592c17"
+    },
+    {
+      "path": "cases/ext-az-child-interaction-2023/case.yaml",
+      "sha256": "5b342d0b13b87a10a982ad36aa28c8d09a4be8dde87577c14616c3af65100e86"
+    },
+    {
+      "path": "cases/ext-az-child-interaction-2023/ENCODING_NOTES.md",
+      "sha256": "02ed7e6816b049c968e3502250c29ccd9391a4beed42f8821fba89498021cd6d"
+    },
+    {
+      "path": "cases/ext-co-medicaid-adult-2023/case.yaml",
+      "sha256": "02267b3577263312d67806e756b12e8244c1997455d95e826225ceada30e4c47"
+    },
+    {
+      "path": "cases/ext-co-medicaid-adult-2023/ENCODING_NOTES.md",
+      "sha256": "ebf8fb22707f28dd407619640e705c7c01cf17f37d0980bb308f5af68a144135"
+    },
+    {
+      "path": "cases/ext-eitc-one-child-2024/case.yaml",
+      "sha256": "524cac0dddfab32288a37a5c1d86d497a96e8ac3463d188e6dc84f95e92597c9"
+    },
+    {
+      "path": "cases/ext-eitc-one-child-2024/ENCODING_NOTES.md",
+      "sha256": "f25cab34defae089b90d3e588a2e7a72b239c6d6b2e69bb144cf8ca2524793f0"
+    },
+    {
+      "path": "cases/ext-far-mpt-2017/case.yaml",
+      "sha256": "cb7071d006376e688bfd978f44a1ad3001d9f2363a49e44b7baef6137a51ac96"
+    },
+    {
+      "path": "cases/ext-far-mpt-2017/ENCODING_NOTES.md",
+      "sha256": "b07c7b7a35c122c1aa6397916ce83c61948f51f290b626b886656698f7d0aa1e"
+    },
+    {
+      "path": "cases/ext-ny-fcep-2024/case.yaml",
+      "sha256": "87988a510b490d61ef095276dfec47c0129de10682a305ecf32ae2c0a8869c92"
+    },
+    {
+      "path": "cases/ext-ny-fcep-2024/ENCODING_NOTES.md",
+      "sha256": "820b1dbbda4c62aaffc07a0a28f2a631c4d63d17d7ea1dbd8a4582fd765cf787"
+    },
+    {
+      "path": "cases/ext-pa-chip-2022/case.yaml",
+      "sha256": "7ce9944d280269fd90a77bae27522b2aff368fa8b922861c70be40b0fd569bc9"
+    },
+    {
+      "path": "cases/ext-pa-chip-2022/ENCODING_NOTES.md",
+      "sha256": "03ffd2124d89530378da4c05065964419e70531e990cf6c8f8f66580db15ec88"
+    },
+    {
+      "path": "cases/ext-snap-gross-2024/case.yaml",
+      "sha256": "6321606b9f2c4ae64ab77f594f7e39ac36f20088251ec9885a0eecb9cacb103a"
+    },
+    {
+      "path": "cases/ext-snap-gross-2024/ENCODING_NOTES.md",
+      "sha256": "974c6ce1ffd1642410c20c15251efab0d5da77500003356fe027d96d54f4a1d1"
+    },
+    {
+      "path": "cases/ext-ssa-ret-2024/case.yaml",
+      "sha256": "55085ed0677e5b15a6294231cea5555b5ceee7d70e708f4c29bc97982358e374"
+    },
+    {
+      "path": "cases/ext-ssa-ret-2024/ENCODING_NOTES.md",
+      "sha256": "02018ad2e018fb8ce20b0c2cc91e95b8b284c740fc2136863da852a865f37e96"
+    },
+    {
+      "path": "cases/int-boundary-high/case.yaml",
+      "sha256": "57594d183448f4ea7759d920f326af3dd77d94df9ef81f09db07ffe9a8e2587d"
+    },
+    {
+      "path": "cases/int-boundary-high/ENCODING_NOTES.md",
+      "sha256": "a4f7ddae76a8498c156c74a58ce77d017299f0602d905930f1c19e701e282a06"
+    },
+    {
+      "path": "cases/int-boundary-low/case.yaml",
+      "sha256": "400be1d1683d50e5aca4c32ff4d8723ca45831fee93e7a99e33a903a914b4359"
+    },
+    {
+      "path": "cases/int-boundary-low/ENCODING_NOTES.md",
+      "sha256": "edba6f1bf41624594690509f0cada78f351afb428b08e373ee930c65ee18034f"
+    },
+    {
+      "path": "cases/int-cliff-inclusive/case.yaml",
+      "sha256": "ad8ad164bd721eb86ef23a1366a9dac8c138540b7079d575c3d2928e276b430e"
+    },
+    {
+      "path": "cases/int-cliff-inclusive/ENCODING_NOTES.md",
+      "sha256": "8f72d0934ba5843f4db098898a13f72ec8f0dd5812c13d48ceac35e46ad461b4"
+    },
+    {
+      "path": "cases/int-cliff-low/case.yaml",
+      "sha256": "664a32053b600149d7d08f290e0738ba4e9fe8812b13b890939fa24c2d510035"
+    },
+    {
+      "path": "cases/int-cliff-low/ENCODING_NOTES.md",
+      "sha256": "486ed2191ca3081a84eb0d1654a60e7f0f8ec4c892272e603495e115c54079b5"
+    },
+    {
+      "path": "cases/int-cliff-medium/case.yaml",
+      "sha256": "4b15ce3e73cea6020e8f4d112c470903d818e79cbc60484b4a3cebd5b8e8d338"
+    },
+    {
+      "path": "cases/int-cliff-medium/ENCODING_NOTES.md",
+      "sha256": "1731ec627b2c72c02c1a288878dc1636b9bf0927a260f287fb655394d11a2746"
+    },
+    {
+      "path": "cases/int-composition-three/case.yaml",
+      "sha256": "dd6728642de3bbd75cf281d85c738c3ddb8e5736797e2ef68c2799799d8dadb7"
+    },
+    {
+      "path": "cases/int-composition-three/ENCODING_NOTES.md",
+      "sha256": "3539cff65e358e9b77575c79a61508e48f74e58e3b2d461ad0edc3074949af0d"
+    },
+    {
+      "path": "cases/int-high-cost/case.yaml",
+      "sha256": "87dcc1f20f43af68e66dcf55859218b897792593921fb4dd87be998c31f1a11d"
+    },
+    {
+      "path": "cases/int-high-cost/ENCODING_NOTES.md",
+      "sha256": "6ec767d605875faa4383a2a410c92ff5d237bb6b00a36e7eb925c0d2c6a8acbc"
+    },
+    {
+      "path": "cases/int-honest-reporting/case.yaml",
+      "sha256": "9e70e1a3484e61cb08bbaa6cf58b19a6383ca36f48a04f9eeee432d353705802"
+    },
+    {
+      "path": "cases/int-honest-reporting/ENCODING_NOTES.md",
+      "sha256": "f69d8a98fc43dd800814a51deb4cd6a47ea911571fd6a5fb2e977f356948ebaf"
+    },
+    {
+      "path": "cases/int-inclusive-validation/case.yaml",
+      "sha256": "c0e6da1f19d5b591af7f78bda8305880bb6fcd72c75869211692f74819e6dab0"
+    },
+    {
+      "path": "cases/int-inclusive-validation/ENCODING_NOTES.md",
+      "sha256": "060f97676ee7130e518f24371451b37ba7e7182d23783b5a32afe7c2b0921b83"
+    },
+    {
+      "path": "cases/int-linear-phaseout/case.yaml",
+      "sha256": "8a18c46858766a144a15b7e8181e064d78426d03877800b8114c63b9f52702e7"
+    },
+    {
+      "path": "cases/int-linear-phaseout/ENCODING_NOTES.md",
+      "sha256": "63374cb6a3de58a43ad8e182d341218eaf66c2474620e818a48ffe7a358a13c4"
+    },
+    {
+      "path": "cases/int-process-small/case.yaml",
+      "sha256": "949e97f6417ffbf51f59015cd87308b077b1b9a479ce146cb5bc1c618abe5a13"
+    },
+    {
+      "path": "cases/int-process-small/ENCODING_NOTES.md",
+      "sha256": "f4bfa787119d5eabfb3aed2ee8ac45593eac36aaba600a7a9c938b7e631bcd1d"
+    },
+    {
+      "path": "cases/int-procurement/case.yaml",
+      "sha256": "6a15c917a2d4df22c77631ceea7785c16d16c464884f4e59c750acfe33785493"
+    },
+    {
+      "path": "cases/int-procurement/ENCODING_NOTES.md",
+      "sha256": "8d76cd383b69ba821d0858ae0040a3dd46887a0915230ffe67047b83acfeaef0"
+    },
+    {
+      "path": "cases/int-reporting/case.yaml",
+      "sha256": "2ecde9fa7c31f824d2f20b1061fb05e9ecfcc8f914395152c9faa9bb3e40904d"
+    },
+    {
+      "path": "cases/int-reporting/ENCODING_NOTES.md",
+      "sha256": "27c0a647a7369bb68c387f4a44639635fd949fc5f0719b0cf2425b1816fad973"
+    },
+    {
+      "path": "cases/int-stacked-close/case.yaml",
+      "sha256": "77dc74c74b082ebbd85af78dd2b7ccee6a8bad42b8cd2d08a29fdb416f91dd55"
+    },
+    {
+      "path": "cases/int-stacked-close/ENCODING_NOTES.md",
+      "sha256": "b83167c2e8ae90c7030d75be069bb20160d83d02e580d6b6bb2817c25591ab72"
+    },
+    {
+      "path": "cases/int-stacked-wide/case.yaml",
+      "sha256": "d151e676f34b31ce62cd44206182752ad1cdbc7400b2d999aebf0e103ee798fa"
+    },
+    {
+      "path": "cases/int-stacked-wide/ENCODING_NOTES.md",
+      "sha256": "1da057ab7ba803e305c7e18058a220a26e5cb67b166f28628ec8e192949e12cb"
+    },
+    {
+      "path": "cases/int-zero-award/case.yaml",
+      "sha256": "2ac33013f3141607a037841c37c269586f0b0d62af74c61617c1c4a44a93e266"
+    },
+    {
+      "path": "cases/int-zero-award/ENCODING_NOTES.md",
+      "sha256": "9652095ae40f5803ffdb0486e4edc0d45723119fbe2047b517a496266a8e3308"
+    },
+    {
+      "path": "cases/neg-cost-dominates/case.yaml",
+      "sha256": "ca399acbf913c7c64ed2da1619f67347d4371e76339644d7ea10479381cc2523"
+    },
+    {
+      "path": "cases/neg-cost-dominates/ENCODING_NOTES.md",
+      "sha256": "8bc7b4c1e09863cc547702ecadb870cc083f204984f8691f0f2672ebd4659dd2"
+    },
+    {
+      "path": "cases/neg-linear-half/case.yaml",
+      "sha256": "7b23ccce992e053e979b38a6a5a0c8c89e0d0985b721746f3e7364b4c2768cad"
+    },
+    {
+      "path": "cases/neg-linear-half/ENCODING_NOTES.md",
+      "sha256": "3d4c8a749c4b061c9e2111bac99e374d3dba7cd96a5cf2b19cabac1feadece76"
+    },
+    {
+      "path": "cases/neg-linear-third/case.yaml",
+      "sha256": "8c2c0f1ea96f8a7dc1e8716e25fd52d58a480d4fc6b6e31c3aa076d6e27eaec9"
+    },
+    {
+      "path": "cases/neg-linear-third/ENCODING_NOTES.md",
+      "sha256": "d2ab36713d5a5b9e435ad712a32dffb450a7f2eb455530170250346344d16d61"
+    },
+    {
+      "path": "cases/neg-no-award/case.yaml",
+      "sha256": "9d3ba6f2f02a99097152a0adc1bcb61d4a2aa64c636b465a63acae61d08b484b"
+    },
+    {
+      "path": "cases/neg-no-award/ENCODING_NOTES.md",
+      "sha256": "fcbae5e15d1f123f28bab1d12654846f317d150268d1608374a05ed19257a900"
+    },
+    {
+      "path": "labels/ext-aca-ptc-2020.json",
+      "sha256": "9914ac79245f0807e96a6fdcf13c21fdb8824aa55670537a331bd6ffe04e1199"
+    },
+    {
+      "path": "labels/ext-al-medicaid-parent-2023.json",
+      "sha256": "00323df5f9b0657479334d71ea94bd5b99a0300bdd50b2e501c9dbad701dda04"
+    },
+    {
+      "path": "labels/ext-az-child-interaction-2023.json",
+      "sha256": "844b46c0e80fae73a3c781eb1ee16e8937a128d145d23eaf22ebee81b21c131f"
+    },
+    {
+      "path": "labels/ext-co-medicaid-adult-2023.json",
+      "sha256": "2b36b5afad091dd3d98fef6ec36d9d486f807609725060cc96c68e99616295a5"
+    },
+    {
+      "path": "labels/ext-eitc-one-child-2024.json",
+      "sha256": "a076c26461c1bbab07e16b4f5250db8589a4f157e9806e635b453dc9a688da25"
+    },
+    {
+      "path": "labels/ext-far-mpt-2017.json",
+      "sha256": "291f9d0593fa513a17b7be02e5bfb97b5cde3204ea6ed90fb90d31912072136c"
+    },
+    {
+      "path": "labels/ext-ny-fcep-2024.json",
+      "sha256": "0a859e43f9d9bda27f1359b478702862944cd4c2fe12e15c761184db54c79324"
+    },
+    {
+      "path": "labels/ext-pa-chip-2022.json",
+      "sha256": "2e7984e9386b73a13bed8b10a3a63804b58a46f4e6df48b6ffb983878311da6b"
+    },
+    {
+      "path": "labels/ext-snap-gross-2024.json",
+      "sha256": "8abe8825bce29d9dfe7364b131448749c664db8e3f40b10296a91f6251dc5f11"
+    },
+    {
+      "path": "labels/ext-ssa-ret-2024.json",
+      "sha256": "9855383dfb64e2baf8befa8ef887a9ded55adbcd8111447e9621e7c7ae810351"
+    },
+    {
+      "path": "labels/int-boundary-high.json",
+      "sha256": "87d601a784743f894e599c58c2af4c4fac5343d1d7f47c44a72b3fd1bc233ec1"
+    },
+    {
+      "path": "labels/int-boundary-low.json",
+      "sha256": "0c9951e43f2d35bf1c1217b0e9e46fdfd049ac0c62d19fad2bdcba5ab0e6efe5"
+    },
+    {
+      "path": "labels/int-cliff-inclusive.json",
+      "sha256": "cc137b65bfd78990ba795f56c50f86be76e7bd3da4d9bc2c6b3f1f9b5ad508b8"
+    },
+    {
+      "path": "labels/int-cliff-low.json",
+      "sha256": "05b79628c4cf8b23cb9733aea0e2344c3b9a2caeb6af958d61cf2c64e3cf86bc"
+    },
+    {
+      "path": "labels/int-cliff-medium.json",
+      "sha256": "3b3870d89f8afca50dd9ba06687fa42c0d0040d6afd080a095ee33abb1b56d05"
+    },
+    {
+      "path": "labels/int-composition-three.json",
+      "sha256": "e0d33db2c609045148fe09337583c90e9976f96c21cae7083e1c541f3d6e2b9c"
+    },
+    {
+      "path": "labels/int-high-cost.json",
+      "sha256": "9ff26b82cda7a51d3d4b31169a0d53da44e4dbb372a6b8494aa7d450066f7056"
+    },
+    {
+      "path": "labels/int-honest-reporting.json",
+      "sha256": "d66604cab642a1d066d6e968729247aaf6b61a53f1b982beef655adfc1e6f211"
+    },
+    {
+      "path": "labels/int-inclusive-validation.json",
+      "sha256": "333c54fe04a198f18cf3558ee1350cdd736acffa8268fdc897c2cf8a44e82723"
+    },
+    {
+      "path": "labels/int-linear-phaseout.json",
+      "sha256": "a1bd12c6f8f8bfd8ad10de3f0a0541dd96cc21bf3595a605006fc5c6a2e37dff"
+    },
+    {
+      "path": "labels/int-process-small.json",
+      "sha256": "acfe41d220fdec0442fe8bb9b2b669095470f9e3e4df9ac922f0d939bad8bab3"
+    },
+    {
+      "path": "labels/int-procurement.json",
+      "sha256": "5d557c208ac8d4153dc7d84b7477496f6f18bf8c5fb73e1edb943e2431eeda53"
+    },
+    {
+      "path": "labels/int-reporting.json",
+      "sha256": "7bc87ddaf9b00e0bd126e8bd68d5015059ba2358edaf36c6119d16f744942abc"
+    },
+    {
+      "path": "labels/int-stacked-close.json",
+      "sha256": "ebd081aca0a948c72388d9166ffc64298b342a6d35ab66521c0c18c6f92c23aa"
+    },
+    {
+      "path": "labels/int-stacked-wide.json",
+      "sha256": "61d3e19a75bfb53de4cea88db7e47070bbd90c9bcd954a68d50562bc937bb10d"
+    },
+    {
+      "path": "labels/int-zero-award.json",
+      "sha256": "e24b8c112d8437b7e86279eb72d30399f8d3409e2247b763a968bdcfa6b6e62b"
+    },
+    {
+      "path": "labels/neg-cost-dominates.json",
+      "sha256": "635a36048bb65c41951170897d66ef97b0568ff6e2fa6426af628d8340edac02"
+    },
+    {
+      "path": "labels/neg-linear-half.json",
+      "sha256": "c55381084c49864eb4f31e7d6558f94bb10e56b60deecb886a1c8f66b519f44b"
+    },
+    {
+      "path": "labels/neg-linear-third.json",
+      "sha256": "7850452fc914c7e05c46c9c10df1d73ac81cad41d4898bacae063697a7bc348f"
+    },
+    {
+      "path": "labels/neg-no-award.json",
+      "sha256": "88ce76fffaeaeb21f1552ea0948ea45474f79143062fb036916aa3f8c3ec85c8"
+    },
+    {
+      "path": "sources/SOURCE_REGISTER.json",
+      "sha256": "19420242a0f4041cce596185d9e2ca9ce58179fa6d96402a3c8f1ef4ef522ef7"
+    }
+  ],
+  "schema_version": "0.1",
+  "version": "0.1"
+}

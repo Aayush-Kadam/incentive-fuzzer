@@ -27,6 +27,9 @@ from .repair import (GateStatus, MutationResult, RegressionCheck, RepairBudget, 
     RepairParameter, RepairProblem, RepairSearchResult, RepairSearchStatus, RepairStatus,
     classify_evaluation, edit_parameters, hard_cutoff_to_phase_out, mutation_fragility,
     mutation_values, pareto_frontier, regression_gate, run_repair_loop)
+from .benchmark import (BaselineMethod, BenchmarkCase, BenchmarkError, BenchmarkFinding,
+    CaseRun, HiddenLabel, Score, case_hash, formal_confirm, load_labels_for_scoring,
+    load_runtime_case, load_runtime_suite, replay, run_case, score_frozen_runs)
 
 __all__ = [
     "ActionInstance", "EvaluationResult", "IncentiveSpecError",
@@ -48,4 +51,8 @@ __all__ = [
     "RegressionCheck", "MutationResult", "edit_parameters", "hard_cutoff_to_phase_out",
     "classify_evaluation", "regression_gate", "pareto_frontier", "mutation_values",
     "mutation_fragility", "run_repair_loop",
+    "BaselineMethod", "BenchmarkCase", "BenchmarkError", "BenchmarkFinding",
+    "CaseRun", "HiddenLabel", "Score", "case_hash", "formal_confirm",
+    "load_labels_for_scoring", "load_runtime_case", "load_runtime_suite",
+    "replay", "run_case", "score_frozen_runs",
 ]

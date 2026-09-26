@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "int-stacked-wide",
+  "evidence_class": "THEORETICAL_DOCUMENTATION",
+  "expected_if_cwe": "IF-015",
+  "ground_truth_type": "ANALYTICAL",
+  "known_vulnerability": true,
+  "match_standard": "same boundary and structural class",
+  "pathology_name": "frozen structural vulnerability"
+}

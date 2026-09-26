@@ -1,0 +1,38 @@
+benchmark_id: ext-pa-chip-2022
+title: Pennsylvania CHIP 208% FPL component
+origin: HISTORICAL_RULE
+domain: health
+difficulty: 2
+split: historical
+rule_version: '2022'
+source_id: pa-chip
+representability: PARTIALLY_REPRESENTABLE
+runtime_input:
+  model: inclusive_cliff
+  lower: 204
+  upper: 213
+  threshold: 208
+  second_threshold: null
+  award: 10
+  second_award: 0
+  withdrawal_rate: 0
+  process_cost: 0
+  action_cost_rate: 0.1
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

@@ -1,0 +1,35 @@
+benchmark_id: int-boundary-high
+title: Internal upper-bound holdout
+origin: SYNTHETIC_INTERNAL
+domain: benefit
+difficulty: 1
+split: holdout
+rule_version: '1'
+source_id: internal-m2
+representability: FULLY_REPRESENTABLE
+runtime_input:
+  model: hard_cliff
+  lower: 18
+  upper: 30
+  threshold: 28
+  second_threshold: null
+  award: 5
+  second_award: 0
+  withdrawal_rate: 0
+  process_cost: 0
+  action_cost_rate: 0
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

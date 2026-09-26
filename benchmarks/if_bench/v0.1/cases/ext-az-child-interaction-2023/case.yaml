@@ -1,0 +1,41 @@
+benchmark_id: ext-az-child-interaction-2023
+title: Arizona child Medicaid/CHIP transition
+origin: HISTORICAL_RULE
+domain: health
+difficulty: 3
+split: historical
+rule_version: '2023-12-01'
+source_id: cms-levels
+representability: PARTIALLY_REPRESENTABLE
+runtime_input:
+  model: phase_out
+  lower: 128
+  upper: 205
+  threshold: 133
+  second_threshold: null
+  award: 10
+  second_award: 0
+  withdrawal_rate: 0.1
+  process_cost: 0
+  action_cost_rate: 0
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes:
+- Transition is deliberately not encoded as two additive cash benefits; expected composition
+  label may be missed.

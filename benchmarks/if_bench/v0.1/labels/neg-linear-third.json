@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "neg-linear-third",
+  "evidence_class": "THEORETICAL_DOCUMENTATION",
+  "expected_if_cwe": null,
+  "ground_truth_type": "ANALYTICAL",
+  "known_vulnerability": false,
+  "match_standard": "same boundary and structural class",
+  "pathology_name": "negative control"
+}

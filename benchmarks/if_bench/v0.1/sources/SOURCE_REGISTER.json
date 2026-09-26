@@ -1,0 +1,82 @@
+{
+  "atlanta-cliff": {
+    "access_date": "2026-09-26",
+    "license_note": "citation only",
+    "publication_date": "2024-05-28",
+    "section": "summary",
+    "title": "Atlanta Fed Benefits Cliff Coaching Evaluation",
+    "url": "https://www.atlantafed.org/research-and-data/publications/discussion-papers/2024/05/28/01-benefits-cliff-coaching-with-the-atlanta-feds-cliff-tools-implementation-evaluation-of-the-national-pilot"
+  },
+  "cms-levels": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "2023-12-01",
+    "section": "state eligibility table",
+    "title": "Medicaid, CHIP, and BHP Eligibility Levels",
+    "url": "https://www.medicaid.gov/medicaid/national-medicaid-chip-program-information/medicaid-childrens-health-insurance-program-basic-health-program-eligibility-levels"
+  },
+  "far-13": {
+    "access_date": "2026-09-26",
+    "license_note": "US government text; citation and encoded facts",
+    "publication_date": "2017 freeze via archived threshold",
+    "section": "13.003(c)(2)",
+    "title": "Federal Acquisition Regulation 13.003",
+    "url": "https://www.acquisition.gov/far/13.003"
+  },
+  "irs-eitc": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "2023-11-27",
+    "section": "2024 EITC parameters",
+    "title": "IRS Internal Revenue Bulletin 2023-48",
+    "url": "https://www.irs.gov/irb/2023-48_IRB"
+  },
+  "irs-ptc": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "historical rule through 2020",
+    "section": "Income criteria",
+    "title": "IRS Eligibility for the Premium Tax Credit",
+    "url": "https://www.irs.gov/affordable-care-act/individuals-and-families/eligibility-for-the-premium-tax-credit"
+  },
+  "ny-fcep": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "2024-01-11",
+    "section": "FCEP eligibility through 218% FPL",
+    "title": "New York CHIP SPA NY-23-0034",
+    "url": "https://www.medicaid.gov/chip-spa/2024-01-15/158071"
+  },
+  "oig-split": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "2018-07",
+    "section": "split transactions",
+    "title": "CIGIE Government Purchase Card Initiative",
+    "url": "https://www.oversight.gov/sites/default/files/documents/reports/2018-07/CIGIE_Purchase_Card_Initiative_Report_July_2018.pdf"
+  },
+  "pa-chip": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "2022",
+    "section": "income standard 208% FPL",
+    "title": "Pennsylvania CHIP State Plan Amendment PA-22-0002",
+    "url": "https://www.medicaid.gov/CHIP/Downloads/PA-22-0002-CHIP.pdf"
+  },
+  "ssa-ret": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "2023",
+    "section": "Retirement earnings test",
+    "title": "SSA 2024 COLA Fact Sheet",
+    "url": "https://www.ssa.gov/news/en/cola/factsheets/2024.html"
+  },
+  "usda-snap": {
+    "access_date": "2026-09-26",
+    "license_note": "citation and encoded facts only",
+    "publication_date": "2022",
+    "section": "SNAP gross income at or below 130% FPL",
+    "title": "Georgia CHIP state plan cross-program rule table",
+    "url": "https://www.medicaid.gov/CHIP/Downloads/GA-22-0032.pdf"
+  }
+}

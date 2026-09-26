@@ -1,0 +1,9 @@
+{
+  "benchmark_id": "ext-snap-gross-2024",
+  "evidence_class": "OFFICIAL_REPORT",
+  "expected_if_cwe": "IF-001",
+  "ground_truth_type": "EXTERNALLY_DOCUMENTED",
+  "known_vulnerability": true,
+  "match_standard": "same boundary and structural class",
+  "pathology_name": "frozen structural vulnerability"
+}

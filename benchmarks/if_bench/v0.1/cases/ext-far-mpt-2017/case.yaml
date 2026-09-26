@@ -1,0 +1,35 @@
+benchmark_id: ext-far-mpt-2017
+title: FAR micro-purchase threshold split
+origin: HISTORICAL_RULE
+domain: procurement
+difficulty: 2
+split: historical
+rule_version: '2017'
+source_id: far-13
+representability: PARTIALLY_REPRESENTABLE
+runtime_input:
+  model: transaction_split
+  lower: 3498
+  upper: 3505
+  threshold: 3500
+  second_threshold: null
+  award: 0
+  second_award: 0
+  withdrawal_rate: 0
+  process_cost: 100
+  action_cost_rate: 1
+  step: 1
+  action_values:
+  - 1
+  - 2
+  - 3
+  - 4
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

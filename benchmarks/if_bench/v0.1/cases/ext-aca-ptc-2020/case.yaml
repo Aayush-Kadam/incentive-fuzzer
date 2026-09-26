@@ -1,0 +1,40 @@
+benchmark_id: ext-aca-ptc-2020
+title: ACA premium-tax-credit 400% FPL component
+origin: HISTORICAL_RULE
+domain: tax
+difficulty: 2
+split: historical
+rule_version: '2020'
+source_id: irs-ptc
+representability: PARTIALLY_REPRESENTABLE
+runtime_input:
+  model: hard_cliff
+  lower: 49955
+  upper: 49965
+  threshold: 49960
+  second_threshold: null
+  award: 6000
+  second_award: 0
+  withdrawal_rate: 0
+  process_cost: 0
+  action_cost_rate: 0.1
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes:
+- One-person 2019 FPL used for 2020; illustrative premium-credit amount.

@@ -1,0 +1,39 @@
+benchmark_id: ext-ssa-ret-2024
+title: SSA retirement earnings test
+origin: NEGATIVE_CONTROL
+domain: retirement
+difficulty: 2
+split: holdout
+rule_version: '2024'
+source_id: ssa-ret
+representability: PARTIALLY_REPRESENTABLE
+runtime_input:
+  model: phase_out
+  lower: 22316
+  upper: 22330
+  threshold: 22320
+  second_threshold: null
+  award: 100
+  second_award: 0
+  withdrawal_rate: 0.5
+  process_cost: 0
+  action_cost_rate: 0
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

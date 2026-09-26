@@ -1,0 +1,39 @@
+benchmark_id: int-process-small
+title: Internal small process threshold
+origin: SYNTHETIC_INTERNAL
+domain: procurement
+difficulty: 2
+split: validation
+rule_version: '1'
+source_id: internal-m7
+representability: FULLY_REPRESENTABLE
+runtime_input:
+  model: process_threshold
+  lower: 40
+  upper: 60
+  threshold: 50
+  second_threshold: null
+  award: 0
+  second_award: 0
+  withdrawal_rate: 0
+  process_cost: 8
+  action_cost_rate: 1
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

@@ -1,0 +1,42 @@
+benchmark_id: int-procurement
+title: Internal procurement threshold
+origin: SYNTHETIC_INTERNAL
+domain: procurement
+difficulty: 2
+split: development
+rule_version: '1'
+source_id: internal-m2
+representability: FULLY_REPRESENTABLE
+runtime_input:
+  model: process_threshold
+  lower: 90
+  upper: 110
+  threshold: 100
+  second_threshold: null
+  award: 0
+  second_award: 0
+  withdrawal_rate: 0
+  process_cost: 20
+  action_cost_rate: 1
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

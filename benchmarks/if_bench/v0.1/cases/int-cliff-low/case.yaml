@@ -1,0 +1,37 @@
+benchmark_id: int-cliff-low
+title: Internal low-cost cliff
+origin: SYNTHETIC_INTERNAL
+domain: benefit
+difficulty: 1
+split: development
+rule_version: '1'
+source_id: internal-m2
+representability: FULLY_REPRESENTABLE
+runtime_input:
+  model: hard_cliff
+  lower: 0
+  upper: 30
+  threshold: 10
+  second_threshold: null
+  award: 8
+  second_award: 0
+  withdrawal_rate: 0
+  process_cost: 0
+  action_cost_rate: 0
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

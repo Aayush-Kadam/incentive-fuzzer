@@ -1,0 +1,39 @@
+benchmark_id: int-stacked-wide
+title: Internal stacked wide holdout
+origin: SYNTHETIC_INTERNAL
+domain: composition
+difficulty: 3
+split: holdout
+rule_version: '1'
+source_id: internal-m2
+representability: FULLY_REPRESENTABLE
+runtime_input:
+  model: composition
+  lower: 0
+  upper: 30
+  threshold: 8
+  second_threshold: 22
+  award: 5
+  second_award: 5
+  withdrawal_rate: 0
+  process_cost: 0
+  action_cost_rate: 0
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []

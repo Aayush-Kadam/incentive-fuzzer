@@ -1,0 +1,39 @@
+benchmark_id: int-stacked-close
+title: Internal stacked close
+origin: SYNTHETIC_INTERNAL
+domain: composition
+difficulty: 3
+split: development
+rule_version: '1'
+source_id: internal-m2
+representability: FULLY_REPRESENTABLE
+runtime_input:
+  model: composition
+  lower: 0
+  upper: 30
+  threshold: 10
+  second_threshold: 12
+  award: 6
+  second_award: 5
+  withdrawal_rate: 0
+  process_cost: 0
+  action_cost_rate: 0
+  step: 1
+  action_values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+threat_model:
+  agent: bounded rule subject
+  information: full encoded rule knowledge
+  action: nonnegative downward metric adjustment or declared split
+  legality: not inferred
+  horizon: single period
+properties:
+- no_profitable_deviation
+notes: []
