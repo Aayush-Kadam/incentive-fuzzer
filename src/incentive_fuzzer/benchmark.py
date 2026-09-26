@@ -10,7 +10,7 @@ from time import perf_counter
 from typing import Any, Iterable, Mapping
 import yaml
 from .core import parse_spec
-from .verify import FormalDomain, FormalVerifier
+from .verify import FormalDomain, FormalStatus, FormalVerifier
 
 FORBIDDEN_RUNTIME_FIELDS=frozenset({"known_vulnerability","expected_attack","ground_truth_class","pathology_name","hidden_label","expected_violation"})
 class BenchmarkError(ValueError): pass
@@ -49,6 +49,21 @@ class Score:
     def class_recall(self): return self.class_matches/self.positives if self.positives else None
     @property
     def false_positive_rate(self): return self.false_positives/self.negatives if self.negatives else None
+
+class SMTEligibility(str,Enum):
+    SUPPORTED="SMT_SUPPORTED"; UNSUPPORTED="SMT_UNSUPPORTED"
+
+@dataclass(frozen=True)
+class SMTBaselineRun:
+    benchmark_id:str; eligibility:SMTEligibility; status:str; reason:str
+    elapsed_seconds:float; replayed:bool; property_id:str
+
+@dataclass(frozen=True)
+class SMTScore:
+    total:int; supported:int; violated:int; satisfied:int; unsupported:int
+    timeouts:int; unknown:int; backend_disagreements:int; supported_positives:int
+    detected:int; supported_negatives:int; false_positives:int
+    ground_truth_agreements:int; combined_agreements:int; replayed:int
 
 def _d(v): return v if isinstance(v,Decimal) else Decimal(str(v))
 def _walk(v,path="runtime"):
@@ -165,7 +180,7 @@ def score_frozen_runs(runs:Iterable[CaseRun],labels):
         else: n+=1; fp+=run.finding is not None
     return Score(len(frozen),p,d,cm,n,fp)
 
-def formal_confirm(c):
+def formal_confirm(c, timeout_ms=5000):
     if c.model not in {"hard_cliff","inclusive_cliff","phase_out","process_threshold"}: return None
     if c.model=="phase_out": benefit={"max":[{"const":{"value":0,"unit":"money"}},{"sub":[{"var":"award"},{"mul":[{"var":"withdrawal_rate"},{"max":[{"const":{"value":0,"unit":"money"}},{"sub":[{"var":"metric"},{"var":"threshold"}]}]}]}]}]}
     elif c.model=="process_threshold": benefit={"mul":[{"const":{"value":-1,"unit":"scalar"}},{"if":{"condition":{"ge":[{"var":"metric"},{"var":"threshold"}]},"then":{"var":"process_cost"},"else":{"const":{"value":0,"unit":"money"}}}}]}
@@ -173,4 +188,45 @@ def formal_confirm(c):
         op="le" if c.model=="inclusive_cliff" else "lt"; benefit={"if":{"condition":{op:[{"var":"metric"},{"var":"threshold"}]},"then":{"var":"award"},"else":{"const":{"value":0,"unit":"money"}}}}
     raw={"incentive_spec_version":"0.1","institution":{"id":c.benchmark_id,"name":c.title,"description":"IF-Bench component","version":c.rule_version},"parameters":{"threshold":{"type":"money","value":str(c.threshold),"provenance":"L"},"award":{"type":"money","value":str(c.award),"provenance":"A"},"withdrawal_rate":{"type":"decimal","unit":"rate","value":str(c.withdrawal_rate),"provenance":"L"},"process_cost":{"type":"money","value":str(c.process_cost),"provenance":"A"},"action_rate":{"type":"decimal","unit":"rate","value":str(c.action_cost_rate),"provenance":"A"}},"attributes":{"metric":{"type":"money","lower":str(c.lower),"upper":str(c.upper),"observable":True,"manipulable":True,"role":"reported"}},"actions":{"decrease":{"controls":{"amount":{"type":"money","lower":"0","upper":str(max(c.action_values))}},"feasibility":{"le":[{"var":"amount"},{"var":"metric"}]},"transition":{"metric":{"sub":[{"var":"metric"},{"var":"amount"}]}},"cost":{"mul":[{"var":"action_rate"},{"var":"amount"}]}}},"rules":{"benefit":benefit,"resources":{"add":[{"var":"metric"},{"var":"benefit"}]}},"utility":{"sub":[{"var":"resources"},{"var":"action_cost"}]},"designer_outcomes":{"benefit":{"var":"benefit"}},"properties":[]}
     spec=parse_spec(raw); domain=FormalDomain({"metric":tuple(_states(c))},{"amount":tuple(c.action_values)})
-    return FormalVerifier(spec,domain,5000).verify_no_profitable_deviation("decrease")
+    return FormalVerifier(spec,domain,timeout_ms).verify_no_profitable_deviation("decrease")
+
+def run_smt_baseline(c, timeout_ms=5000):
+    """Run B5 using only the case runtime spec, formal property, and declared domain.
+
+    The function deliberately has no label argument. Unsupported model adapters remain
+    visible instead of disappearing from the baseline denominator.
+    """
+    supported={"hard_cliff","inclusive_cliff","phase_out","process_threshold"}
+    if c.model not in supported:
+        return SMTBaselineRun(c.benchmark_id,SMTEligibility.UNSUPPORTED,
+            FormalStatus.UNSUPPORTED_FRAGMENT.value,
+            f"No IncentiveSpec/M3 adapter for benchmark model {c.model!r}",0.0,False,
+            c.properties[0] if c.properties else "")
+    if tuple(c.properties)!=("no_profitable_deviation",):
+        return SMTBaselineRun(c.benchmark_id,SMTEligibility.UNSUPPORTED,
+            FormalStatus.UNSUPPORTED_FRAGMENT.value,
+            f"B5 supports only no_profitable_deviation, got {list(c.properties)!r}",0.0,False,
+            c.properties[0] if c.properties else "")
+    result=formal_confirm(c,timeout_ms)
+    elapsed=result.build_seconds+result.solve_seconds+result.decode_seconds+result.replay_seconds
+    return SMTBaselineRun(c.benchmark_id,SMTEligibility.SUPPORTED,result.status.value,
+        result.message,elapsed,bool(result.witness and result.witness.runtime_replay),result.property_id)
+
+def score_smt_frozen_runs(runs, labels, combined_runs=()):
+    frozen=tuple(runs); combined={r.benchmark_id:bool(r.finding) for r in combined_runs}
+    supported=[r for r in frozen if r.eligibility is SMTEligibility.SUPPORTED]
+    violated=[r for r in supported if r.status==FormalStatus.FORMALLY_VIOLATED.value]
+    satisfied=[r for r in supported if r.status==FormalStatus.FORMALLY_SATISFIED_WITHIN_DOMAIN.value]
+    timeouts=sum(r.status==FormalStatus.TIMEOUT.value for r in supported)
+    unknown=sum(r.status==FormalStatus.UNKNOWN.value for r in supported)
+    disagreements=sum(r.status==FormalStatus.BACKEND_DISAGREEMENT.value for r in supported)
+    positives=[r for r in supported if labels[r.benchmark_id].known_vulnerability]
+    negatives=[r for r in supported if not labels[r.benchmark_id].known_vulnerability]
+    truth_agree=sum((r.status==FormalStatus.FORMALLY_VIOLATED.value)==labels[r.benchmark_id].known_vulnerability
+                    for r in supported if r.status in {FormalStatus.FORMALLY_VIOLATED.value,FormalStatus.FORMALLY_SATISFIED_WITHIN_DOMAIN.value})
+    combined_agree=sum((r.status==FormalStatus.FORMALLY_VIOLATED.value)==combined[r.benchmark_id]
+                       for r in supported if r.benchmark_id in combined and r.status in {FormalStatus.FORMALLY_VIOLATED.value,FormalStatus.FORMALLY_SATISFIED_WITHIN_DOMAIN.value})
+    return SMTScore(len(frozen),len(supported),len(violated),len(satisfied),len(frozen)-len(supported),
+        timeouts,unknown,disagreements,len(positives),sum(r in violated for r in positives),
+        len(negatives),sum(r in violated for r in negatives),truth_agree,combined_agree,
+        sum(r.replayed for r in violated))

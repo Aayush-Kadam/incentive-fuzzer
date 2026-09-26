@@ -4,7 +4,7 @@ import json
 import pytest
 from incentive_fuzzer.benchmark import (BaselineMethod, BenchmarkError, case_hash,
     formal_confirm, load_labels_for_scoring, load_runtime_case, load_runtime_suite,
-    replay, run_case, score_frozen_runs)
+    replay, run_case, run_smt_baseline, score_frozen_runs, score_smt_frozen_runs)
 
 ROOT=Path(__file__).parents[1]; BENCH=ROOT/"benchmarks"/"if_bench"/"v0.1"
 @pytest.fixture(scope="module")
@@ -40,3 +40,19 @@ def test_formal_external_confirmation(cases):
  c=next(x for x in cases if x.benchmark_id=="ext-aca-ptc-2020"); assert formal_confirm(c).status.value=="FORMALLY_VIOLATED"
 def test_action_ablation(cases):
  c=cases[0]; assert run_case(c,"combined").finding; assert run_case(replace(c,action_values=(0,)),"combined").finding is None
+
+def test_smt_baseline_keeps_every_case_and_is_label_blind(cases,labels):
+ runs=[run_smt_baseline(c) for c in cases]
+ assert len(runs)==30
+ assert sum(r.eligibility.value=="SMT_SUPPORTED" for r in runs)==26
+ assert sum(r.eligibility.value=="SMT_UNSUPPORTED" for r in runs)==4
+ score=score_smt_frozen_runs(runs,labels,[run_case(c,"combined",100) for c in cases])
+ assert (score.violated,score.satisfied,score.unsupported)==(15,11,4)
+ assert (score.detected,score.false_positives)==(15,0)
+ assert score.ground_truth_agreements==25
+ assert score.combined_agreements==26
+ assert score.replayed==15
+
+def test_smt_unsupported_reason_is_explicit(cases):
+ run=run_smt_baseline(next(c for c in cases if c.model=="transaction_split"))
+ assert run.status=="UNSUPPORTED_FRAGMENT" and "transaction_split" in run.reason
