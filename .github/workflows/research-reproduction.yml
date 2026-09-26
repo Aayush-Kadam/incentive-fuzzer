@@ -1,0 +1,25 @@
+name: Research reproduction
+
+on:
+  workflow_dispatch:
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install package and tests
+        run: python -m pip install ".[test]"
+      - name: Reproduce frozen research results
+        run: python scripts/reproduce.py research
+      - name: Upload regenerated evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-reproduction
+          path: |
+            reproducibility/manifest.json
+            research/m8_entry/
