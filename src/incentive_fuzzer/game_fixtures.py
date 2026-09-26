@@ -1,3 +1,4 @@
+from dataclasses import replace
 from decimal import Decimal
 
 from .game import Game, JointAction, PayoffProfile, Player, PlayerType
@@ -44,7 +45,8 @@ def scarcity_capture(prize=Decimal("6"), cost=Decimal("1")) -> Game:
 
 
 def safe_interaction_control() -> Game:
-    return aggregate_threshold_claim(bonus=Decimal("1"), cost=Decimal("2"), threshold=2)
+    return replace(aggregate_threshold_claim(bonus=Decimal("1"), cost=Decimal("2"), threshold=2),
+                   id="safe_interaction_control")
 
 
 def matrix_game(game_id: str, matrix: dict[tuple[str, str], tuple[str, str]]) -> Game:

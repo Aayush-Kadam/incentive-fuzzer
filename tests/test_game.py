@@ -104,7 +104,9 @@ def test_externality_decomposition():
 
 
 def test_safe_control_has_only_honest_equilibrium():
-    result = enumerate_pure_nash(safe_interaction_control())
+    game = safe_interaction_control()
+    assert game.id == "safe_interaction_control"
+    result = enumerate_pure_nash(game)
     assert [tuple(eq.joint_action.actions[p] for p in ("A", "B")) for eq in result.equilibria] == [(H, H)]
 
 
