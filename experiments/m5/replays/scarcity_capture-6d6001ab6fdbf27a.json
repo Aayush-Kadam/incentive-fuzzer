@@ -1,0 +1,25 @@
+{
+  "game_id": "scarcity_capture",
+  "game_hash": "2139aef53c5752d6a459d04f2e82111b7be3bd9c816660f3a8ab2f7fa683603f",
+  "equilibrium": {
+    "equilibrium_id": "6d6001ab6fdbf27a",
+    "joint_action": {
+      "actions": {
+        "A": "MANIPULATE",
+        "B": "HONEST"
+      }
+    },
+    "player_payoffs": {
+      "A": "15",
+      "B": "10"
+    },
+    "designer_outcomes": {
+      "captured_allocations": "1",
+      "manipulation_count": "1"
+    },
+    "equilibrium_concept": "PURE_STRATEGY_NASH",
+    "verification_method": "EXACT_UNILATERAL_ENUMERATION",
+    "stability_metadata": {}
+  },
+  "replay_status": "PASS"
+}

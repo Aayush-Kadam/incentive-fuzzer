@@ -1,0 +1,40 @@
+{
+  "game_id": "scarcity_capture",
+  "game_hash": "2139aef53c5752d6a459d04f2e82111b7be3bd9c816660f3a8ab2f7fa683603f",
+  "players": [
+    {
+      "id": "A",
+      "type": {
+        "id": "synthetic",
+        "state": {
+          "endowment": "10"
+        }
+      },
+      "actions": [
+        "HONEST",
+        "MANIPULATE"
+      ]
+    },
+    {
+      "id": "B",
+      "type": {
+        "id": "synthetic",
+        "state": {
+          "endowment": "10"
+        }
+      },
+      "actions": [
+        "HONEST",
+        "MANIPULATE"
+      ]
+    }
+  ],
+  "mechanism": "capacity-one allocation with collision",
+  "parameters": {
+    "prize": "6",
+    "cost": "1"
+  },
+  "timing": "simultaneous",
+  "information": "complete",
+  "equilibrium_concept": "PURE_STRATEGY_NASH"
+}

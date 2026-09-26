@@ -30,3 +30,9 @@
 | Registered phase-out has a smaller profitable region than the hard cutoff | 0 versus 0.515625 | M4 B0 tables | SUPPORTED WITH LIMITATION | Medium | Common friction assumptions, mechanism-specific state grids |
 | Weighted and sampled estimates agree within sampling error | Exact 0.9; N=5000 gives 0.9044 | M4 weighted/MC tables | SUPPORTED | High | Synthetic distribution; sampling uncertainty only |
 | M4 predicts real manipulation prevalence or welfare | None | Outside M4 | UNSUPPORTED | High | No empirical calibration or welfare definition |
+| Exact finite-game enumeration reproduces the hand-derived M5 payoff matrix and equilibrium set | Four golden cells, best responses, two equilibria, replay | M5 exact-games-001 and tests | SUPPORTED | High | One precommitted synthetic mechanism |
+| Strategic interaction creates a manipulation equilibrium absent from the neutral isolated baseline | Isolated gain -2; interactive gain +2; equilibria H/H and M/M | M5 aggregate-threshold fixture | SUPPORTED WITH LIMITATION | High | Deliberately constructed synthetic complete-information game |
+| The framework returns multiple pure equilibria without selecting one | Full enumeration and replay artifacts | M5 exact-games-001 | SUPPORTED | High | Pure finite strategies only |
+| Best-response outcomes depend on update rule and initial profile | Synchronous cycles; asynchronous 2/2 basin split | M5 basin table | SUPPORTED | High | Deterministic assumed dynamics, not behavioral evidence |
+| Incentive Fuzzer predicts real strategic equilibrium behavior | None | Outside M5 | UNSUPPORTED | High | No calibration, learning model, or empirical validation |
+| Pure finite-game analysis scales to large strategic populations | None | Outside measured range | UNSUPPORTED | High | Exponential enumeration measured only through 12 binary players |

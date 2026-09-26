@@ -86,3 +86,6 @@ These identifiers classify modeled failures, not moral blame or observed real-wo
 
 Each instance also records: response class; legal/illegal/uncertain; deterministic/stochastic; single/multi-agent; static/dynamic; information regime; evidence level (candidate, replayed, robust, formally verified); and provenance of every material parameter.
 
+## IF-021 Strategic Complementarity Cascade
+
+**Definition:** an action becomes more attractive as other agents take that action, creating a harmful high-action equilibrium that is absent from a declared neutral isolated baseline. **Example:** a claim is individually costly when submitted alone but profitable when enough claims cross an aggregate payout threshold. **Intuition:** aggregate state changes the return to matching others. **Symptoms:** positive change in `Delta U(k)` as the number of other manipulators increases and multiple low/high-action equilibria. **Detectors:** exact best-response correspondence, pure-equilibrium enumeration, and threshold sweeps. **False positives:** the high-action outcome may be intended, unreachable under a stated dynamic, or dependent on omitted coordination costs. **Limits:** equilibrium existence does not predict selection, coordination, or real behavior.

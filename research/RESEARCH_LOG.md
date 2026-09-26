@@ -52,3 +52,17 @@
 - Phase-out and honest reporting produced no profitable deviations in registered domains.
 - Rejected welfare aggregation because fixtures define no transferable social objective.
 - Monte Carlo converged toward the exact weighted share; intervals remain sampling-only.
+
+## M5 execution — 2026-09-26
+
+- Froze the aggregate-threshold claim fixture and hand-derived matrix before implementing the game engine in commit `1964409`.
+- The first golden run exposed a manual prose error: the focal honest payoff against a manipulator was confused with the opponent's payoff. The matrix and equilibrium set were correct; corrected the complementarity increment from 6 to 4 in separate commit `229135f`.
+- Chose an external finite-game wrapper rather than IncentiveSpec v0.2, preserving all v0.1 semantics while making joint evaluator code a new trusted boundary.
+- Exact enumeration reproduced the four payoff cells and both predicted equilibria. Ties remained correspondences and Matching Pennies returned zero pure equilibria.
+- A first experiment run exposed an artifact identity collision because the safe control inherited the flagship game ID. Fixed the ID and regenerated the manifest; equilibrium logic was unaffected.
+- Flagship isolated manipulation gain was -2, but gain against a manipulating rival was +2. The resulting equilibria were honest/honest and manipulate/manipulate.
+- The scarcity-capacity game showed strategic substitution: gain +5 against honesty and -1 against manipulation, with two asymmetric equilibria.
+- Synchronous best response cycled from both off-diagonal flagship profiles. Asynchronous A-then-B response converged with a two/two split across the two equilibria.
+- Parameter sweeps included honest-only, manipulation-only, multiple, and tie-dependent regimes. No equilibrium was promoted as the predicted outcome.
+- Exact scaling was measured through 12 binary players (4,096 profiles); no broad scalability claim is supported.
+- Deferred mixed strategies, sequential/Bayesian games, coalitions, closed multi-agent DSL semantics, external calibration, and solver-backed equilibrium verification.

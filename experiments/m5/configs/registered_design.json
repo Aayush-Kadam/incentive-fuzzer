@@ -1,0 +1,53 @@
+{
+  "precommitment": "research/M5_PRECOMMITMENT.md",
+  "manual_derivation": "research/m5_manual_fixture_derivation.md",
+  "git_commit": "6004d64",
+  "engine_commit": "72694fc",
+  "research_games": [
+    "aggregate_threshold_claim",
+    "scarcity_capture",
+    "safe_interaction_control"
+  ],
+  "timing": "simultaneous",
+  "information": "complete",
+  "equilibrium_concept": "PURE_STRATEGY_NASH",
+  "method": "EXACT_FINITE_ENUMERATION",
+  "dynamics": [
+    "SYNCHRONOUS",
+    "ASYNCHRONOUS"
+  ],
+  "phase_grid": {
+    "threshold": [
+      1,
+      2
+    ],
+    "cost": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "bonus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "scaling_players": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ]
+}

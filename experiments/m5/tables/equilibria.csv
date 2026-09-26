@@ -1,0 +1,6 @@
+game,game_hash,equilibrium_id,joint_action,player_payoffs,designer_outcomes,method,replay
+aggregate_threshold_claim,04249aac0eec09491d75b9d4f8b1c0324f6e59430dc5ce4a290d0dbc244dd5cc,b5c95b6fadb1f411,HONEST|HONEST,"{""A"": ""10"", ""B"": ""10""}","{""manipulation_count"": ""0"", ""payout_total"": ""0""}",EXACT_FINITE_ENUMERATION,True
+aggregate_threshold_claim,04249aac0eec09491d75b9d4f8b1c0324f6e59430dc5ce4a290d0dbc244dd5cc,97a03de8fc128f85,MANIPULATE|MANIPULATE,"{""A"": ""12"", ""B"": ""12""}","{""manipulation_count"": ""2"", ""payout_total"": ""8""}",EXACT_FINITE_ENUMERATION,True
+scarcity_capture,2139aef53c5752d6a459d04f2e82111b7be3bd9c816660f3a8ab2f7fa683603f,0d95c17b89836ac5,HONEST|MANIPULATE,"{""A"": ""10"", ""B"": ""15""}","{""captured_allocations"": ""1"", ""manipulation_count"": ""1""}",EXACT_FINITE_ENUMERATION,True
+scarcity_capture,2139aef53c5752d6a459d04f2e82111b7be3bd9c816660f3a8ab2f7fa683603f,6d6001ab6fdbf27a,MANIPULATE|HONEST,"{""A"": ""15"", ""B"": ""10""}","{""captured_allocations"": ""1"", ""manipulation_count"": ""1""}",EXACT_FINITE_ENUMERATION,True
+safe_interaction_control,63af324093ae1eafff9c6c6f3e5171cd0c85a060363884cd0a997eccd6c1c7e5,d9ea589c2c4231cc,HONEST|HONEST,"{""A"": ""10"", ""B"": ""10""}","{""manipulation_count"": ""0"", ""payout_total"": ""0""}",EXACT_FINITE_ENUMERATION,True

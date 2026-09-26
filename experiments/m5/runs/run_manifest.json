@@ -1,0 +1,362 @@
+{
+  "milestone": "M5",
+  "git_commit": "6004d64",
+  "engine_commit": "72694fc",
+  "game_id": "aggregate_threshold_claim",
+  "game_hash": "04249aac0eec09491d75b9d4f8b1c0324f6e59430dc5ce4a290d0dbc244dd5cc",
+  "number_of_players": 2,
+  "player_types": [
+    "synthetic",
+    "synthetic"
+  ],
+  "actions": [
+    "HONEST",
+    "MANIPULATE"
+  ],
+  "timing": "simultaneous",
+  "information": "complete",
+  "equilibrium_concept": "PURE_STRATEGY_NASH",
+  "method": "EXACT_FINITE_ENUMERATION",
+  "update_dynamics": [
+    "SYNCHRONOUS",
+    "ASYNCHRONOUS"
+  ],
+  "seed": null,
+  "results": {
+    "run_id": "m5-exact-games-001",
+    "games_evaluated": 3,
+    "joint_profiles_evaluated": 12,
+    "pure_equilibria_found": 5,
+    "multiple_equilibrium_games": 2,
+    "no_pure_equilibrium_validation_game": 0,
+    "manual_validation": {
+      "matrix_agreement": true,
+      "equilibrium_set_agreement": true,
+      "all_replay": true
+    },
+    "interaction_dependent_result": {
+      "isolated_manipulation_gain": "-2",
+      "interactive_manipulation_gain": "2",
+      "complementarity_increment": "4",
+      "equilibria": [
+        "HONEST|HONEST",
+        "MANIPULATE|MANIPULATE"
+      ]
+    },
+    "strategic_substitution": {
+      "equilibria": [
+        "HONEST|MANIPULATE",
+        "MANIPULATE|HONEST"
+      ],
+      "delta_other_honest": "5",
+      "delta_other_manipulates": "-1"
+    },
+    "safe_control": {
+      "equilibria": [
+        "HONEST|HONEST"
+      ]
+    },
+    "basins": {
+      "SYNCHRONOUS": {
+        "mode": "SYNCHRONOUS",
+        "equilibrium_counts": {
+          "HONEST|HONEST": 1,
+          "MANIPULATE|MANIPULATE": 1
+        },
+        "cycles": 2,
+        "max_steps": 0,
+        "total_initial_profiles": 4,
+        "results": [
+          {
+            "status": "CONVERGED_EQUILIBRIUM",
+            "mode": "SYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "HONEST",
+                "B": "HONEST"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "HONEST"
+                }
+              }
+            ],
+            "terminal_profile": {
+              "actions": {
+                "A": "HONEST",
+                "B": "HONEST"
+              }
+            },
+            "equilibrium_verified": true,
+            "cycle": []
+          },
+          {
+            "status": "CYCLE_DETECTED",
+            "mode": "SYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "HONEST",
+                "B": "MANIPULATE"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "MANIPULATE"
+                }
+              },
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "HONEST"
+                }
+              },
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "MANIPULATE"
+                }
+              }
+            ],
+            "terminal_profile": null,
+            "equilibrium_verified": false,
+            "cycle": [
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "MANIPULATE"
+                }
+              },
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "HONEST"
+                }
+              },
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "MANIPULATE"
+                }
+              }
+            ]
+          },
+          {
+            "status": "CYCLE_DETECTED",
+            "mode": "SYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "MANIPULATE",
+                "B": "HONEST"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "HONEST"
+                }
+              },
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "MANIPULATE"
+                }
+              },
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "HONEST"
+                }
+              }
+            ],
+            "terminal_profile": null,
+            "equilibrium_verified": false,
+            "cycle": [
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "HONEST"
+                }
+              },
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "MANIPULATE"
+                }
+              },
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "HONEST"
+                }
+              }
+            ]
+          },
+          {
+            "status": "CONVERGED_EQUILIBRIUM",
+            "mode": "SYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "MANIPULATE",
+                "B": "MANIPULATE"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "MANIPULATE"
+                }
+              }
+            ],
+            "terminal_profile": {
+              "actions": {
+                "A": "MANIPULATE",
+                "B": "MANIPULATE"
+              }
+            },
+            "equilibrium_verified": true,
+            "cycle": []
+          }
+        ]
+      },
+      "ASYNCHRONOUS": {
+        "mode": "ASYNCHRONOUS",
+        "equilibrium_counts": {
+          "HONEST|HONEST": 2,
+          "MANIPULATE|MANIPULATE": 2
+        },
+        "cycles": 0,
+        "max_steps": 0,
+        "total_initial_profiles": 4,
+        "results": [
+          {
+            "status": "CONVERGED_EQUILIBRIUM",
+            "mode": "ASYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "HONEST",
+                "B": "HONEST"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "HONEST"
+                }
+              }
+            ],
+            "terminal_profile": {
+              "actions": {
+                "A": "HONEST",
+                "B": "HONEST"
+              }
+            },
+            "equilibrium_verified": true,
+            "cycle": []
+          },
+          {
+            "status": "CONVERGED_EQUILIBRIUM",
+            "mode": "ASYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "HONEST",
+                "B": "MANIPULATE"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "MANIPULATE"
+                }
+              },
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "MANIPULATE"
+                }
+              }
+            ],
+            "terminal_profile": {
+              "actions": {
+                "A": "MANIPULATE",
+                "B": "MANIPULATE"
+              }
+            },
+            "equilibrium_verified": true,
+            "cycle": []
+          },
+          {
+            "status": "CONVERGED_EQUILIBRIUM",
+            "mode": "ASYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "MANIPULATE",
+                "B": "HONEST"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "HONEST"
+                }
+              },
+              {
+                "actions": {
+                  "A": "HONEST",
+                  "B": "HONEST"
+                }
+              }
+            ],
+            "terminal_profile": {
+              "actions": {
+                "A": "HONEST",
+                "B": "HONEST"
+              }
+            },
+            "equilibrium_verified": true,
+            "cycle": []
+          },
+          {
+            "status": "CONVERGED_EQUILIBRIUM",
+            "mode": "ASYNCHRONOUS",
+            "initial_profile": {
+              "actions": {
+                "A": "MANIPULATE",
+                "B": "MANIPULATE"
+              }
+            },
+            "path": [
+              {
+                "actions": {
+                  "A": "MANIPULATE",
+                  "B": "MANIPULATE"
+                }
+              }
+            ],
+            "terminal_profile": {
+              "actions": {
+                "A": "MANIPULATE",
+                "B": "MANIPULATE"
+              }
+            },
+            "equilibrium_verified": true,
+            "cycle": []
+          }
+        ]
+      }
+    },
+    "phase_cells": 56,
+    "scaling_max_players": 12,
+    "scaling_max_profiles": 4096
+  },
+  "artifact_hash": "ed88604ac5694d0f4e73c9ddb960bee372b35a001bab6549778cea9a155a7d13"
+}

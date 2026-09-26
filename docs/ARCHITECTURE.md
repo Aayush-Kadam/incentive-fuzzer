@@ -20,3 +20,17 @@ M1 intentionally keeps PyYAML as the sole runtime dependency. Dataclasses and De
 - Expressions are embedded typed objects after parsing, but source locations stop at logical YAML paths rather than line/column spans.
 - Rule ordering is semantic, which makes careless YAML reordering a behavior change; canonical serialization preserves it.
 - Property domains are explicit lists and may grow combinatorially.
+## M5 finite-game layer
+
+M5 leaves IncentiveSpec v0.1 unchanged and adds an external exact-game wrapper:
+
+```text
+player-local types and finite actions
+              -> joint action
+              -> mechanism-specific exact aggregator
+              -> player payoffs + designer outcomes
+              -> exact best-response correspondence
+              -> exhaustive pure-Nash enumeration and replay
+```
+
+Best-response dynamics consume the same exact evaluator but remain separate from equilibrium discovery. M1–M4 modules do not depend on the game layer.

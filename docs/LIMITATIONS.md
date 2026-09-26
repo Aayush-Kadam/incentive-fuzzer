@@ -17,3 +17,9 @@
 - Population weights and behavioral scenarios are synthetic assumptions, not estimates. Monte Carlo uncertainty excludes model and parameter uncertainty.
 - Population summaries are not SMT-verified; M3 spot checks apply only to selected individual domains before M4 cost overlays.
 - Fixed-friction grids can only identify tested-grid disappearance; exact thresholds follow the modeled finite candidate set.
+- M5 supports exact pure-strategy equilibria only for deterministic finite, simultaneous, complete-information games.
+- Joint mechanism evaluators are explicit trusted extensions rather than an IncentiveSpec v0.2 language.
+- Exact game enumeration scales as the product of action-set sizes and was measured only through 12 binary players.
+- Mixed equilibria, sequential and Bayesian games, coalitions, learning, and continuous action spaces are deferred.
+- Best-response basins depend on a declared update schedule and tie policy; they are not outcome probabilities.
+- Game hashes require a Git commit to bind evaluator implementation code.

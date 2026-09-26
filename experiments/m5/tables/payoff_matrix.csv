@@ -1,0 +1,5 @@
+A_action,B_action,A_payoff,B_payoff,payout_total,manipulation_count
+HONEST,HONEST,10,10,0,0
+HONEST,MANIPULATE,10,8,0,1
+MANIPULATE,HONEST,8,10,0,1
+MANIPULATE,MANIPULATE,12,12,8,2

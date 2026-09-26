@@ -1,0 +1,41 @@
+{
+  "game_id": "aggregate_threshold_claim",
+  "game_hash": "04249aac0eec09491d75b9d4f8b1c0324f6e59430dc5ce4a290d0dbc244dd5cc",
+  "players": [
+    {
+      "id": "A",
+      "type": {
+        "id": "synthetic",
+        "state": {
+          "endowment": "10"
+        }
+      },
+      "actions": [
+        "HONEST",
+        "MANIPULATE"
+      ]
+    },
+    {
+      "id": "B",
+      "type": {
+        "id": "synthetic",
+        "state": {
+          "endowment": "10"
+        }
+      },
+      "actions": [
+        "HONEST",
+        "MANIPULATE"
+      ]
+    }
+  ],
+  "mechanism": "aggregate claim-count threshold",
+  "parameters": {
+    "bonus": "4",
+    "cost": "2",
+    "threshold": "2"
+  },
+  "timing": "simultaneous",
+  "information": "complete",
+  "equilibrium_concept": "PURE_STRATEGY_NASH"
+}

@@ -1,0 +1,25 @@
+{
+  "game_id": "safe_interaction_control",
+  "game_hash": "63af324093ae1eafff9c6c6f3e5171cd0c85a060363884cd0a997eccd6c1c7e5",
+  "equilibrium": {
+    "equilibrium_id": "d9ea589c2c4231cc",
+    "joint_action": {
+      "actions": {
+        "A": "HONEST",
+        "B": "HONEST"
+      }
+    },
+    "player_payoffs": {
+      "A": "10",
+      "B": "10"
+    },
+    "designer_outcomes": {
+      "payout_total": "0",
+      "manipulation_count": "0"
+    },
+    "equilibrium_concept": "PURE_STRATEGY_NASH",
+    "verification_method": "EXACT_UNILATERAL_ENUMERATION",
+    "stability_metadata": {}
+  },
+  "replay_status": "PASS"
+}

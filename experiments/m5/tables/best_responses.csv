@@ -1,0 +1,9 @@
+game,player,opponent_action,best_responses,payoff
+aggregate_threshold_claim,A,HONEST,HONEST,10
+aggregate_threshold_claim,A,MANIPULATE,MANIPULATE,12
+aggregate_threshold_claim,B,HONEST,HONEST,10
+aggregate_threshold_claim,B,MANIPULATE,MANIPULATE,12
+scarcity_capture,A,HONEST,MANIPULATE,15
+scarcity_capture,A,MANIPULATE,HONEST,10
+scarcity_capture,B,HONEST,MANIPULATE,15
+scarcity_capture,B,MANIPULATE,HONEST,10
