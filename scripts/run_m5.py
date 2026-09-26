@@ -66,6 +66,10 @@ def regime(result) -> str:
 
 
 def main() -> None:
+    replay_directory = OUT / "replays"
+    replay_directory.mkdir(parents=True, exist_ok=True)
+    for replay_file in replay_directory.glob("*.json"):
+        replay_file.unlink()
     validation = aggregate_threshold_claim()
     substitution = scarcity_capture()
     safe = safe_interaction_control()
