@@ -1,0 +1,17 @@
+incentive_spec_version: "0.1"
+institution: {id: contributor_case_id, name: Contributor case, description: Replace with sourced component, version: "frozen-version"}
+parameters:
+  award: {type: money, value: 1, provenance: L}
+attributes:
+  state_name: {type: money, lower: 0, upper: 1, observable: true, manipulable: true, role: reported}
+actions:
+  declared_action:
+    controls: {control_name: {type: money, lower: 0, upper: 1}}
+    feasibility: {le: [{var: control_name}, {var: state_name}]}
+    transition: {state_name: {sub: [{var: state_name}, {var: control_name}]}}
+    cost: {const: {value: 0, unit: money}}
+rules: {resources: {add: [{var: state_name}, {var: award}]}}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes: {award: {var: award}}
+properties: []
+

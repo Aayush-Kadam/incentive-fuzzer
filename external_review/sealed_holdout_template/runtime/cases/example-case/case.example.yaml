@@ -1,0 +1,13 @@
+case_id: contributor-case-id
+title: Contributor-supplied title
+source_id: contributor-source-id
+rule_version: frozen-date-or-version
+representability: PARTIALLY_REPRESENTABLE
+property_id: no_profitable_deviation
+action_name: declared_action
+threat_model: {agent: describe, action: describe, information: describe, legality: not inferred}
+domain:
+  state_values: {state_name: [0, 1]}
+  control_values: {control_name: [0, 1]}
+notes: [List material omissions.]
+
