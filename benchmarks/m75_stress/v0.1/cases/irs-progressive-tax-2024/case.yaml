@@ -1,0 +1,20 @@
+case_id: irs-progressive-tax-2024
+title: 2024 federal income-tax rate schedule, single filer component
+source_id: irs-rp-2023-34
+rule_version: "2024"
+representability: PARTIALLY_REPRESENTABLE
+property_id: no_profitable_deviation
+action_name: reduce_income
+threat_model:
+  agent: single filer with taxable income already determined
+  action: forgo taxable income within the declared local domain
+  interpretation: structural stress test; no empirical behavior or avoidance claim
+  legality: not inferred
+domain:
+  state_values:
+    taxable_income: [11599, 11600, 11601, 47149, 47150, 47151, 100524, 100525, 100526]
+  control_values:
+    amount: [0, 1, 2, 100, 1000]
+notes:
+  - Encodes the first four continuous pieces of Schedule X; deductions, credits, filing alternatives, and income-shifting channels are omitted.
+

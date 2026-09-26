@@ -1,0 +1,27 @@
+incentive_spec_version: "0.1"
+institution: {id: dol_safe_harbor_match, name: DOL safe-harbor 401k match component, description: Capped tiered matching stress case, version: "accessed-2026-09-26"}
+parameters:
+  salary: {type: money, value: 100, provenance: A}
+  b1: {type: money, value: 3, provenance: L}
+  b2: {type: money, value: 5, provenance: L}
+  half: {type: decimal, unit: rate, value: 0.5, provenance: L}
+attributes:
+  contribution: {type: money, lower: 0, upper: 6, observable: true, manipulable: true, role: reported}
+actions:
+  increase_contribution:
+    controls: {amount: {type: money, lower: 0, upper: 3}}
+    feasibility: {le: [{add: [{var: contribution}, {var: amount}]}, {const: {value: 6, unit: money}}]}
+    transition: {contribution: {add: [{var: contribution}, {var: amount}]}}
+    cost: {const: {value: 0, unit: money}}
+rules:
+  match:
+    add:
+      - {min: [{var: contribution}, {var: b1}]}
+      - {mul: [{var: half}, {max: [{const: {value: 0, unit: money}}, {min: [{sub: [{var: contribution}, {var: b1}]}, {sub: [{var: b2}, {var: b1}]}]}]}]}
+  cash: {sub: [{var: salary}, {var: contribution}]}
+  retirement: {add: [{var: contribution}, {var: match}]}
+  resources: {add: [{var: cash}, {var: retirement}]}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes: {match: {var: match}}
+properties: []
+

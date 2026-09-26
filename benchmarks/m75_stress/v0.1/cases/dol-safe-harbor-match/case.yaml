@@ -1,0 +1,20 @@
+case_id: dol-safe-harbor-match
+title: DOL safe-harbor 401(k) tiered matching formula
+source_id: dol-401k-small-business
+rule_version: "accessed-2026-09-26"
+representability: PARTIALLY_REPRESENTABLE
+property_id: no_profitable_deviation
+action_name: increase_contribution
+threat_model:
+  agent: eligible employee with compensation normalized to 100
+  action: increase contribution percentage from a declared baseline
+  interpretation: intended-response control for a capped matching formula
+  legality: ordinary plan participation under the encoded component
+domain:
+  state_values:
+    contribution: [0, 1, 2, 3, 4, 5, 6]
+  control_values:
+    amount: [0, 1, 2, 3]
+notes:
+  - Treats one unit of current contribution and one unit of retirement balance equally; vesting, taxes, liquidity, investment returns, plan variation, and annual limits are omitted.
+

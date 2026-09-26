@@ -1,0 +1,325 @@
+{
+  "git_commit": "7ab2251683864a93292459259a44f92957a18412",
+  "m7_b5": {
+    "backend_disagreements": 0,
+    "combined_agreements": 26,
+    "detected": 15,
+    "false_positives": 0,
+    "ground_truth_agreements": 25,
+    "replayed": 15,
+    "satisfied": 11,
+    "supported": 26,
+    "supported_negatives": 10,
+    "supported_positives": 16,
+    "timeouts": 0,
+    "total": 30,
+    "unknown": 0,
+    "unsupported": 4,
+    "violated": 15
+  },
+  "m7_b5_case_results": [
+    {
+      "benchmark_id": "ext-aca-ptc-2020",
+      "elapsed_seconds": 0.02453799999966577,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-al-medicaid-parent-2023",
+      "elapsed_seconds": 0.01247109999985696,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-az-child-interaction-2023",
+      "elapsed_seconds": 0.02468869999938761,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "ext-co-medicaid-adult-2023",
+      "elapsed_seconds": 0.011774799998420349,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-eitc-one-child-2024",
+      "elapsed_seconds": 0.018659200000001874,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "ext-far-mpt-2017",
+      "elapsed_seconds": 0.0,
+      "eligibility": "SMT_UNSUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No IncentiveSpec/M3 adapter for benchmark model 'transaction_split'",
+      "replayed": false,
+      "status": "UNSUPPORTED_FRAGMENT"
+    },
+    {
+      "benchmark_id": "ext-ny-fcep-2024",
+      "elapsed_seconds": 0.015442700000676268,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-pa-chip-2022",
+      "elapsed_seconds": 0.015960800000357267,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-snap-gross-2024",
+      "elapsed_seconds": 0.01578339999923628,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "ext-ssa-ret-2024",
+      "elapsed_seconds": 0.01722299999983079,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-boundary-high",
+      "elapsed_seconds": 0.015448399998604145,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-boundary-low",
+      "elapsed_seconds": 0.01950979999946867,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-cliff-inclusive",
+      "elapsed_seconds": 0.03212679999978718,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-cliff-low",
+      "elapsed_seconds": 0.031244400000105088,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-cliff-medium",
+      "elapsed_seconds": 0.0231789999998,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-composition-three",
+      "elapsed_seconds": 0.0,
+      "eligibility": "SMT_UNSUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No IncentiveSpec/M3 adapter for benchmark model 'composition'",
+      "replayed": false,
+      "status": "UNSUPPORTED_FRAGMENT"
+    },
+    {
+      "benchmark_id": "int-high-cost",
+      "elapsed_seconds": 0.02002159999938158,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-honest-reporting",
+      "elapsed_seconds": 0.014706199999636738,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-inclusive-validation",
+      "elapsed_seconds": 0.01832300000023679,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-linear-phaseout",
+      "elapsed_seconds": 0.017450800000005984,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "int-process-small",
+      "elapsed_seconds": 0.016717900000003283,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-procurement",
+      "elapsed_seconds": 0.018302499998753774,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-reporting",
+      "elapsed_seconds": 0.01611340000090422,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "Profitable deviation exists; witness replayed exactly.",
+      "replayed": true,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "benchmark_id": "int-stacked-close",
+      "elapsed_seconds": 0.0,
+      "eligibility": "SMT_UNSUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No IncentiveSpec/M3 adapter for benchmark model 'composition'",
+      "replayed": false,
+      "status": "UNSUPPORTED_FRAGMENT"
+    },
+    {
+      "benchmark_id": "int-stacked-wide",
+      "elapsed_seconds": 0.0,
+      "eligibility": "SMT_UNSUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No IncentiveSpec/M3 adapter for benchmark model 'composition'",
+      "replayed": false,
+      "status": "UNSUPPORTED_FRAGMENT"
+    },
+    {
+      "benchmark_id": "int-zero-award",
+      "elapsed_seconds": 0.01507339999989199,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-cost-dominates",
+      "elapsed_seconds": 0.016493699999955425,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-linear-half",
+      "elapsed_seconds": 0.01779499999975087,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-linear-third",
+      "elapsed_seconds": 0.017354500000692497,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    },
+    {
+      "benchmark_id": "neg-no-award",
+      "elapsed_seconds": 0.022103899999819987,
+      "eligibility": "SMT_SUPPORTED",
+      "property_id": "no_profitable_deviation",
+      "reason": "No profitable deviation exists in the encoded domain and fragment.",
+      "replayed": false,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    }
+  ],
+  "m7_b5_total_solve_seconds": 0.4885059999942314,
+  "run_note": "commit identifies the pre-M7.5 frozen M7 engine plus working-tree M7.5 implementation",
+  "stress_case_count": 3,
+  "stress_results": [
+    {
+      "agreement": true,
+      "case_id": "dol-safe-harbor-match",
+      "expected_status": "FORMALLY_VIOLATED",
+      "label_type": "INTENDED_RESPONSE_CONTROL",
+      "replayed": true,
+      "seconds": 0.012927499999932479,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "agreement": true,
+      "case_id": "irs-dependent-care-2024",
+      "expected_status": "FORMALLY_VIOLATED",
+      "label_type": "ANALYTIC_STRUCTURAL_STRESS",
+      "replayed": true,
+      "seconds": 0.021929600000476057,
+      "status": "FORMALLY_VIOLATED"
+    },
+    {
+      "agreement": true,
+      "case_id": "irs-progressive-tax-2024",
+      "expected_status": "FORMALLY_SATISFIED_WITHIN_DOMAIN",
+      "label_type": "ANALYTIC_STRUCTURAL_STRESS",
+      "replayed": false,
+      "seconds": 0.01797510000051261,
+      "status": "FORMALLY_SATISFIED_WITHIN_DOMAIN"
+    }
+  ],
+  "stress_status_agreements": 3
+}

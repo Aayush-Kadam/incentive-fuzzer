@@ -1,0 +1,12 @@
+{
+  "cases/dol-safe-harbor-match/case.yaml": "5064a8af3107c5b2f3bb2a3055b31affbc3269f05f4cc58d707c1f448bf9bbef",
+  "cases/dol-safe-harbor-match/spec.yaml": "40e54c22449b6345dc255c16f88887626ea174e0bc3577c612d0d77c070f9105",
+  "cases/irs-dependent-care-2024/case.yaml": "c85c63ef3bc8d30b2bf08332be063e3778cc0f9eecc028c8a7b33c5207549d0f",
+  "cases/irs-dependent-care-2024/spec.yaml": "d48dfe71c9520a335131f77accddb1e86d79313a0a14e793d009baff14913b1a",
+  "cases/irs-progressive-tax-2024/case.yaml": "714c1b7392b5352e7db3459e984fad710812180112db893a52f099e76701f2ef",
+  "cases/irs-progressive-tax-2024/spec.yaml": "d060a452c4c2195219ff02199a91605f1a0b786dc7ca63c05e31b67a9efd1ff6",
+  "labels/dol-safe-harbor-match.json": "c465dc2f2daa9dad792b6c1d7f598f78b0df6679b8dcac0a6f4f6a872af01ec1",
+  "labels/irs-dependent-care-2024.json": "a32fe17e72756c61efb6685f808491de1833e593ea6ac6610ac9e7a8fe4ab5ac",
+  "labels/irs-progressive-tax-2024.json": "1810267d51189114153f27416fc24da9e262ff6ff6520ea02329c3a7e771c503",
+  "sources/SOURCE_REGISTER.json": "e92a48a37e10453a9b13c041b5e52cf38558592b4293953fca61140afb042d1b"
+}

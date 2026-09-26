@@ -1,0 +1,23 @@
+{
+  "dol-401k-small-business": {
+    "title": "401(k) Plans for Small Businesses",
+    "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/401k-plans-for-small-businesses",
+    "publisher": "U.S. Department of Labor",
+    "access_date": "2026-09-26",
+    "section": "Safe Harbor 401(k) Plan"
+  },
+  "irs-pub-503-2024": {
+    "title": "Publication 503 (2024), Child and Dependent Care Expenses",
+    "url": "https://www.irs.gov/pub/irs-prior/p503--2024.pdf",
+    "publisher": "Internal Revenue Service",
+    "publication_date": "2024",
+    "section": "Amount of Credit percentage table"
+  },
+  "irs-rp-2023-34": {
+    "title": "Revenue Procedure 2023-34, 2024 tax rate tables",
+    "url": "https://www.irs.gov/irb/2023-48_IRB",
+    "publisher": "Internal Revenue Service",
+    "publication_date": "2023-11-27",
+    "section": "Section 3.01, Table 3"
+  }
+}

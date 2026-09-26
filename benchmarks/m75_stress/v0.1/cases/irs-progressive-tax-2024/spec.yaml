@@ -1,0 +1,40 @@
+incentive_spec_version: "0.1"
+institution: {id: irs_progressive_tax_2024, name: 2024 IRS single-filer rate schedule component, description: Continuous multi-kink progressive tax stress case, version: "2024"}
+parameters:
+  b1: {type: money, value: 11600, provenance: L}
+  b2: {type: money, value: 47150, provenance: L}
+  b3: {type: money, value: 100525, provenance: L}
+  base2: {type: money, value: 1160, provenance: L}
+  base3: {type: money, value: 5426, provenance: L}
+  base4: {type: money, value: 17168.50, provenance: L}
+  r1: {type: decimal, unit: rate, value: 0.10, provenance: L}
+  r2: {type: decimal, unit: rate, value: 0.12, provenance: L}
+  r3: {type: decimal, unit: rate, value: 0.22, provenance: L}
+  r4: {type: decimal, unit: rate, value: 0.24, provenance: L}
+attributes:
+  taxable_income: {type: money, lower: 0, upper: 191950, observable: true, manipulable: true, role: latent}
+actions:
+  reduce_income:
+    controls: {amount: {type: money, lower: 0, upper: 1000}}
+    feasibility: {le: [{var: amount}, {var: taxable_income}]}
+    transition: {taxable_income: {sub: [{var: taxable_income}, {var: amount}]}}
+    cost: {const: {value: 0, unit: money}}
+rules:
+  tax:
+    if:
+      condition: {le: [{var: taxable_income}, {var: b1}]}
+      then: {mul: [{var: r1}, {var: taxable_income}]}
+      else:
+        if:
+          condition: {le: [{var: taxable_income}, {var: b2}]}
+          then: {add: [{var: base2}, {mul: [{var: r2}, {sub: [{var: taxable_income}, {var: b1}]}]}]}
+          else:
+            if:
+              condition: {le: [{var: taxable_income}, {var: b3}]}
+              then: {add: [{var: base3}, {mul: [{var: r3}, {sub: [{var: taxable_income}, {var: b2}]}]}]}
+              else: {add: [{var: base4}, {mul: [{var: r4}, {sub: [{var: taxable_income}, {var: b3}]}]}]}
+  resources: {sub: [{var: taxable_income}, {var: tax}]}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes: {tax: {var: tax}}
+properties: []
+

@@ -1,0 +1,45 @@
+incentive_spec_version: "0.1"
+institution: {id: irs_dependent_care_2024, name: 2024 dependent-care credit percentage component, description: Multi-step percentage schedule stress case, version: "2024"}
+parameters:
+  b1: {type: money, value: 15000, provenance: L}
+  b2: {type: money, value: 17000, provenance: L}
+  b3: {type: money, value: 19000, provenance: L}
+  b4: {type: money, value: 21000, provenance: L}
+  expenses: {type: money, value: 3000, provenance: A}
+  r35: {type: decimal, unit: rate, value: 0.35, provenance: L}
+  r34: {type: decimal, unit: rate, value: 0.34, provenance: L}
+  r33: {type: decimal, unit: rate, value: 0.33, provenance: L}
+  r32: {type: decimal, unit: rate, value: 0.32, provenance: L}
+  r31: {type: decimal, unit: rate, value: 0.31, provenance: L}
+attributes:
+  agi: {type: money, lower: 0, upper: 25000, observable: true, manipulable: true, role: latent}
+actions:
+  reduce_agi:
+    controls: {amount: {type: money, lower: 0, upper: 2000}}
+    feasibility: {le: [{var: amount}, {var: agi}]}
+    transition: {agi: {sub: [{var: agi}, {var: amount}]}}
+    cost: {const: {value: 0, unit: money}}
+rules:
+  rate:
+    if:
+      condition: {le: [{var: agi}, {var: b1}]}
+      then: {var: r35}
+      else:
+        if:
+          condition: {le: [{var: agi}, {var: b2}]}
+          then: {var: r34}
+          else:
+            if:
+              condition: {le: [{var: agi}, {var: b3}]}
+              then: {var: r33}
+              else:
+                if:
+                  condition: {le: [{var: agi}, {var: b4}]}
+                  then: {var: r32}
+                  else: {var: r31}
+  credit: {mul: [{var: rate}, {var: expenses}]}
+  resources: {add: [{var: agi}, {var: credit}]}
+utility: {sub: [{var: resources}, {var: action_cost}]}
+designer_outcomes: {credit: {var: credit}}
+properties: []
+

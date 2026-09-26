@@ -1,0 +1,2 @@
+{"case_id":"dol-safe-harbor-match","expected_status":"FORMALLY_VIOLATED","label_type":"INTENDED_RESPONSE_CONTROL","interpretation":"positive match incentive is intended and must not be labeled a vulnerability"}
+

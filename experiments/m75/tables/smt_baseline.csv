@@ -1,0 +1,31 @@
+benchmark_id,eligibility,status,reason,elapsed_seconds,replayed,property_id
+ext-aca-ptc-2020,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.02453799999966577,True,no_profitable_deviation
+ext-al-medicaid-parent-2023,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.01247109999985696,True,no_profitable_deviation
+ext-az-child-interaction-2023,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.02468869999938761,False,no_profitable_deviation
+ext-co-medicaid-adult-2023,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.011774799998420349,True,no_profitable_deviation
+ext-eitc-one-child-2024,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.018659200000001874,False,no_profitable_deviation
+ext-far-mpt-2017,SMT_UNSUPPORTED,UNSUPPORTED_FRAGMENT,No IncentiveSpec/M3 adapter for benchmark model 'transaction_split',0.0,False,no_profitable_deviation
+ext-ny-fcep-2024,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.015442700000676268,True,no_profitable_deviation
+ext-pa-chip-2022,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.015960800000357267,True,no_profitable_deviation
+ext-snap-gross-2024,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.01578339999923628,True,no_profitable_deviation
+ext-ssa-ret-2024,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.01722299999983079,False,no_profitable_deviation
+int-boundary-high,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.015448399998604145,True,no_profitable_deviation
+int-boundary-low,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.01950979999946867,True,no_profitable_deviation
+int-cliff-inclusive,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.03212679999978718,True,no_profitable_deviation
+int-cliff-low,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.031244400000105088,True,no_profitable_deviation
+int-cliff-medium,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.0231789999998,True,no_profitable_deviation
+int-composition-three,SMT_UNSUPPORTED,UNSUPPORTED_FRAGMENT,No IncentiveSpec/M3 adapter for benchmark model 'composition',0.0,False,no_profitable_deviation
+int-high-cost,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.02002159999938158,False,no_profitable_deviation
+int-honest-reporting,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.014706199999636738,False,no_profitable_deviation
+int-inclusive-validation,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.01832300000023679,True,no_profitable_deviation
+int-linear-phaseout,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.017450800000005984,False,no_profitable_deviation
+int-process-small,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.016717900000003283,True,no_profitable_deviation
+int-procurement,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.018302499998753774,True,no_profitable_deviation
+int-reporting,SMT_SUPPORTED,FORMALLY_VIOLATED,Profitable deviation exists; witness replayed exactly.,0.01611340000090422,True,no_profitable_deviation
+int-stacked-close,SMT_UNSUPPORTED,UNSUPPORTED_FRAGMENT,No IncentiveSpec/M3 adapter for benchmark model 'composition',0.0,False,no_profitable_deviation
+int-stacked-wide,SMT_UNSUPPORTED,UNSUPPORTED_FRAGMENT,No IncentiveSpec/M3 adapter for benchmark model 'composition',0.0,False,no_profitable_deviation
+int-zero-award,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.01507339999989199,False,no_profitable_deviation
+neg-cost-dominates,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.016493699999955425,False,no_profitable_deviation
+neg-linear-half,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.01779499999975087,False,no_profitable_deviation
+neg-linear-third,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.017354500000692497,False,no_profitable_deviation
+neg-no-award,SMT_SUPPORTED,FORMALLY_SATISFIED_WITHIN_DOMAIN,No profitable deviation exists in the encoded domain and fragment.,0.022103899999819987,False,no_profitable_deviation
