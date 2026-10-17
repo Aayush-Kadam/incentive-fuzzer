@@ -6,16 +6,16 @@ The checker searches the authored scholarship cutoff, replays its witness, forge
 
 ## Source, installation and five-minute check
 
-This M3 branch is a reviewer preparation branch based on 018dd12fd1a0bcbc7d65d7f211ad25c767f735b5; it is not integrated main or a new published release. Record its actual HEAD with `git rev-parse HEAD`. Use the exact commit listed in the delivered package manifest; do not silently substitute latest main.
+This review branch is based on merged master 0638d2141474b788e9497010d0b4f9a6ec3d0bc1. The reviewer infrastructure is proposed separately; it is not a published release. Record its actual HEAD with `git rev-parse HEAD`. Use the exact commit listed in the delivered package manifest; do not silently substitute latest main.
 
 Windows and Ubuntu Python 3.12 are covered by existing project CI; macOS is not freshly qualified. Use Python 3.12 for this procedure. Git and initial package-registry network access are required; no API key, paid service or Docker is required. Resource estimate, not measurement: 2 GB free RAM, 1 GB free disk; allow additional space for optional development dependencies. Five minutes is a target after dependencies are installed, not a measured cold-network guarantee.
 
 ```powershell
 git clone https://github.com/Aayush-Kadam/incentive-fuzzer.git
 cd incentive-fuzzer
-git checkout m3/independent-reproduction
+git checkout m3/reviewer-ready
 py -3.12 -m venv .venv
-.venv/Scripts/python.exe -m pip install -e \".[test]\"
+.venv/Scripts/python.exe -m pip install -e ".[test]"
 .venv/Scripts/python.exe scripts/reviewer_check.py
 .venv/Scripts/python.exe -m pytest -q
 ```
