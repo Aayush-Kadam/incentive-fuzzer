@@ -8,6 +8,10 @@ Economic rules create incentives. Sometimes an actor can profit by changing beha
 
 This repository is a **research preview**, not a production policy-auditing system. It was created by Aayush Kadam.
 
+**Start with evidence:** [reviewer walkthrough](docs/REVIEWER_WALKTHROUGH.md) · [quickstart](#quickstart) · [limitations](docs/LIMITATIONS.md).
+
+**Reuse terms:** this public preview has no selected software license. Read [LICENSE_DECISION.md](LICENSE_DECISION.md) before redistribution or reuse; public visibility does not grant an open-source license.
+
 ## What it is
 
 Incentive Fuzzer is a research prototype for adversarially testing bounded economic rules. It combines deterministic rule execution, candidate search, replayable counterexamples, exact-rational SMT verification, heterogeneous sensitivity analysis, finite strategic games, bounded repair search, and a blind benchmark protocol.
@@ -111,7 +115,7 @@ Layer-specific advanced classes remain available from their modules. The conveni
 
 ## Example findings
 
-The flagship synthetic scholarship example reduces to a one-unit income change at the cutoff with a modeled private gain of 99,999. The strategic-complementarity example has no profitable manipulation against an honest rival (`-2`) but has a profitable response against a manipulating rival (`+2`), producing both `(H,H)` and `(M,M)` equilibria.
+In the synthetic scholarship model, reducing true and reported income by one unit at the cutoff yields a modeled private gain of 99,999. The public demo searches both actions and currently selects a one-unit report-only change with gain 100,000; these are different actions, not inconsistent arithmetic. The strategic-complementarity example has no profitable manipulation against an honest rival (`-2`) but has a profitable response against a manipulating rival (`+2`), producing both `(H,H)` and `(M,M)` equilibria.
 
 Run:
 
